@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_multilisview_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoMultiListView's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/09/10    create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+    <!-- Title of a preference color -->  
+    <color name="oppo_multilist_text_color_normal">#ffebebeb</color>
+    <color name="oppo_multilist_text_color_selected">#ffebebeb</color>
+    
+    <!-- Preference Category title color -->
+    <color name="oppo_multilist_title_color">@oppo:color/oppo_list_separator_text_color</color>
+    <!-- weyuen add for extra padding, 2010/11/18 -->
+    <dimen name="oppo_multilist_padding">@oppo:dimen/oppo_list_round_item_margin</dimen>
+    <dimen name="oppo_multilist_padding_vertical">@oppo:dimen/oppo_list_separator_height_head</dimen>
+    <!-- weyuen add end, 2010/11/18 -->
+    
+    <!-- weyuen add end, 2010/03/10 -->
+</resources>

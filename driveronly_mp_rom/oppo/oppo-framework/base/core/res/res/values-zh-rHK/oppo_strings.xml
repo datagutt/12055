@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="perms_modify">權限修改</string>
+    <string name="modify_pkg_perms">權限修改</string>
+    <string name="modify_pkg_perms_detail">去設置→常規→程序管理，修改應用程序權限！</string>
+    <string name="does_change_perms">應用程序的訪問權限已更改，是否保存權限更改？</string>
+    <string name="oppo_global_actions_poweroff_prompt">快速關閉您的手機</string>
+    <string name="oppo_global_actions_reboot_prompt">關閉並重啟手機系統</string>
+    <string name="global_action_reboot">重啟手機</string>
+    <string name="oppo_menu_select_all">全選</string>
+    <string name="oppo_menu_cancel_all">全部取消</string>
+    <string name="USB_SETTINGS">USB設置</string>
+    <string name="usb_selection">選擇以更改USB設置</string>
+    <string name="usb_charge">僅充電</string>
+    <string name="usb_charge_detail">通過USB為手機充電</string>
+    <string name="usb_storage">儲存位置</string>
+    <string name="usb_storage_detail">將手機作為存儲裝置使用</string>
+    <string name="usb_adb">串行接口/手機助手</string>
+    <string name="usb_adb_detail">與OPPO手機助手連接進行同步</string>
+    <string name="usb_mtp">媒體設備(MTP)</string>
+    <string name="usb_mtp_detail">讓您可以在Windows 上傳輸媒體文件，或在Ma​​c 上使用Android 文件傳輸應用來傳輸文件</string>
+    <string name="usb_internet">USB綁定</string>
+    <string name="usb_internet_detail">與PC共享手機的移動網絡</string>
+    <string name="usb_selection_processing">正在處理，請稍候</string>
+    <string name="progress_unmounting_phone" product="default">正在卸載手機存儲...</string>
+    <string name="progress_erasing_phone" product="default">正在格式化手機存儲...</string>
+    <string name="format_error_phone" product="default">手機存儲格式化失敗。</string>
+    <string name="media_bad_removal_phone">手機存儲尚未卸載就被移除。</string>
+    <string name="media_checking_phone" product="default">目前正在檢查手機存儲。</string>
+    <string name="media_removed_phone">手機存儲已移除。</string>
+    <string name="media_shared_phone" product="default">目前有計算機正在使用手機存儲。</string>
+    <string name="status_silent">靜音</string>
+    <string name="status_brightness">螢幕亮度</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">飛行模式</string>
+    <string name="status_hotspot">Wifi熱點</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">自動同步</string>
+    <string name="statusbar_edit">編輯</string>
+    <string name="statusbar_clear_all">程序清理</string>
+    <string name="statusbar_key_swmgr">程序管理</string>
+    <string name="statusbar_key_wlan">Wi-Fi</string>
+    <string name="statusbar_key_bt">藍牙</string>
+    <string name="statusbar_key_net">流動數據</string>
+    <string name="statusbar_key_screen">屏幕旋轉</string>
+    <string name="rename_dialog_title">重新命名</string>
+    <string name="rename_dialog_btn_ok">確定</string>
+    <string name="rename_dialog_btn_cancel">取消</string>
+    <string name="lunar_calendar">農曆</string>
+    <string name="solar_calendar">公曆</string>
+    <string name="selectText">選擇</string>
+    <string name="internal_sd_name">手機儲存</string>
+    <string name="external_sd_name">儲存卡</string>
+    <string name="oppo_whichApplication">選擇要使用的應用</string>
+    <string name="oppo_alwaysUse">默認用於執行此操作。</string>
+    <string name="oppo_power_shutdown_text">關機</string>
+    <string name="oppo_power_vibrate_text">震動</string>
+    <string name="oppo_power_slient_text">靜音</string>
+    <string name="oppo_power_airplanemode_text">飛行模式</string>
+    <string name="oppo_power_ring_text">響鈴</string>
+    <string name="oppo_power_reboot_text">重啟</string>
+    <string name="mmcmnc46001">中國聯通</string>
+    <string name="mmcmnc46000">中國移動</string>
+    <string name="mmcmnc46002">中國移動</string>
+    <string name="mmcmnc45406">數碼通</string>
+    <string name="mmcmnc45410">新世界</string>
+    <string name="mmcmnc45412">中國移動萬眾</string>
+    <string name="mmcmnc45415">數碼通</string>
+    <string name="mmcmnc45416">電訊盈科</string>
+    <string name="mmcmnc45419">電訊盈科</string>
+    <string name="mmcmnc45500">數碼通</string>
+    <string name="mmcmnc45501">澳門電訊</string>
+    <string name="mmcmnc45504">澳門電訊</string>
+    <string name="mmcmnc46601">遠傳電信</string>
+    <string name="mmcmnc46688">和信電訊</string>
+    <string name="mmcmnc46689">威寶電信</string>
+    <string name="mmcmnc46692">中華電信</string>
+    <string name="mmcmnc46693">東信電訊</string>
+    <string name="mmcmnc46697">台灣大哥大</string>
+    <string name="mmcmnc46699">汎亞電信</string>
+    <string name="oppo_charge_voltage_low">充電電壓過低；請更換充電器繼續充電！</string>
+    <string name="oppo_charge_voltage_high">充電電壓過高；請更換充電器繼續充電！</string>
+    <string name="oppo_battery_waring_title">警告:</string>
+    <string name="oppo_battery_waring_title_voltage">電壓異常</string>
+    <string name="oppo_battery_waring_title_charging">充電異常</string>
+    <string name="oppo_battery_waring_title_temperature">溫度異常</string>
+    <string name="oppo_battery_waring_title_battery">電池異常</string>
+    <string name="oppo_battery_waring_subtitle">警告:</string>
+    <string name="oppo_battery_voltage_high">電池電壓過高！</string>
+    <string name="oppo_battery_temperature_low">電池溫度過低；請等待電池溫度恢復正常後繼續充電！</string>
+    <string name="oppo_battery_temperature_high">電池溫度過高；請等待電池溫度恢復正常後繼續充電！</string>
+    <string name="oppo_battery_poor_contact">電池接觸異常；請檢查電池接觸是否完好！</string>
+    <string name="oppo_charge_timeout">連續充電時間過長；請插拔數據線繼續充電！</string>
+    <string name="oppo_battery_charge_soc_fall">耗電電流過大；請嘗試關閉可能引起大電流的應用程序！</string>
+    <string name="smeslist_dialog_title">新事件</string>
+    <string name="sms_dialog_look">查看</string>
+    <string name="sms_dialog_close">取消</string>
+    <string name="oppo_nvrestore_title">部分NV失效</string>
+    <string name="oppo_nvrestore_ticker">部分NV失效</string>
+    <string name="oppo_nvrestore_text">NV失效可能導致手機通信功能異常</string>
+    <string name="wifi_noncuncurrency_message">啟動Wifi客戶端/熱點。此操作將會關閉Wifi 直連。</string>
+    <string name="wifi_p2p_noncuncurrency_message">啟動WLAN Direct。此操作將會關閉WLAN 連接。</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">此操作將會關閉任何現有WLAN連接。</string>
+    <string name="permission_security_title">安全警告</string>
+    <string name="permission_security_label">正在嘗試</string>
+    <string name="permission_settings_prompt">您也可以在“設置-常規-安全服務-權限監控” 裡進行設置</string>
+    <string name="reject_text">拒接</string>
+    <string name="allow_text">允許</string>
+    <string name="action_mode_done">完成</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s年 %3$s %4$s日"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s年 %3$s日 %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s日, %4$s年"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s年 %3$s %4$s日"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s年 %3$s日 %4$s"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s年 %3$s %4$s日"</string>
+    <string name="year_month_day_wday" translatable="false">%1$s年%2$s %3$s日, %4$s</string>
+    <string name="year_day_month_wday" translatable="false">%1$s年%2$s日%3$s, %4$s</string>
+    <string name="month_day_year_wday" translatable="false">%1$s %2$s日, %3$s年, %4$s</string>
+    <string name="month_year_day_wday" translatable="false">%1$s %2$s年%3$s日, %4$s</string>
+    <string name="day_month_year_wday" translatable="false">%1$s日%2$s %3$s年, %4$s</string>
+    <string name="day_year_month_wday" translatable="false">%1$s日%2$s年%3$s, %4$s</string>
+</resources>

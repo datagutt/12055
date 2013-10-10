@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="perms_modify">Modificar permissões</string>
+    <string name="modify_pkg_perms">Modificar permissões</string>
+    <string name="modify_pkg_perms_detail">Ir a Definições→Geral→Aplicações para modificar permissões.</string>
+    <string name="does_change_perms">As permissões desta aplicação foram alteradas. Aceitar novas permissões?</string>
+    <string name="oppo_global_actions_poweroff_prompt">Encerrar rapidamente o telefone</string>
+    <string name="oppo_global_actions_reboot_prompt">Encerrar e reiniciar o telefone</string>
+    <string name="global_action_reboot">Reiniciar telefone</string>
+    <string name="oppo_menu_select_all">Selecionar tudo</string>
+    <string name="oppo_menu_cancel_all">Desselecionar tudo</string>
+    <string name="USB_SETTINGS">Definições USB</string>
+    <string name="usb_selection">Por favor, prima para alterar as definições de USB</string>
+    <string name="usb_charge">Apenas carregar</string>
+    <string name="usb_charge_detail">Carregar o telefone via USB</string>
+    <string name="usb_storage">Dispositivo de armazenamento de massa</string>
+    <string name="usb_storage_detail">Utilizar o telefone como dispositivo de armazenamento</string>
+    <string name="usb_mtp">Dispositivo de multimédia (MTP)</string>
+    <string name="usb_mtp_detail">Permite a transferência de ficheiros multimédia com o Windows, ou utilizar Transferência de Ficheiros Android para Mac</string>
+    <string name="usb_internet">Tethering por USB</string>
+    <string name="usb_internet_detail">Partilhar a internet móvel com o PC</string>
+    <string name="usb_selection_processing">A processar. Por favor, aguarde.</string>
+    <string name="status_silent">Silencioso</string>
+    <string name="status_brightness">Brilho</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Modo de voo</string>
+    <string name="status_hotspot">Wi-Fi Hotspot</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">Sincronização automática</string>
+    <string name="statusbar_edit">Editar</string>
+    <string name="statusbar_clear_all">Limpar tudo</string>
+    <string name="rename_dialog_title">Mudar o nome</string>
+    <string name="rename_dialog_btn_ok">OK</string>
+    <string name="rename_dialog_btn_cancel">Cancelar</string>
+    <string name="lunar_calendar">Calendário Lunar</string>
+    <string name="solar_calendar">Calendário Ocidental</string>
+    <string name="selectText">Selecionar</string>
+    <string name="oppo_power_shutdown_text">Encerrar</string>
+    <string name="oppo_power_slient_text">Silêncio</string>
+    <string name="oppo_power_airplanemode_text">Modo de voo</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_charge_voltage_low">A voltagem de carregamento é demasiado baixa; Troque de carregador para continuar.</string>
+    <string name="oppo_charge_voltage_high">A voltagem de carregamento é demasiado elevada; Troque de carregador para continuar.</string>
+    <string name="oppo_battery_waring_title">Aviso:</string>
+    <string name="oppo_battery_waring_title_voltage">Erro de voltagem</string>
+    <string name="oppo_battery_waring_title_charging">Erro de carregamento</string>
+    <string name="oppo_battery_waring_title_temperature">Erro de temperatura</string>
+    <string name="oppo_battery_waring_title_battery">Erro de bateria</string>
+    <string name="oppo_battery_waring_subtitle">Aviso:</string>
+    <string name="oppo_battery_voltage_high">Voltagem da bateria demasiado elevada!</string>
+    <string name="oppo_battery_temperature_low">Temperatura da bateria demasiado baixa!</string>
+    <string name="oppo_battery_temperature_high">Temperatura da bateria demasiado elevada!</string>
+    <string name="oppo_battery_poor_contact">Contacto fraco da bateria</string>
+    <string name="oppo_battery_charge_soc_fall">O consumo de energia é demasiado elevado; Por favor, experimente fechar as aplicações que possam ter causado este problema!</string>
+    <string name="smeslist_dialog_title">Novos eventos</string>
+    <string name="sms_dialog_look">Ver</string>
+    <string name="sms_dialog_close">Cancelar</string>
+    <string name="oppo_nvrestore_title">Alguns items NV são inválidos</string>
+    <string name="oppo_nvrestore_ticker">Alguns items NV são inválidos</string>
+    <string name="oppo_nvrestore_text">As comunicações do telefone podem funcionar incorretamente devido a alguns items NV são inválidos</string>
+    <string name="permission_security_title">Aviso de segurança</string>
+    <string name="permission_security_label">está a tentar</string>
+    <string name="permission_settings_prompt">Por favor, configure as opções em \"Definições-Definições gerais-Segurança-Monitor de permissões\"</string>
+    <string name="permission_choice_label">"Recordar esta opción"</string>
+    <string name="reject_text">Rejeitar</string>
+    <string name="allow_text">Permitir</string>
+    <string name="action_mode_done">Concluído</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/********************************************************************************
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** All rights reserved.
+** VENDOR_EDIT
+** File: - oppo_animation_themes.xml
+** Description: 
+**     Animation's params used to customize OPPO GUI
+**     
+** Version: 1.0
+** Date: 2013/03/20
+** Author: Jianhui.Yu@Plf.Framework.SDK
+** 
+** *******************************  Revision History: ****************************
+** <author>                         <data>      <version>   <desc>
+** ******************************************************************************
+** Jianhui.Yu@Plf.Framework.SDK     2013/03/20  1.0         build this moudle
+********************************************************************************/
+-->
+<resources>
+
+    <!-- interpolator -->
+    <item type="interpolator" name="oppo_actionbar_interpolator_enter">@android:interpolator/decelerate_cubic</item>
+    <item type="interpolator" name="oppo_actionbar_interpolator_exit">@android:interpolator/decelerate_cubic</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_bottom_in">@android:interpolator/decelerate_cubic</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_bottom_out">@android:interpolator/decelerate_cubic</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_right_in">@android:interpolator/accelerate_quad</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_right_out">@android:interpolator/decelerate_quad</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_fade_in">@android:interpolator/decelerate_quint</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_fade_out">@android:interpolator/accelerate_quint</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_accelerate">@android:interpolator/accelerate_quad</item>
+    <item type="interpolator" name="oppo_multiselect_interpolator_decelerate">@android:interpolator/decelerate_quad</item>
+
+    <!-- integer -->
+    <integer name="oppo_multiselect_delay">150</integer>
+    <integer name="oppo_multiselect_duration_remove">300</integer>
+    <integer name="oppo_multiselect_duration_choice">300</integer>
+    <integer name="oppo_optionmenubar_duration">250</integer>
+    <integer name="oppo_actionbar_duration">300</integer>
+
+</resources>

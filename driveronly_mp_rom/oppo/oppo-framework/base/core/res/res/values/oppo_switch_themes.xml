@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/********************************************************************************
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** All rights reserved.
+** VENDOR_EDIT
+** File: - oppo_switch_themes.xml
+** Description: 
+**     OppoSwitch's params used to customize OPPO GUI
+**     
+** Version: 1.0
+** Date: 2013/01/23
+** Author: Jianhui.Yu@Plf.MidWare.SDK
+** 
+** ******************************************************************************
+** <author>						<data>		<version>	<desc>
+** ******************************************************************************
+** Jianhui.Yu@Plf.MidWare.SDK	2013/01/23	1.0			build this moudle
+********************************************************************************/
+-->
+
+<resources>
+
+    <!-- dimen -->
+    <dimen name="oppo_switch_thumb_outer">8dip</dimen>
+    <dimen name="oppo_switch_thumb_inner">25dip</dimen>
+    <dimen name="oppo_switch_thumb_cross">6dip</dimen>
+    <dimen name="oppo_switch_thumb_padding">1dip</dimen>
+    <dimen name="oppo_switch_padding">16dip</dimen>
+    <dimen name="oppo_switch_min_width">34dip</dimen>
+    <dimen name="android_switch_min_width">34dip</dimen>
+    <dimen name="android_thumb_text_padding">17dip</dimen>
+
+</resources>
+

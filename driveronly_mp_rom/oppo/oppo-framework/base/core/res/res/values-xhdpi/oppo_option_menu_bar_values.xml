@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <eat-comment />
+
+    <!-- dimensions -->
+    <dimen name="oppo_option_menu_bar_height">68dip</dimen>
+    <dimen name="oppo_option_menu_bar_major_operation_height">68dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_height">65dip</dimen>
+    <!--
+         added by FanZhichao, this is the real height of button used in OppoShortCutButton.
+         oppo_option_menu_bar_major_operation_height - oppo_option_menu_bar_major_operation_item_top_margin
+    -->
+    <dimen name="oppo_option_menu_bar_major_operation_real_height">57dip</dimen>
+    <dimen name="oppo_option_menu_bar_major_operation_item_padding">0dip</dimen>
+    <dimen name="oppo_option_menu_bar_major_operation_item_top_margin">0dp</dimen>
+    <dimen name="oppo_option_menu_bar_major_operation_group_padding">8dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_item_margin_left">5dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_item_margin_right">5dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_item_margin_top">3dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_item_margin_bottom">3dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_item_padding_top">6dip</dimen>
+
+    <!-- @dimen/oppo_optionmenubar_major_text_size_7 -->
+    <dimen name="oppo_option_menu_bar_major_text_size">17dp</dimen>
+
+    <color name="oppo_option_menu_bar_major_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>
+    <color name="oppo_option_menu_bar_major_text_color_pressed">@color/oppo_actionbar_and_list_big_text_color</color>
+    <color name="oppo_option_menu_bar_major_text_color_disable">@color/oppo_actionbar_and_list_big_text_color_disable</color>
+
+    <!-- @dimen/oppo_optionmenubar_more_text_size_1 -->
+    <dimen name="oppo_option_menu_bar_more_text_size">10dp</dimen>
+
+    <color name="oppo_option_menu_bar_more_text_color_normal">@color/oppo_optionmenubar_more_text_color_normal</color>
+    <color name="oppo_option_menu_bar_more_text_color_pressed">@color/oppo_dialog_title_color</color>
+    <color name="oppo_option_menu_bar_more_text_color_disable">@color/oppo_optionmenubar_more_text_color_normal</color>
+
+    <dimen name="oppo_option_menu_bar_more_operation_icon_height">29dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_icon_width">29dip</dimen>
+    <dimen name="oppo_option_menu_bar_icon_more_height">28dip</dimen>
+    <dimen name="oppo_option_menu_bar_icon_more_width">40dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_arrow_margin">4dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_arrow_width">9dip</dimen>
+    <dimen name="oppo_option_menu_bar_more_operation_arrow_height">11dip</dimen>
+
+</resources>

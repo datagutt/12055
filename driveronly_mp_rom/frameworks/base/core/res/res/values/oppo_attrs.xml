@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- ================== -->
+    <!--  OPPO attributes   -->
+    <!-- ================== -->
+    
+    <attr name="Dialog_Title_textAppearance" format="reference" />
+    <attr name="Dialog_Content_textAppearance" format="reference" />
+    <attr name="Dialog_Button_textAppearance" format="reference" />
+    
+    <attr name="textAppearanceSubSmall" format="reference" />
+
+    <attr name="textAppearanceDialogLarge" format="reference" />
+    <attr name="textAppearanceDialogSmall" format="reference" />
+
+    <attr name="oppoPreferenceStyle" format="reference" />
+    <attr name="oppoPreferenceScreenStyle" format="reference" />
+    <attr name="oppoPreferenceCategoryStyle" format="reference" />
+
+    <attr name="oppoListViewStyle" format="reference" />    
+    <attr name="oppoMultiListViewStyle" format="reference" />     
+
+    <declare-styleable name="OppoProgressBar">
+        <!-- separator the progressbar & seekbar when custom draw-->
+        <attr name="customStyled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="OppoPreference">
+        <!-- Background type of the view contained in this Preference. -->
+        <attr name="overlap">
+            <enum name="blank"  value="0" />
+            <enum name="head"   value="1" />
+            <enum name="middle" value="2" />
+            <enum name="tail"   value="3" />
+            <enum name="full"   value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="OppoTheme">
+        <!-- Background type of the view contained in this Preference. -->
+        <attr name="isOPPOTheme" format="boolean" />
+    </declare-styleable>
+
+    <!-- Default OppoTabWidget style. -->
+    <attr name="oppoTabWidgetStyle" format="reference" />
+
+    <declare-styleable name="OppoTabWidget">
+        <!--the tabwidget align mode in the tabhost, the value should be top or bottom.-->
+        <attr name="oppo_tabwidget_align_mode" format="string"/>
+        <attr name="oppo_tabwidget_label_normal_color" format="integer"/>
+        <attr name="oppo_tabwidget_label_focus_color" format="integer"/>
+        <attr name="oppo_tabwidget_content_height_port_ratio" format="float"/>
+        <attr name="oppo_tabwidget_content_height_land_ratio" format="float"/>
+        <attr name="oppo_tabwidget_icon_height_port_ratio" format="float"/>
+        <attr name="oppo_tabwidget_icon_height_land_ratio" format="float"/>
+        <attr name="oppo_tabwidget_icon_margin_top" format="integer"/>
+        <attr name="oppo_tabwidget_label_margin_bottom" format="integer"/>
+        <attr name="oppo_tabwidget_icon_label_margin" format="integer"/>
+        <attr name="oppo_tabwidget_hlbg_tran_area_width" format="integer"/>
+        <attr name="oppo_tabwidget_icon_offset_to_non_hl_icon_diry" format="integer"/>
+        <attr name="oppo_tabwidget_side_margin_ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="TabHost">
+        <attr name="tab_align_mode" format="string"/>
+    </declare-styleable>
+    
+    <declare-styleable name="OppoAppWidgetProviderInfo">
+        <!-- user scenes mode of AppWidget -->
+        <attr name="userProfile" format="integer" >
+            <enum name="normal" value="0"/>
+            <enum name="scene" value="1"/>
+        </attr>
+        <!-- A resource id of a drawable. -->
+        <attr name="preview" format="reference" />
+        <!-- manufacture of this AppWidget. -->
+        <attr name="widgetManufacture" format="string" />
+        <!-- type of this AppWidget-->
+        <attr name="widgetType" format="string" />
+        <!-- which theme this AppWidget belong to -->
+        <attr name="widgetTheme" format="string" />
+    </declare-styleable>
+
+    <!-- Default style for the OppoToggle widget. -->
+    <attr name="oppoToggleStyle" format="reference" />
+
+    <attr name="oppoTogglePreferenceStyle" format="reference" />
+
+    <declare-styleable name="OppoTogglePreference">
+        <!-- Whether to take on a enabled look when the Preference is disabled.
+             Default to false, that is a disabled background is shown. -->
+        <attr name="pretendingEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="OppoFilePreference">
+        <attr name="curPath"  format="string" />
+        <attr name="fileType" format="integer" />
+        <attr name="fileMode">
+            <enum name="list_current"   value="0" />
+            <enum name="list_all"       value="1" />
+        </attr>
+        <attr name="viewMode">
+            <enum name="view_list"      value="0" />
+            <enum name="view_detail"    value="1" />
+        </attr>
+        <attr name="fileLaunchMode">
+            <enum name="launch_select"  value="0" />
+            <enum name="launch_save"    value="1" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="ShortCutContainer">
+        <attr name="itemCountOfPerPage"  format="integer" />
+    </declare-styleable>
+    
+    <!-- SlidePiece  -->
+    <declare-styleable name="SlidePiece">
+    	<attr name="SlidePieceBkgRes"     format="reference|color" />
+        <attr name="ImgViewDrawableRes"    format="reference|color" />
+        
+        <attr name="TextOfTextView"    	  format="string" />
+        
+        <attr name="ImgViewLeftPadding"    format="dimension" />
+        <attr name="ImgViewRightPadding"   format="dimension" />
+        <attr name="ImgViewTopPadding"     format="dimension" />
+        <attr name="ImgViewBottomPadding"  format="dimension" />
+        
+        <attr name="TextViewLeftPadding"    format="dimension" />
+        <attr name="TextViewRightPadding"   format="dimension" />
+        <attr name="TextViewTopPadding"     format="dimension" />
+        <attr name="TextViewBottomPadding"  format="dimension" />
+        
+        <attr name="TextViewShine"  	 format="boolean" />
+        <attr name="TextSizeOfTextView"  format="integer" />
+        <attr name="TextViewColor"      format="color" /> 
+    </declare-styleable>
+
+    <declare-styleable name="OppoShortCutBar">
+        <attr name="child" format="integer" min="2"/>
+        <attr name="maxchild" format="integer" min="5"/>
+        <attr name="textcolor" format="integer">
+            <enum name="light" value="0xffffffff"/>
+            <enum name="dark" value="0xff000000"/>
+        </attr>
+        <attr name="texthlcolor" format="integer">
+            <enum name="light" value="0xffffffff"/>
+            <enum name="dark" value="0xff000000"/>
+        </attr>
+        <attr name="textsize" format="dimension"/>
+        <attr name="childlike" format="integer">
+            <enum name="normal" value="0"/>
+            <enum name="above" value="1"/>
+            <enum name="below" value="2"/>
+        </attr>
+        <attr name="animated" format="boolean"/>
+        <attr name="during" format="integer"/>
+        <attr name="arch" format="dimension"/>
+        <attr name="category" format="integer">
+            <enum name="sys_normal" value="0"/>
+            <enum name="sys_more" value="1"/>
+            <enum name="general" value="2"/>
+        </attr> 
+        <attr name="paddingcolor" format="color"/>
+        <attr name="keymore" format="integer"/>
+        <!-- xml layout that define the shortcut items -->
+        <attr name="widgetLayout" />
+    </declare-styleable>
+    
+    <declare-styleable name="OppoListView">
+        <attr name="item_normal_height" 	format="dimension" />
+        <attr name="item_expand_height" 	format="dimension" />
+        <attr name="dragdrop_background" format="reference|color" />
+        <attr name="collapsEnabled" format="boolean"  />
+        <attr name="fillDivider" format="boolean"  />
+        <attr name="dividerItemHeight" format="integer"  />
+        <attr name="springEnabled" format="boolean" />
+        <!-- zebra crossing effect -->
+        <attr name="crossEnabled" format="boolean" />
+        <attr name="oddItemColor" format="color" />
+        <attr name="evenItemColor" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="ScenePreView">
+        <attr name="operable" format="boolean"  />
+        <attr name="singleFrame" format="boolean"  />
+    </declare-styleable>
+    
+    <declare-styleable name="OppoEditText">
+        <attr name="quickDelete" format="boolean" />        
+        <attr name="magnifierEnable" format="boolean" />
+    </declare-styleable>
+
+    <!-- Maps a contact kind or mime-type to a RemoteViews XML formatter -->
+    <declare-styleable name="Mapping">
+        <!-- Mime-type handled by this mapping -->
+        <attr name="mimeType" />
+        <!-- RemoteViews XML that should be used to format this data -->
+        <attr name="remoteViews" format="reference" />
+        <!-- Icon that should be used to represent this data -->
+        <attr name="icon" />
+        <!-- Column in data table to summarize this data -->
+        <attr name="summaryColumn" />
+        <!-- Column in data table to show details of this data -->
+        <attr name="detailColumn" />
+    </declare-styleable>
+
+    <declare-styleable name="EdgeTriggerView">
+        <attr name="edgeWidth" format="dimension" />
+        <attr name="listenEdges">
+            <flag name="left" value="0x01" />
+            <flag name="right" value="0x02" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="OppoTouchSearchView">
+        <attr name="touchsearch_key_bg" format="reference" />
+        <attr name="touchsearch_key_bg_align_mode" format="integer">
+            <enum name="middle" value="0"/>
+            <enum name="left"   value="1" />
+            <enum name="right"  value="2" />
+        </attr>
+        <attr name="touchsearch_key_bg_margin_to_rightside" format="dimension" />
+        <attr name="touchsearch_key_bg_margin_to_leftside"  format="dimension" />
+        <attr name="touchsearch_key_union_enable" format="boolean" />
+        <attr name="touchsearch_popupwin_width" format="dimension" />
+        <attr name="touchsearch_popupwin_height" format="dimension" />
+        <attr name="touchsearch_popupwin_top_mincoordinate" format="integer" />
+        <attr name="touchsearch_popupwin_textsize"  format="dimension" />
+        <attr name="touchsearch_popupwin_textcolor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="Oppo3DScenePreView">
+        <attr name="frameMode" format="integer">
+            <enum name="frame_mode_3" value="0"/>
+            <enum name="frame_mode_5" value="1"/>
+            <enum name="frame_mode_7" value="2"/>
+        </attr>
+        <attr name="zoomEnable" format="boolean" />
+        <attr name="frameRadio" format="float"/>
+        <attr name="centerOffset" format="float"/>
+        <attr name="shaowHeight" format="float"/>
+        <attr name="sceneModelType" format="integer">
+            <enum name="model_default" value="0"/>
+            <enum name="model_music" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="datepickerwidthandhigh">
+        <attr name="date_picker_height" 	format="dimension" />
+        <attr name="date_picker_width" 	format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Oppo3DRollCoverView">
+        <attr name="translucentMode" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="OppoShortCutButton">
+        <attr name="child_count" format="integer"/>
+        
+        <attr name="short_cut_button_background" format="reference|color"/>
+        
+        <attr name="button_background" format="reference|color"/>
+        <attr name="button_text_size" format="dimension"/>
+        <attr name="button_text_color" format="color"/>
+        <attr name="button_negative_string" format="string"/>
+        <attr name="button_neutral_string" format="string"/>
+        <attr name="button_positive_string" format="string"/>
+        <attr name="button_negative_disable" format="boolean"/>
+        <attr name="button_neutral_disable" format="boolean"/>
+        <attr name="button_positive_disable" format="boolean"/>
+        
+        <attr name="shadow_x" 	format="float"/>
+        <attr name="shadow_y" 	format="float"/>
+        <attr name="shadow_r" 	format="float"/>
+        <attr name="shadow_color" format="color"/>
+        <attr name="broadcast_enabled" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Oppo3DMultiCallView">
+        <attr name="textPositionY1" format="integer" />
+        <attr name="textPositionY2" format="integer"/>
+        <attr name="textPositionY3" format="integer"/>
+        <attr name="textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="ApkLock">
+        <attr name="lockThumbnail" format="reference" />
+        <attr name="lockAuthor" format="reference" />
+        <attr name="lockDescription" format="reference"/>
+        <attr name="lockThumbleft" format="reference" />
+        <attr name="lockThumbright" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="VerticalRollAnimation">
+        <attr name="fromYRoll" format="float|fraction" />
+        <attr name="toYRoll" format="float|fraction" />
+        <attr name="fromRollDegrees" format="float|fraction" />
+        <attr name="toRollDegrees" format="float|fraction" />
+    </declare-styleable>
+
+<!-- WangLan@Plf.Framework add begin for previewg -->
+    <attr name="windowPreviewGround" format="reference" />
+
+    <declare-styleable name="Window">
+        <!-- WangLan@Plf.Framework add begin for preview -->
+        <attr name="windowPreviewGround" />
+    </declare-styleable>
+    
+    <declare-styleable name="OppoWeightedLinearLayout">
+        <attr name="majorWeight" format="float" />
+        <attr name="minorWeight" format="float" />
+    </declare-styleable>
+ <!--zhangyd add for make app can change the UI of this widget-->    
+    <declare-styleable name="OppoToggle">
+        <attr name="toggleOnDrawable" format="reference" />
+        <attr name="toggleOnDisableDrawable" format="reference" />
+        <attr name="toggleOffDrawable" format="reference" />
+        <attr name="toggleOffDisableDrawable" format="reference" />
+        <attr name="togglePintDrawable" format="reference" />
+    </declare-styleable>    
+
+</resources>

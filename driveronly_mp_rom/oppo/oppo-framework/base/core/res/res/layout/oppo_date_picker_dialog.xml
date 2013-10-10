@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/datePicker"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:id="@+id/datePicker_btn"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip">
+        <Button
+            android:id="@+id/solar_btn"
+            android:text="@string/solar_calendar"
+            android:textColor="@color/oppo_numberpicker_text_color"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="44dip"
+            android:background="@drawable/oppo_datepicker_button" />
+        <Button
+            android:id="@+id/lunar_btn"
+            android:text="@string/lunar_calendar"
+            android:textColor="@color/oppo_numberpicker_text_color"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="44dip"
+            android:background="@drawable/oppo_datepicker_button"/>
+    </LinearLayout>
+</LinearLayout>

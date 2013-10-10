@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/volbright_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        >
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:layout_gravity="left" >
+			<ImageView
+				android:id="@+id/volume_bright_left"
+				android:layout_width="30dip"
+				android:layout_height="wrap_content"
+				android:paddingBottom="0dip"
+				android:gravity="bottom"/>
+			<com.oppo.exserviceui.OppoVerticalSeekBar
+				android:id="@+id/seekbar_left"
+				android:layout_width="wrap_content"
+				android:layout_height="200dip"
+				android:progressDrawable="@drawable/oppo_progress_horizontal"
+				android:max="100"
+				android:thumb="@drawable/oppo_seekbar_thumb"/>/>    
+
+		</LinearLayout>		
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:orientation="vertical"
+			android:layout_gravity="center">	
+			<TextView 
+				android:id="@+id/percent"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:shadowColor="@color/oppo_shadow_color"
+				android:shadowDx="3"
+				android:shadowDy="4"
+				android:shadowRadius="3.0"
+				android:gravity="left"
+				android:textColor="@android:color/white"
+				android:textSize="30sp" />
+			<TextView 
+				android:id="@+id/text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:gravity="left"
+				android:shadowColor="@color/oppo_shadow_color"
+				android:shadowDx="3"
+				android:shadowDy="4"
+				android:shadowRadius="3.0"
+				android:paddingLeft="12dip"
+				android:paddingRight="12dip"
+				android:text="@string/oppo_volume_system"
+				android:textColor="@android:color/white"
+				android:textSize="10sp" />
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:layout_gravity="right">
+			<ImageView
+				android:id="@+id/volume_bright_right"
+				android:layout_width="30dip"
+				android:layout_height="wrap_content"
+				android:gravity="bottom"
+				android:paddingBottom="0dip"/>
+			<com.oppo.exserviceui.OppoVerticalSeekBar
+				android:id="@+id/seekbar_right"
+				android:layout_width="wrap_content"
+				android:layout_height="200dip"
+				android:progressDrawable="@drawable/oppo_progress_horizontal"
+				android:max="100"
+				android:thumb="@drawable/oppo_seekbar_thumb"/>    
+
+		</LinearLayout>	
+</LinearLayout>

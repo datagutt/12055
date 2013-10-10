@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_tabwidget_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoTabWidget's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Hu Zhaohui@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Hu Zhaohui       2010/09/10    create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <!-- dimen begin: -->
+    <!-- oppo tab widget default text size:px (px = 1.5sp) -->
+    <!--dimen name="oppo_tab_widget_default_text_size">14sp</dimen-->
+    <dimen name="oppo_tab_widget_default_text_size">15sp</dimen>
+    <dimen name="oppo_tab_widget_default_text_size_landscape">15sp</dimen>
+    <!-- dimen end. -->
+	
+    <!-- color begin: -->
+    <color name="oppo_tabwidget_label_color_pressed">#ffebebeb</color>
+    <color name="oppo_tabwidget_label_color_normal">#ff787878</color>
+    <color name="oppo_tabwidget_label_color_focus">@color/oppo_tabwidget_label_color_pressed</color>
+    <!-- color end. -->
+	
+    <!-- in landscape mode, consider this value into count for adjust the icon and label position. -->
+    <dimen name="oppo_tabwidget_top_shadow_height">0dip</dimen>
+
+    <!-- tab has only text -->
+    <dimen name="oppo_tab_widget_only_text_size">18sp</dimen>
+</resources>

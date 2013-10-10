@@ -1,0 +1,23 @@
+<HTML>
+<BODY>
+Provides classes that manage application preferences and implement the preferences UI.
+Using these ensures that all the preferences within each application are maintained 
+in the same manner and the user experience is consistent with that of the system and 
+other applications.
+<p>
+The preferences portion of an application 
+should be ran as a separate {@link android.app.Activity} that extends
+the {@link com.oppo.preference.OppoPreferenceActivity} class. In the PreferenceActivity, an 
+{@link com.oppo.preference.OppoPreferenceScreen} object should be the root element of the layout. 
+The PreferenceScreen contains {@link com.oppo.preference.OppoPreference} elements such as an 
+{@link com.oppo.preference.OppoCheckBoxPreference}, {@link com.oppo.preference.OppoEditTextPreference}, 
+{@link com.oppo.preference.OppoListPreference}, {@link com.oppo.preference.OppoPreferenceCategory},
+or {@link com.oppo.preference.OppoRingtonePreference}. </p>
+<p>
+All settings made for a given {@link com.oppo.preference.OppoPreference} will be automatically saved
+to the application's instance of {@link android.content.SharedPreferences}. Access to the 
+SharedPreferences is simple with {@link com.oppo.preference.OppoPreference#getSharedPreferences()}.</p>
+<p>
+Note that saved preferences are accessible only to the application that created them.</p>
+</BODY>
+</HTML>

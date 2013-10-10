@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" 
+        android:drawable="@drawable/oppo_optionmenubar_ic_set_as_ringtones_pressed" />
+    <item
+         android:drawable="@drawable/oppo_optionmenubar_ic_set_as_ringtones_normal" />
+</selector>

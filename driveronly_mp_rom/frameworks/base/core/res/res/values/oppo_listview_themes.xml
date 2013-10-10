@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_listview_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: ListView's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/09/10    create
+** *****************************************************************************
+*/
+-->
+<resources>
+    
+    <!-- Theme V3.0'S res, so don't add "oppo_" now.  -->
+    <color name="oppo_listview_background_color">#fff2f3f8</color>
+    
+    <!-- ListView's item -->
+    <!-- item's background -->
+    <!-- Theme V3.0'S res, so don't add "oppo_" now.  -->
+    <color name="oppo_listview_item_color">#00000000</color>
+    
+    <!-- item's text -->
+    <dimen name="oppo_list_text_size">20dip</dimen>
+    <dimen name="oppo_list_text_sub_size">14dip</dimen>
+    <!-- Theme V3.0'S res, so don't add "oppo_" now.  -->
+
+    <color name="oppo_list_separator_text_color">@color/oppo_list_large_text_color_normal</color>
+    <color name="oppo_large_text_color">#ff5a5e69</color> 
+    <color name="oppo_large_text_color_select">#ff000000</color>
+    <!-- sub item's text-->
+    <!-- Theme V3.0'S res, so don't add "oppo_" now.  -->
+    <color name="oppo_list_large_text_color_normal">#ff5a5e69</color>
+    <color name="oppo_list_large_text_color_selected">#ffffffff</color>
+    <color name="oppo_list_small_text_color_normal">#ff9499aa</color>
+    <color name="oppo_list_small_text_color_selected">#ffffffff</color>
+    <color name="oppo_list_text_color_disabled">#ffb2b5b9</color>
+    <color name="oppo_alert_list_text_color">#ff5a5e69</color>
+    <color name="oppo_alert_list_large_text_color_normal">#ff5a5e69</color>
+    <color name="oppo_alert_list_large_text_color_selected">#ffffffff</color>
+    <color name="oppo_alert_list_small_text_color_normal">#ff9499aa</color>
+    <color name="oppo_alert_list_small_text_color_selected">#ffffffff</color>
+    <!--  [zebra crossing effect] -->
+    <color name="oppo_listview_odd_item_color">#fff8f9f9</color>
+    <color name="oppo_listview_even_item_color">#ffebedf0</color>
+    
+    <!-- weyuen define for general list item margin & padding, 2011/03/10. -->
+    <!-- normal list item -->
+    <dimen name="oppo_list_item_text_margin">21dip</dimen>
+    <dimen name="oppo_list_item_icon_margin">6px</dimen>
+    <dimen name="oppo_list_item_icon_text_margin">12px</dimen>
+    <dimen name="oppo_list_item_mark_margin">6px</dimen>
+    <dimen name="oppo_list_item_button_margin">9px</dimen>
+    <dimen name="oppo_list_item_margin_between_text">8px</dimen>
+    <!-- list item with round rect background-->
+    <dimen name="oppo_list_round_item_margin">0px</dimen>
+    <dimen name="oppo_list_round_item_text_margin">18px</dimen>
+    <dimen name="oppo_list_round_item_icon_margin">16dip</dimen>
+    <dimen name="oppo_list_round_item_icon_text_margin">-10px</dimen>
+    <dimen name="oppo_list_round_item_mark_margin">11px</dimen>
+    <dimen name="oppo_list_round_item_button_margin">15px</dimen>
+
+    
+    <!-- list separator attributes -->
+    <dimen name="oppo_list_separator_height_head">0dip</dimen>
+    <dimen name="oppo_list_separator_height_middle">12dip</dimen>
+    <dimen name="oppo_list_separator_height_tail">0dip</dimen>
+    <dimen name="oppo_list_separator_height_text_padding_top">5dip</dimen>
+    <dimen name="oppo_list_separator_height_text_padding_bottom">5dip</dimen>
+    <dimen name="oppo_list_separator_text_padding_left">16dip</dimen>
+    <dimen name="oppo_list_separator_icon_text_padding_left">8px</dimen>
+    <!-- weyuen define end, 2011/03/10. -->
+   
+    <dimen name="oppo_list_item_normal_height">64dip</dimen>
+
+    <dimen name="oppo_listview_MaximumVelocity">1250dip</dimen>	
+     
+
+</resources>

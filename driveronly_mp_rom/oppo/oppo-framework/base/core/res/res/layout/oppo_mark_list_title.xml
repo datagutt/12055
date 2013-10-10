@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/oppo_activity_title_bar"
+    >    
+    
+        <Button android:id="@+id/mark_all"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="7dp"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip"
+            android:layout_gravity="center_vertical"
+            android:text="@oppo:string/oppo_menu_select_all"
+            android:textSize = "15sp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@oppo:color/oppo_primary_text_dark"
+        />
+
+        <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"	  
+	        android:layout_gravity="center"
+	        android:layout_marginTop="3dip">    
+
+    		<!--TODO: Set the color in another way.-->
+	       <TextView android:id="@+id/label"
+		          style="@oppo:style/WindowTitle.OPPO"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:singleLine="true"
+	            android:textSize="20sp"
+	            android:layout_gravity="center_horizontal"
+	            android:gravity="center_horizontal"
+	            android:textColor="#ff2182ad"
+	        />
+
+	        <TextView android:id="@+id/marked_count"
+	        	android:layout_marginTop="-3dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:singleLine="true"
+	            android:ellipsize="marquee"
+	            android:textSize="15sp"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:layout_gravity="center_horizontal"
+	            android:gravity="center_horizontal"
+	            android:textColor="#ff2182ad"
+	        />    	
+    	</LinearLayout>
+        
+        <Button android:id="@+id/mark_none"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="7dp"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip"
+            android:layout_gravity="center_vertical"
+            android:text="@string/oppo_menu_cancel_all"
+            android:textSize = "15sp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@oppo:color/oppo_primary_text_dark" 
+            />
+</LinearLayout>
+   
+	

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_shortcutbutton_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoShortCutButton's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/09/10    create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+
+	<!-- OppoShortCutButton's text -->
+	<dimen name="oppo_shortcut_text_size">@dimen/oppo_optionmenubar_major_text_size_7</dimen>
+	<color name="oppo_shortcut_text_color">@color/oppo_actionbar_and_list_big_text_color</color>
+	
+	
+</resources>
+

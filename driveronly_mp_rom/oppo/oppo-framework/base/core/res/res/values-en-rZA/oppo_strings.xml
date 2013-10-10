@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="perms_modify">16241</string>
+    <string name="modify_pkg_perms">16242</string>
+    <string name="modify_pkg_perms_detail">16243</string>
+    <string name="does_change_perms">16244</string>
+    <string name="oppo_global_actions_poweroff_prompt">16245</string>
+    <string name="oppo_global_actions_reboot_prompt">16246</string>
+    <string name="global_action_reboot">16247</string>
+    <string name="oppo_menu_select_all">16248</string>
+    <string name="oppo_menu_cancel_all">16249</string>
+    <string name="USB_SETTINGS">16250</string>
+    <string name="usb_selection">16251</string>
+    <string name="usb_charge">16252</string>
+    <string name="usb_charge_detail">16253</string>
+    <string name="usb_storage">16254</string>
+    <string name="usb_storage_detail">16255</string>
+    <string name="usb_adb">16256</string>
+    <string name="usb_adb_detail">16257</string>
+    <string name="usb_mtp">16258</string>
+    <string name="usb_mtp_detail">16259</string>
+    <string name="usb_internet">16260</string>
+    <string name="usb_internet_detail">16261</string>
+    <string name="usb_selection_processing">16262</string>
+    <string name="progress_unmounting_phone" product="default">16263</string>
+    <string name="progress_erasing_phone" product="default">16264</string>
+    <string name="format_error_phone" product="default">16265</string>
+    <string name="media_bad_removal_phone">16266</string>
+    <string name="media_checking_phone" product="default">16267</string>
+    <string name="media_removed_phone">16268</string>
+    <string name="media_shared_phone" product="default">16269</string>
+    <string name="status_silent">16270</string>
+    <string name="status_brightness">16271</string>
+    <string name="status_gps">16272</string>
+    <string name="status_flight">16273</string>
+    <string name="status_hotspot">16274</string>
+    <string name="status_3g">16275</string>
+    <string name="status_autosync">16276</string>
+    <string name="statusbar_edit">16277</string>
+    <string name="statusbar_clear_all">16278</string>
+    <string name="statusbar_key_swmgr">16279</string>
+    <string name="statusbar_key_wlan">16280</string>
+    <string name="statusbar_key_bt">16281</string>
+    <string name="statusbar_key_net">16282</string>
+    <string name="statusbar_key_screen">16283</string>
+    <string name="rename_dialog_title">16284</string>
+    <string name="rename_dialog_btn_ok">16285</string>
+    <string name="rename_dialog_btn_cancel">16286</string>
+    <string name="lunar_calendar">16287</string>
+    <string name="solar_calendar">16288</string>
+    <string name="selectText">16289</string>
+    <string name="internal_sd_name">16290</string>
+    <string name="external_sd_name">16291</string>
+    <string name="oppo_whichApplication">16292</string>
+    <string name="oppo_alwaysUse">16293</string>
+    <string name="oppo_power_shutdown_text">16294</string>
+    <string name="oppo_power_vibrate_text">16295</string>
+    <string name="oppo_power_slient_text">16296</string>
+    <string name="oppo_power_airplanemode_text">16297</string>
+    <string name="oppo_power_ring_text">16298</string>
+    <string name="oppo_power_reboot_text">16299</string>
+    <string name="mmcmnc46001">16300</string>
+    <string name="mmcmnc46000">16301</string>
+    <string name="mmcmnc46002">16302</string>
+    <string name="mmcmnc45406">16303</string>
+    <string name="mmcmnc45410">16304</string>
+    <string name="mmcmnc45412">16305</string>
+    <string name="mmcmnc45415">16306</string>
+    <string name="mmcmnc45416">16307</string>
+    <string name="mmcmnc45419">16308</string>
+    <string name="mmcmnc45500">16309</string>
+    <string name="mmcmnc45501">16310</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">16312</string>
+    <string name="mmcmnc45505">16313</string>
+    <string name="mmcmnc46601">16314</string>
+    <string name="mmcmnc46688">16315</string>
+    <string name="mmcmnc46689">16316</string>
+    <string name="mmcmnc46692">16317</string>
+    <string name="mmcmnc46693">16318</string>
+    <string name="mmcmnc46697">16319</string>
+    <string name="mmcmnc46699">16320</string>
+    <string name="oppo_charge_voltage_low">16321</string>
+    <string name="oppo_charge_voltage_high">16322</string>
+    <string name="oppo_battery_waring_title">16323</string>
+    <string name="oppo_battery_waring_title_voltage">16324</string>
+    <string name="oppo_battery_waring_title_charging">16325</string>
+    <string name="oppo_battery_waring_title_temperature">16326</string>
+    <string name="oppo_battery_waring_title_battery">16327</string>
+    <string name="oppo_battery_waring_subtitle">16328</string>
+    <string name="oppo_battery_voltage_high">16329</string>
+    <string name="oppo_battery_temperature_low">16330</string>
+    <string name="oppo_battery_temperature_high">16331</string>
+    <string name="oppo_battery_poor_contact">16332</string>
+    <string name="oppo_charge_timeout">16333</string>
+    <string name="oppo_battery_charge_soc_fall">16334</string>
+    <string name="smeslist_dialog_title">16335</string>
+    <string name="sms_dialog_look">16336</string>
+    <string name="sms_dialog_close">16337</string>
+    <string name="oppo_nvrestore_title">16338</string>
+    <string name="oppo_nvrestore_ticker">16339</string>
+    <string name="oppo_nvrestore_text">16340</string>
+    <string name="wifi_noncuncurrency_message">16341</string>
+    <string name="wifi_p2p_noncuncurrency_message">16342</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">16343</string>
+    <string name="permission_security_title">16344</string>
+    <string name="permission_security_label">16345</string>
+    <string name="permission_settings_prompt">16346</string>
+    <string name="permission_choice_label">"Deze keuze onthouden"</string>
+    <string name="reject_text">16348</string>
+    <string name="allow_text">16349</string>
+    <string name="action_mode_done">16350</string>
+    <string name="wday_year_month_day" translatable="false">20363 %1$s  %2$s %3$s %4$s</string>
+    <string name="wday_year_day_month" translatable="false">20364 %1$s  %2$s %3$s %4$s</string>
+    <string name="wday_month_day_year" translatable="false">20365 %1$s  %2$s %3$s %4$s</string>
+    <string name="wday_month_year_day" translatable="false">20366 %1$s  %2$s %3$s %4$s</string>
+    <string name="wday_day_month_year" translatable="false">20367 %1$s  %2$s %3$s %4$s</string>
+    <string name="year_month_day_wday" translatable="false">20369 %1$s  %2$s %3$s %4$s</string>
+    <string name="year_day_month_wday" translatable="false">20370 %1$s  %2$s %3$s %4$s</string>
+    <string name="month_day_year_wday" translatable="false">20371 %1$s  %2$s %3$s %4$s</string>
+    <string name="month_year_day_wday" translatable="false">20372 %1$s  %2$s %3$s %4$s</string>
+    <string name="day_month_year_wday" translatable="false">20373 %1$s  %2$s %3$s %4$s</string>
+    <string name="day_year_month_wday" translatable="false">20374%1$s  %2$s %3$s %4$s</string>
+</resources>

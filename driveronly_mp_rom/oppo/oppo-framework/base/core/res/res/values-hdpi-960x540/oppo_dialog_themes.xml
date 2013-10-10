@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_dialog_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: AlertDialog's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/08/19
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/08/19    create
+** *****************************************************************************
+*/
+-->
+<resources>
+    
+    <!-- AlertDialog's title -->
+    <dimen name="oppo_dialog_width">341dp</dimen>
+    <dimen name="oppo_dialog_title_min_height">54dip</dimen>
+    <dimen name="oppo_dialog_buttonPanel_height">54dip</dimen>
+ 
+</resources>

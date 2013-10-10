@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_dialog_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: AlertDialog's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/08/19
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/08/19    create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <!-- AlertDialog's dimension -->
+    
+    <!-- AlertDialog's title -->
+    <dimen name="oppo_dialog_max_height">800px</dimen>
+    <dimen name="oppo_dialog_width">648px</dimen>
+    <dimen name="oppo_dialog_title_text_size">20sp</dimen>
+	<color name="oppo_alert_dialog_title_text_color">#ffffffff</color>
+   
+    <!-- AlertDialog's Content -->
+    <dimen name="oppo_dialog_content_text_size">19sp</dimen>
+    <color name="oppo_alert_dialog_content_text_color">#ff5a5e69</color>
+    <color name="oppo_alert_dialog_content_bg_color">#00ffffff</color>
+    
+    <!-- AlertDialog's Button -->
+    <dimen name="oppo_dialog_button_text_size">15sp</dimen>    
+    <dimen name="oppo_dialog_button_paddingleft">6px</dimen> 
+    <dimen name="oppo_dialog_buttons_interval">9px</dimen>
+   
+    <!-- ?? -->
+    <dimen name="oppo_dialog_hint_text_size">23px</dimen>
+
+  
+</resources>

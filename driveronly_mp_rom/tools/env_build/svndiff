@@ -1,0 +1,87 @@
+#!/usr/bin/perl
+#just for merge and commit
+#
+
+use Cwd;
+$pwd = getcwd;
+$logFile = "diff.log";
+&useage if ($#ARGV != 1);
+exit 1 if ($#ARGV != 1);
+($export, $checkout) = @ARGV;
+$export = $pwd."/".$export  if($export !~ /^\/.*/);
+$checkout = $pwd."/".$checkout if($checkout !~ /^\/.*/);
+$export = $1 if($export =~ /(.*)\/$/);
+$checkout = $1 if($checkout =~ /(.*)\/$/);
+$flag = system "svn info $checkout";
+die "sorry,look the previous row!" if($flag ne '0');
+
+system "diff -rq $export $checkout > diff.log";
+
+open FILE_IN,"$logFile";
+while(<FILE_IN>){
+	chomp;
+	if($_ !~ /.*(\.svn).*/){
+		push (@svnAddFile, $1." ") if(/^Only.*?$export:\s*(\S*)/);
+		push (@svnAddFile, ($1."/".$2." ")) if(/^Only.*?$export\/(\S*):\s*(\S*)/);
+		push (@svnDelFile, $1." ") if(/^Only.*?$checkout:\s*(\S*)/);
+		push (@svnDelFile, ($1."/".$2." ")) if(/^Only.*?$checkout\/(\S*):\s*(\S*)/);
+		push (@svnMdfFile, $1." ") if(/^Files\s$export\/(.*)\s*and.*/);
+	}
+}
+close FILE_IN;
+
+&display("delete",@svnDelFile);
+&display("add",@svnAddFile);
+&display("modify",@svnMdfFile);
+
+print "do you want merge and commit?[y/n]:";
+chomp($svnopr = <STDIN>);
+if ($svnopr eq 'y'){
+	&addFile(@svnAddFile);
+	&deleteFile(@svnDelFile);
+	&modifyFile(@svnMdfFile);
+	system "cd $checkout;pwd;svnci @svnAddFile @svnDelFile @svnMdfFile";
+}else{
+	print "Good choose!\n";
+}
+
+sub addFile
+{
+	my (@files) = @_;
+	foreach(@files){
+		system "cp -rf $export/$_ $checkout/ ;cd $checkout;svn add $_";
+	}
+}
+
+sub deleteFile
+{
+	my (@files) = @_;
+	foreach(@files){
+		system "cd $checkout;svn del $_";
+	}
+}
+
+sub modifyFile
+{
+	my (@files) = @_;
+	foreach(@files){
+		system "cp -rf $export/$_ $checkout/$_";
+	}
+}
+
+sub display
+{
+	my ($title,@files) = @_;
+	print "$title: \n";
+	foreach(@files){
+		print "\t".$_."\n";
+	}
+}
+
+sub useage
+{
+	print 
+"***********************************************************
+	./diff.pl project_export project_checkout
+***********************************************************\n"
+}

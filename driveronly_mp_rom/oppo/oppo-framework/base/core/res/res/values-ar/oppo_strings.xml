@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="perms_modify">تعديل أذونات</string>
+    <string name="modify_pkg_perms">تعديل أذونات</string>
+    <string name="modify_pkg_perms_detail">الذهاب الى إعدادات - العام - تطبيقات لتعديل الأذونات.</string>
+    <string name="does_change_perms">تغيرت اذونات هذا التطبيق. هل تريد الحفظ ام لا؟</string>
+    <string name="oppo_global_actions_poweroff_prompt">اغلق هاتفك المحمول بسرعة.</string>
+    <string name="oppo_global_actions_reboot_prompt">إيقاف وإعادة تشغيل الهاتف</string>
+    <string name="global_action_reboot">إعادة تشغيل الهاتف</string>
+    <string name="oppo_menu_select_all">حدد الجميع</string>
+    <string name="oppo_menu_cancel_all">إلغاء تحديد الجميع</string>
+    <string name="USB_SETTINGS">USB إعداد</string>
+    <string name="usb_selection">اختر لتغيير إعدادات USB</string>
+    <string name="usb_charge">شحن فقط</string>
+    <string name="usb_charge_detail">شحن هاتفك عن طريق USB</string>
+    <string name="usb_storage">جهاز تخزين</string>
+    <string name="usb_storage_detail">استخدام الهاتف كجهاز تخزين</string>
+    <string name="usb_adb">الواجهة التسلسلية/مساعد</string>
+    <string name="usb_adb_detail">مزامنة مع مساعد OPPO</string>
+    <string name="usb_mtp">جهاز الوسائط (MTP)</string>
+    <string name="usb_mtp_detail">يتيح لك نقل ملفات الوسائط على نافذة الويندوز ، أو باستخدام أندرويد لنقل الملفات على ماك</string>
+    <string name="usb_internet">USB ملزمة</string>
+    <string name="usb_internet_detail">مشاركة شبكة الهاتف المحمول مع الحاسب</string>
+    <string name="usb_selection_processing">جار المعالجة. برجاء الانتظار.</string>
+    <string name="progress_unmounting_phone" product="default">جار الغاء تحميل تخزين الهاتف...</string>
+    <string name="progress_erasing_phone" product="default">جار اعادة تهيئة تخزين الهاتف...</string>
+    <string name="format_error_phone" product="default">فشلت اعادة تهيئة تخزين الهاتف.</string>
+    <string name="media_bad_removal_phone">تخزين الهاتف تمت ازالتها قبل الغاء تحميلها.</string>
+    <string name="media_checking_phone" product="default">جار الآن معاينة تخزين الهاتف.</string>
+    <string name="media_removed_phone">تخزين الهاتف تمت ازالتها.</string>
+    <string name="media_shared_phone" product="default">تخزين الهاتف جار استخدامها بواسطة الحاسب.</string>
+    <string name="status_silent">صامت</string>
+    <string name="status_brightness">سطوع</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">طائرة الوضع</string>
+    <string name="status_hotspot">الانترنت اللاسلكي عبر واي فاي</string>
+    <string name="status_3g">الجيل الثالث 3G</string>
+    <string name="status_autosync">AutoSync تزامن تلقائي</string>
+    <string name="statusbar_edit">تحرير</string>
+    <string name="statusbar_clear_all">مسح الكل</string>
+    <string name="statusbar_key_swmgr">مدير البرامج</string>
+    <string name="statusbar_key_wlan">واي-فاي</string>
+    <string name="statusbar_key_bt">بلوتوث</string>
+    <string name="statusbar_key_net">البيانات</string>
+    <string name="statusbar_key_screen">التدوير</string>
+    <string name="rename_dialog_title">إعادة تسمية</string>
+    <string name="rename_dialog_btn_ok">حسنا</string>
+    <string name="rename_dialog_btn_cancel">إلغاء</string>
+    <string name="lunar_calendar">التقويم القمري</string>
+    <string name="solar_calendar">التقويم الغربي</string>
+    <string name="selectText">حدد</string>
+    <string name="internal_sd_name">ذاكرة الهاتف</string>
+    <string name="external_sd_name">بطاقة SD</string>
+    <string name="oppo_whichApplication">إكمال الإجراء باستخدام</string>
+    <string name="oppo_alwaysUse">استخدام هذا كخاصية افتراضية</string>
+    <string name="oppo_power_shutdown_text">إغلاق</string>
+    <string name="oppo_power_vibrate_text">الاهتزاز</string>
+    <string name="oppo_power_slient_text">صامت</string>
+    <string name="oppo_power_airplanemode_text">طائرة</string>
+    <string name="oppo_power_ring_text">النغمة</string>
+    <string name="oppo_power_reboot_text">إعادة التشغيل</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">سمارتفون-فودافون</string>
+    <string name="mmcmnc45410">العالم الجديد</string>
+    <string name="mmcmnc45412">CMCC الشعوب</string>
+    <string name="mmcmnc45415">سمارتون موبايل األوامر</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">سمارتون</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3.000000</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">تايوان موبايل</string>
+    <string name="mmcmnc46699">ترانس</string>
+    <string name="oppo_charge_voltage_low">جهد الشحن منخفض جدا! غّير الشاحن لمواصلة الشحن</string>
+    <string name="oppo_charge_voltage_high">جهد الشحن مرتفع جدا! غّير الشاحن لمواصلة الشحن</string>
+    <string name="oppo_battery_waring_title">تحذير:</string>
+    <string name="oppo_battery_waring_title_voltage">خطأ فى الجهد</string>
+    <string name="oppo_battery_waring_title_charging">خطأ فى الشحن</string>
+    <string name="oppo_battery_waring_title_temperature">خطأ فى الحرارة</string>
+    <string name="oppo_battery_waring_title_battery">خطأ فى البطارية</string>
+    <string name="oppo_battery_waring_subtitle">تحذير:</string>
+    <string name="oppo_battery_voltage_high">جهد البطارية مرتفع جدا!</string>
+    <string name="oppo_battery_temperature_low">درجة حرارة البطارية منخفضة جدا!</string>
+    <string name="oppo_battery_temperature_high">درجة حرارة البطارية مرتفعة جدا!</string>
+    <string name="oppo_battery_poor_contact">التوصيل بالبطارية ضعيف</string>
+    <string name="oppo_charge_timeout">تم شحن البطارية باستمرار لوقت طويل, يرجى اعادة توصيل السلك لاستكمال الشحن!</string>
+    <string name="oppo_battery_charge_soc_fall">استهلاك التيار الكهربي عالي جدا; حاول اغلاق التطبيق الذي قد تسبب في هذه المشكلة!</string>
+    <string name="smeslist_dialog_title">أحداث جديدة</string>
+    <string name="sms_dialog_look">مشاهدة</string>
+    <string name="sms_dialog_close">إلغاء</string>
+    <string name="oppo_nvrestore_title">بعض الملفات (nvitems) غير صالحة</string>
+    <string name="oppo_nvrestore_ticker">بعض الملفات (nvitems) غير صالحة</string>
+    <string name="oppo_nvrestore_text">الهاتف قد يكون غير عادي بسبب عدم صلاحية بعض الملفات (nvitems)</string>
+    <string name="wifi_noncuncurrency_message">بدء عميل واي-فاي/النقطة الساخنة. هذا سوف يوقف واي-فاي مباشر.</string>
+    <string name="wifi_p2p_noncuncurrency_message">بدء واي-فاي مباشر سوف يوقف عميل واي-فاي/النقطة الساخنة.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">هذا سوف يوقف اي شبكة واي-فاي موجودة.</string>
+    <string name="permission_security_title">تحذير امني</string>
+    <string name="permission_security_label">يحاول</string>
+    <string name="permission_choice_label">تذكر اختياري</string>
+    <string name="reject_text">أرفض</string>
+    <string name="allow_text">أسمح</string>
+    <string name="action_mode_done">تم</string>
+    <string name="permission_settings_prompt">يرجى اعداد الخيارات في \"الإعدادات-الإعدادات العامة-الأمان-مراقب الأذونات\"</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_month_day_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_day_month_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="month_day_year_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="month_year_day_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

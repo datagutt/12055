@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- NOTIFICATION:This data is the tp eventdata coordinate.It is only for FIND5 .
+			65=Lnarrowtp*2，2090=2124-Rnarrowtp*2,Lnarrowtp=32.5,Rnarrowtp=17，screenheight=1080P.
+  -->
+<narrow-frame-config>
+	<NarrowFrameLeft>65</NarrowFrameLeft>
+	
+	<NarrowFrameRight>2090</NarrowFrameRight>
+	
+
+</narrow-frame-config>
+

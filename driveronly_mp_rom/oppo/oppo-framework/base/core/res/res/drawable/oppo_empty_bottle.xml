@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:oneshot="true"  
+  >
+    <item android:drawable="@drawable/oppo_empty_bottle_01" 
+        	android:duration="@integer/oppo_empty_bottle_duration0"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_02" 
+			android:duration="@integer/oppo_empty_bottle_duration1"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_03" 
+			android:duration="@integer/oppo_empty_bottle_duration1"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_04" 
+			android:duration="@integer/oppo_empty_bottle_duration1"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_05" 
+			android:duration="@integer/oppo_empty_bottle_duration2"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_06" 
+			android:duration="@integer/oppo_empty_bottle_duration2"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_07" 
+			android:duration="@integer/oppo_empty_bottle_duration2"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_08" 
+			android:duration="@integer/oppo_empty_bottle_duration2"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_09" 
+			android:duration="@integer/oppo_empty_bottle_duration3"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_10" 
+			android:duration="@integer/oppo_empty_bottle_duration3"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_11" 
+			android:duration="@integer/oppo_empty_bottle_duration3"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_12" 
+			android:duration="@integer/oppo_empty_bottle_duration4"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_13" 
+			android:duration="@integer/oppo_empty_bottle_duration4"></item>
+    <item android:drawable="@drawable/oppo_empty_bottle_14" 
+			android:duration="@integer/oppo_empty_bottle_duration4"></item>
+</animation-list>  

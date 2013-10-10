@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+		<!-- Instant Messaging -->
+    <p att="com.tencent.mm"></p>
+    <p att="com.xiaomi.channel"></p>
+    <p att="com.immomo.momo"></p>
+    <p att="com.tencent.mobileqq"></p>
+    <p att="com.feinno.felio"></p>
+    <p att="net.iaround"></p>
+    <p att="com.sina.weibo"></p>
+    <p att="com.tencent.qqphonebook"></p>
+    <p att="com.tencent.Wblog"></p>
+    <p att="net.iaround"></p>
+    <p att="cn.com.fetion"></p>
+    <p att="com.yx"></p>
+    <p att="com.alibaba.mobileim"></p>
+    <p att="com.snda.youni"></p>
+    <p att="com.sg.sledog"></p>
+    <p att="jp.naver.line.android"></p>
+    <p att="com.weico.sinaweibo"></p>
+    <p att="me.imid.fuubo"></p>
+</gs>

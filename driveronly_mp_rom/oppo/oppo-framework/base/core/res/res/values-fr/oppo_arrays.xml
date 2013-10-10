@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="oppo_select_ringtone_old">
+        <item>ringtone_001</item>
+        <item>ringtone_002</item>
+        <item>ringtone_003</item>
+        <item>ringtone_004</item>
+        <item>ringtone_005</item>
+        <item>ringtone_006</item>
+        <item>ringtone_007</item>
+        <item>ringtone_008</item>
+        <item>ringtone_009</item>
+        <item>ringtone_010</item>
+        <item>ringtone_011</item>
+        <item>ringtone_012</item>
+        <item>ringtone_013</item>
+        <item>ringtone_014</item>
+        <item>ringtone_015</item>
+        <item>ringtone_016</item>
+        <item>ringtone_017</item>
+        <item>ringtone_018</item>
+        <item>ringtone_019</item>
+        <item>ringtone_020</item>
+        <item>notification_001</item>
+        <item>notification_002</item>
+        <item>notification_003</item>
+        <item>notification_004</item>
+        <item>notification_005</item>
+        <item>notification_006</item>
+        <item>notification_007</item>
+        <item>notification_008</item>
+        <item>notification_009</item>
+        <item>notification_010</item>
+        <item>alarm_001</item>
+        <item>alarm_002</item>
+        <item>alarm_003</item>
+        <item>alarm_004</item>
+        <item>alarm_005</item>
+        <item>alarm_006</item>
+        <item>alarm_007</item>
+        <item>alarm_008</item>
+    </string-array>
+    <string-array name="oppo_select_ringtone_new">
+        <item>استمتع</item>
+        <item>روحاني</item>
+        <item>حياة ملونة</item>
+        <item>قرية</item>
+        <item>ماء</item>
+        <item>بهجة</item>
+        <item>نبض كهربي</item>
+        <item>نغمة 1</item>
+        <item>نغمة 2</item>
+        <item>رنين</item>
+        <item>مطارق</item>
+        <item>النجوم</item>
+        <item>حفلة</item>
+        <item>أطفال مجانين</item>
+        <item>رواية</item>
+        <item>مضحك</item>
+        <item>منتصف الطريق للمنزل</item>
+        <item>شروق الشمس</item>
+        <item>الأصابع القافزة</item>
+        <item>أوبو MP3</item>
+        <item>ابتهاج</item>
+        <item>نقي</item>
+        <item>صدى</item>
+        <item>بدية</item>
+        <item>Mira</item>
+        <item>Adara</item>
+        <item>منتعش</item>
+        <item>طائر</item>
+        <item>قطرة</item>
+        <item>شقي</item>
+        <item>بحر</item>
+        <item>غابة</item>
+        <item>يوم جديد</item>
+        <item>صندوق الموسيقى</item>
+        <item>صفارة المنبه</item>
+        <item>جني الرياح</item>
+        <item>صباح</item>
+        <item>استرح واهدأ</item>
+    </string-array>
+    <string-array name="oppo_permissions_prompt">
+        <item>appel</item>
+        <item>lire le journal d\'appels</item>
+        <item>lire les données des contacts</item>
+        <item>lire les messages SMS</item>
+        <item>envoyer des messages SMS</item>
+    </string-array>
+</resources>

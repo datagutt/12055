@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_quickcontact_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoNumberPicker's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2012/08/28
+** Author: Feng Xiaokang@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Feng Xiaokang       2012/08/28    create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+
+	  <!-- color -->
+	 <color name ="oppo_numberpicker_text_color">#ff5a5e69</color>
+      <!--#ifdef VENDOR_EDIT-->
+      <!--//XinYang.Hu@Prd.Midware 2012/10/26, add for new effect for 12036-->
+      <color name ="oppo_numberpicker_updown_btn_text_color">#ff20b4e2</color>
+	  <!--#endif VENDOR_EDIT-->
+	  
+	  <!-- string -->
+	 <string name="oppo_lunar_leap_11">闰十一</string>
+   	<string name="oppo_lunar_leap_12">闰十二</string>
+    
+	  <!-- dimen -->
+	  
+	  <dimen name="oppo_numberpicker_text_offset">3px</dimen>
+</resources>
+

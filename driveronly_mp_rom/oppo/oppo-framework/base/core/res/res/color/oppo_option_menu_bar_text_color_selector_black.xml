@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_window_focused="false" android:state_enabled="true"
+        android:color="@oppo:color/oppo_option_menu_bar_major_text_color_normal_black" />
+    <item android:state_window_focused="false" android:state_enabled="false"
+        android:color="@oppo:color/oppo_option_menu_bar_major_text_color_disable_black" />
+    <item android:state_pressed="true" 
+        android:color="@oppo:color/oppo_option_menu_bar_major_text_color_pressed_black" />
+    <item android:state_enabled="true"
+        android:color="@oppo:color/oppo_option_menu_bar_major_text_color_normal_black" />
+    <item
+         android:color="@oppo:color/oppo_option_menu_bar_major_text_color_disable_black" />
+         
+         
+</selector>
+
+

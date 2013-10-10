@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oppo-package>
+	
+	<ModeItem>com.nearme.gamecenter</ModeItem>
+	<ModeItem>com.nearme.note</ModeItem>
+	<ModeItem>com.nearme.sync</ModeItem>
+	<ModeItem>com.oppo.usercenter</ModeItem>
+	<ModeItem>com.oppo.market</ModeItem>
+	<ModeItem>com.oppo.c2u</ModeItem>
+	<ModeItem>com.oppo.findmyphone</ModeItem>
+	<ModeItem>com.oppo.service.account</ModeItem>	
+	<ModeItem>com.oppo.widget.smallweather</ModeItem>
+	<ModeItem>com.nearme.note.notewidget</ModeItem>
+	<ModeItem>com.oppo.widget.stock</ModeItem>
+	<ModeItem>com.oppo.reader</ModeItem>
+	<ModeItem>com.oppo.ubeauty</ModeItem>
+	<ModeItem>com.oppo.speechassist</ModeItem>			
+	<ModeItem>com.oppo.weather</ModeItem>			
+	<ModeItem>com.oppo.tribune</ModeItem>			
+	<ModeItem>com.oppo.weather.locationservice</ModeItem>			
+	<ModeItem>com.oppo.widget.monitor</ModeItem>		
+	<ModeItem>com.iflytek.speechservice</ModeItem>		
+	<ModeItem>.SpeechMediaButtonService</ModeItem>		
+	<ModeItem>com.eg.android.AlipayGphone</ModeItem>		
+	<ModeItem>com.baidu.BaiduMap</ModeItem>		
+	<ModeItem>com.baidu.searchbox_oppo</ModeItem>					
+	<ModeItem>com.taobao.taobao</ModeItem>					
+	<ModeItem>com.tmall.wireless</ModeItem>						
+	
+</oppo-package>

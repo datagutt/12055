@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/dimens.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- =======================add by danjianjun for merger oppo framework   2012-03-05===============-->
+
+    <!--yulongfei add begin on 20110412 -->
+    <!-- text size of the empty file tag -->
+    <dimen name="oppo_empty_text_size">20sp</dimen>
+    <!--yulongfei add end on 20110412 -->
+
+    <!-- luoyaojun add begin for lock -->
+    
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Pihe.Wu@Prd.MidWare.Theme, 2012/07/12, Add for  -->
+    <!-- Default height of a key in the password keyboard for alpha (used by keyguard) -->
+    <dimen name="oppo_password_keyboard_key_height_alpha">49dip</dimen>
+    <!-- Default height of a key in the password keyboard for numeric (used by keyguard) -->
+    <dimen name="oppo_password_keyboard_key_height_numeric">66dip</dimen>
+
+    <!-- Default horizontal gap between keys in the password keyboard (used by keyguard) -->
+    <dimen name="oppo_password_keyboard_horizontalGap">0dip</dimen>
+    <!-- Default vertical gap between keys in the password keyboard (used by keyguard) -->
+    <dimen name="oppo_password_keyboard_verticalGap">2dip</dimen>  
+    
+    <!-- Default vertical gap between keys in the password keyboard (used by keyguard) -->
+    <dimen name="oppo_password_keyboard_qwerty_verticalGap">6dip</dimen>  
+<!-- #endif //VENDOR_EDIT -->
+    
+    <dimen name="oppo_chip_padding">8dip</dimen>
+    <dimen name="oppo_chip_height">32dip</dimen>
+    <dimen name="oppo_chip_text_size">14sp</dimen>    
+    <!--this dimen reference to at least half of the seekbar thumb-->
+    <dimen name="oppo_seekbar_thumb_offset">11dip</dimen> 
+    <!--this integer reference to the border_width of magnifer-->
+    <dimen name="oppo_magnifer_border_width">11dip</dimen>   
+</resources>

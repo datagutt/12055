@@ -1,0 +1,145 @@
+﻿### LICENSE:
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Next >
+text_back=< Back
+text_yes=Yes
+text_no=No
+text_about=About
+text_calibrating=Calibrating Tools
+text_quit=Quit
+text_quit_msg=Are you sure to quit?
+text_done=done
+global_done=done
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+lang.name=选择语言/Select Language
+lang.title_name=请选择语言/Select Language
+lang.desc=lang selected
+default_name=default_name
+default_title=default_title
+default_desc=Your phone will reboot.
+
+mainmenu.name=OPPO RECOVERY
+mainmenu.title_name=MAIN MENU
+mainmenu.install.name=install from SD
+mainmenu.tools.name=tools
+
+back.name=Back
+back.title_name=Back to parent menu
+
+sd.back.name=Back
+sd.back.desc=back to upper
+
+sd.name=Install from sd
+sd.title_name=Install from sd
+sd.desc=Install from sd
+batt.name=BATTARY
+time.name=TIME
+
+sd.install.name=choose zip from sd
+sd.update.name=apply /sdcard/update.zip
+sd.internal.name=From mobile phone storage
+sd.external.name=From SD
+sd.install.confirm.name=Update
+sd.install.confirm.desc=Installation package, this operation can not be restored.
+sd.install.success.name=Prompt
+sd.install.failed.name=Installation failed
+sd.install.notice=Prompt
+sd.install.success.desc=Installation successful.
+sd.install.failed.desc=Installation failed.
+sd.install.caplow.desc=Capacity is less than 15%, please connect to USB power supply or charge the battery to 15%.
+install.package.name=Updating,please wait
+install.package.desc=No operation
+sd.install.success.leftbutton=Reboot
+
+ums.name=Usb mass storage mode
+ums.btn.name=Exit the UMS mode
+ums.notice.name=UMS mode
+ums.notice.desc=UMS mode is enabled
+
+power.name=power
+power.title=power operation
+reboot.null= Reboot
+reboot.null.title= reboot now
+reboot.recovery= reboot to recovery
+reboot.bootloader= reboot to bootloader
+reboot.poweroff= Power off
+poweroff.desc=Your phone will power off.
+
+alert.result=FAIL!
+alert.desc=operation failed
+
+mount.name=mount
+mount.title=mount and toogle usb storage
+mount.cache.name=mount cache
+mount.data.name=mount data
+mount.system.name=mount system
+mount.sdcard.name=mount sdcard
+mount.toggle.name=toggle usb storage
+
+wipe.name=Wipe data and cache
+wipe.title=wipe data or format partation operation
+wipe.cache.name=wipe cache
+wipe.cache.desc=Your cache will be wiped, this operation can not be restored.
+wipe.factory.name=wipe data and cache
+wipe.factory.desc=Your data and cache will be wiped, this operation can not be restored.
+wipe.data.name=wipe data
+wipe.data.desc=Your data will be wiped, this operation can not be restored.
+wipe.progress.namd=Wiping,please wait
+wipe.progress.desc=No operation
+wipe.result.title=Prompt
+wipe.result.success.title=Wipe successfully
+wipe.result.failed.title=Wipe failed
+wipe.result.factory.ok=Wipe data and cache successfully.
+wipe.result.factory.failed=Wipe data and cache failed.
+wipe.result.data.ok=Wipe data successfully.
+wipe.result.data.failed=Wipe data failed.
+wipe.result.cache.ok=Wipe cache successfully.
+wipe.result.cache.failed=Wipe cache failed.
+format.system.name=format system
+format.data.name=format data
+format.cache.name=format cache
+format.boot.name=format boot
+format.sdcard.name=format sdcard
+format.all.name=format all(except sdcard and boot)
+
+backup.name=backup and restore
+backup.title=backup to sdcard and restore from sdcard
+backup.backup.name=backup
+backup.restore.name=restore
+advanced_backup.name=advanced backup
+advanced_backup.cache.name=backup cache
+advanced_backup.data.name=backup data
+advanced_backup.system.name=backup system
+advanced_backup.boot.name=backup boot
+advanced_backup.recovery.name=backup recovery
+advanced_restore.name=advanced restore
+advanced_restore.cache.name=restore cache
+advanced_restore.data.name=restore data
+advanced_restore.system.name=restore system
+advanced_restore.boot.name=restore boot
+advanced_restore.recovery.name=restore recovery
+
+tool.name=tool
+tool.title=advanced tools
+tool.key.name=key test
+tool.time.name=timer setting
+tool.battary.name=wip battary
+tool.log.name=cope log to sdcard
+tool.log.desc=are you sure cope log to 
+tool.permission.name=fix permission
+
+info.name=Ver 1.0
+info.title=information of oppo recovery
+info.mount.name=storage info
+info.log.name=log
+info.about.name=about oppo recovery
+
+about.device=Device:
+about.name=Name:
+about.version=Version:
+about.date=Date:

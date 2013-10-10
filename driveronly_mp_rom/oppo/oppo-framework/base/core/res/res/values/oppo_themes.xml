@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- The default system theme. This is the theme used for activities
+         that have not explicitly set their own theme.
+         
+         <p>You can count on this being a dark
+         background with light text on top, but should try to make no
+         other assumptions about its appearance. In particular, the text
+         inside of widgets using this theme may be completely different,
+         with the widget container being a light color and the text on top
+         of it a dark color.
+    -->
+	<style name="Theme.OPPO" parent="android:Theme">
+
+        <item name="android:colorForeground">@*android:color/bright_foreground_dark</item>
+        <item name="android:colorForegroundInverse">@*android:color/bright_foreground_dark_inverse</item>
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackgroundCacheHint">?android:attr/colorBackground</item>
+
+        <item name="android:colorPressedHighlight">@android:color/holo_blue_light</item>
+        <item name="android:colorLongPressedHighlight">@android:color/holo_blue_bright</item>
+        <item name="android:colorFocusedHighlight">@android:color/holo_blue_dark</item>
+        <item name="android:colorMultiSelectHighlight">@android:color/holo_green_light</item>
+        <item name="android:colorActivatedHighlight">@android:color/holo_blue_dark</item>
+        <item name="android:disabledAlpha">0.5</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="oppo:isOPPOTheme">true</item>  
+        <item name="oppo:OppoThemeType">0</item>
+        <!-- Text styles -->
+        <item name="android:textAppearance">@style/TextAppearance.OPPO</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.OPPO.Inverse</item>
+
+        <item name="android:textColorPrimary">@oppo:color/oppo_primary_text_dark</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_dark</item>
+        <item name="android:textColorTertiary">@android:color/tertiary_text_dark</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+        <item name="android:textColorSecondaryInverse">@android:color/secondary_text_light</item>
+        <item name="android:textColorTertiaryInverse">@android:color/tertiary_text_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@oppo:color/oppo_primary_text_dark</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@*android:color/primary_text_light_disable_only</item>
+        <item name="android:textColorPrimaryNoDisable">@*android:color/primary_text_dark_nodisable</item>
+        <item name="android:textColorSecondaryNoDisable">@android:color/secondary_text_dark_nodisable</item>
+        <item name="android:textColorPrimaryInverseNoDisable">@android:color/primary_text_light_nodisable</item>
+        <item name="android:textColorSecondaryInverseNoDisable">@android:color/secondary_text_light_nodisable</item>
+        <item name="android:textColorHint">@oppo:color/oppo_edittext_color_disable</item>
+        <item name="android:textColorHintInverse">@*android:color/hint_foreground_light</item>
+        <item name="android:textColorHighlight">@oppo:color/oppo_edittext_default_highlighted</item>
+        <item name="android:textColorHighlightInverse">@*android:color/highlighted_text_holo_light</item>
+        <item name="android:textColorLink">@android:color/holo_blue_light</item>
+        <item name="android:textColorLinkInverse">@android:color/holo_blue_light</item>
+        <item name="android:textColorAlertDialogListItem">@oppo:color/oppo_alert_dialog_large_text</item>
+
+        <item name="android:textAppearanceLarge">@oppo:style/OppoListView_text_large_style</item>
+        <item name="android:textAppearanceMedium">@oppo:style/OppoListView_text_large_style</item>
+        <item name="android:textAppearanceSmall">@oppo:style/OppoListView_text_small_style</item>
+        <item name="oppo:textAppearanceSubSmall">@oppo:style/OppoListView_text_small_style</item>
+
+        <item name="oppo:textAppearanceDialogLarge">@oppo:style/Oppo_AlertDialog_text_large_style</item>
+        <item name="oppo:textAppearanceDialogSmall">@oppo:style/Oppo_AlertDialog_text_small_style</item>
+ 
+        
+        <item name="android:textAppearanceLargeInverse">@android:style/TextAppearance.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@android:style/TextAppearance.Small.Inverse</item>
+        <item name="android:textAppearanceSearchResultTitle">@android:style/TextAppearance.SearchResult.Title</item>
+        <item name="android:textAppearanceSearchResultSubtitle">@android:style/TextAppearance.SearchResult.Subtitle</item>
+
+        <item name="*android:textAppearanceEasyCorrectSuggestion">@*android:style/TextAppearance.EasyCorrectSuggestion</item>
+        <item name="*android:textAppearanceMisspelledSuggestion">@*android:style/TextAppearance.MisspelledSuggestion</item>
+        <item name="*android:textAppearanceAutoCorrectionSuggestion">@*android:style/TextAppearance.AutoCorrectionSuggestion</item>
+
+        <item name="android:textAppearanceButton">@android:style/TextAppearance.Widget.Button</item>
+        
+        <item name="android:editTextColor">@oppo:color/oppo_edit_text_color</item>
+        <item name="android:editTextBackground">@oppo:drawable/oppo_dialog_textfield</item>
+        
+        <item name="android:candidatesTextStyleSpans">@*android:string/candidates_style</item>
+        
+        <item name="android:textCheckMark">@*android:drawable/indicator_check_mark_dark</item>
+        <item name="android:textCheckMarkInverse">@*android:drawable/indicator_check_mark_light</item>
+
+        <item name="android:textAppearanceLargePopupMenu">@oppo:style/TextAppearance.OPPO.Widget.PopupMenu.Large</item>
+        <item name="android:textAppearanceSmallPopupMenu">@oppo:style/TextAppearance.OPPO.Widget.PopupMenu.Small</item>
+
+        <!-- Button styles -->
+        <item name="android:buttonStyle">@oppo:style/Widget.OPPO.Button</item>
+
+        <item name="android:buttonStyleSmall">@oppo:style/Widget.OPPO.Button.Small</item>
+        <item name="android:buttonStyleInset">@oppo:style/Widget.OPPO.Button.Inset</item>
+
+        <item name="*android:switchStyle">@oppo:style/Widget.OPPO.CompoundButton.Switch</item>
+
+        <item name="android:selectableItemBackground">@drawable/oppo_list_selector_background</item>
+        <item name="android:borderlessButtonStyle">@oppo:style/Widget.OPPO.Button.Borderless</item>
+        <item name="android:homeAsUpIndicator">@oppo:drawable/oppo_back_arrow_selector</item>
+
+        <!-- List attributes -->
+        <item name="android:listPreferredItemHeight">@oppo:dimen/oppo_list_item_normal_height</item>
+        <item name="android:listPreferredItemHeightSmall">51dip</item>
+        <item name="android:listPreferredItemHeightLarge">80dip</item>
+        <item name="*android:dropdownListPreferredItemHeight">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="android:textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+        <item name="android:listPreferredItemPaddingLeft">20dip</item>
+        <item name="android:listPreferredItemPaddingRight">20dip</item>
+
+        <!-- @hide -->
+        <item name="*android:searchResultListItemHeight">58dip</item>
+        <item name="android:listDivider">@*android:drawable/list_divider_holo_light</item>
+        <item name="android:listSeparatorTextViewStyle">@oppo:style/Widget.OPPO.TextView.ListSeparator</item>
+
+        <item name="android:listChoiceIndicatorSingle">@oppo:drawable/oppo_btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@oppo:drawable/oppo_btn_check</item>
+
+        <item name="android:listChoiceBackgroundIndicator">@oppo:drawable/oppo_list_selector_background</item>
+
+        <item name="android:activatedBackgroundIndicator">@*android:drawable/activated_background_holo_dark</item>
+
+        <item name="android:listDividerAlertDialog">@oppo:drawable/oppo_divider_horizontal_dark_opaque</item>
+
+        <item name="android:expandableListPreferredItemPaddingLeft">40dip</item>
+        <item name="android:expandableListPreferredChildPaddingLeft">
+                ?android:attr/expandableListPreferredItemPaddingLeft</item>
+
+        <item name="android:expandableListPreferredItemIndicatorLeft">16dip</item>
+        <item name="android:expandableListPreferredItemIndicatorRight">0dip</item>
+        <item name="android:expandableListPreferredChildIndicatorLeft">
+                ?android:attr/expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:expandableListPreferredChildIndicatorRight">
+                ?android:attr/expandableListPreferredItemIndicatorRight</item>
+
+        <!-- Gallery attributes -->
+        <item name="android:galleryItemBackground">@*android:drawable/gallery_item_background</item>
+        
+        <!-- Window attributes -->
+        <item name="android:windowBackground">@oppo:color/oppo_window_background_color</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@drawable/oppo_activity_content_foreground</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:windowTitleStyle">@oppo:style/WindowTitle.OPPO</item>
+        <item name="android:windowTitleSize">@oppo:dimen/oppo_title_bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@oppo:style/WindowTitleBackground.OPPO</item>
+        <item name="android:windowAnimationStyle">@oppo:style/Animation.OPPO.Activity</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="oppo:oppoAddMaskView">true</item>
+        <!-- Dialog attributes -->
+        <item name="android:alertDialogStyle">@oppo:style/AlertDialog.OPPO</item>
+        <item name="android:dialogTheme">@oppo:style/Theme.OPPO.Dialog</item>
+        <item name="*android:dialogTitleIconsDecorLayout">@*android:layout/dialog_title_icons_holo</item>
+        <item name="*android:dialogCustomTitleDecorLayout">@*android:layout/dialog_custom_title_holo</item>
+        <item name="*android:dialogTitleDecorLayout">@*android:layout/dialog_title_holo</item>
+        <item name="android:alertDialogTheme">@oppo:style/Theme.OPPO.Dialog.Alert</item>
+        <item name="*android:alertDialogCenterButtons">false</item>
+        <item name="android:alertDialogIcon">@*android:drawable/ic_dialog_alert_holo_dark</item>
+
+        <item name="*android:toastFrameBackground">@oppo:drawable/oppo_toast_frame</item>
+        
+        <!-- Panel attributes -->
+        <item name="android:panelBackground">@oppo:drawable/oppo_menu_background</item>
+        <item name="android:panelFullBackground">@oppo:drawable/oppo_menu_background</item>
+        <!-- These three attributes do not seems to be used by the framework. Declared public though -->
+        <item name="android:panelColorBackground">#000</item>
+        <item name="android:panelColorForeground">?android:attr/textColorPrimary</item>
+        <item name="android:panelTextAppearance">?android:attr/textAppearance</item>
+
+        <item name="*android:panelMenuIsCompact">true</item>
+        <item name="*android:panelMenuListWidth">360dp</item>
+        <item name="*android:panelMenuListTheme">@oppo:style/Theme.OPPO.CompactMenu</item>
+
+        <!-- Scrollbar attributes -->
+        <item name="android:scrollbarFadeDuration">250</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">300</item> 
+        <item name="android:scrollbarSize">10dip</item>
+        <item name="android:scrollbarThumbHorizontal">@oppo:drawable/oppo_scrollbar_handle_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@oppo:drawable/oppo_scrollbar_handle_vertical</item>
+        <item name="android:scrollbarTrackHorizontal">@null</item>
+        <item name="android:scrollbarTrackVertical">@null</item>
+
+        <!-- Text selection handle attributes -->
+        <item name="android:textSelectHandleLeft">@*android:drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@*android:drawable/text_select_handle_right</item>
+        <item name="android:textSelectHandle">@*android:drawable/text_select_handle_middle</item>
+        <item name="android:textSelectHandleWindowStyle">@*android:style/Widget.TextSelectHandle</item>
+        <item name="android:textEditPasteWindowLayout">@*android:layout/text_edit_paste_window</item>
+        <item name="android:textEditNoPasteWindowLayout">@*android:layout/text_edit_no_paste_window</item>
+        <item name="android:textEditSidePasteWindowLayout">@*android:layout/text_edit_side_paste_window</item>
+        <item name="android:textEditSideNoPasteWindowLayout">@*android:layout/text_edit_side_no_paste_window</item>
+        <item name="android:textSuggestionsWindowStyle">@oppo:style/Widget.OPPO.TextSuggestionsPopupWindow</item>
+        <item name="android:textEditSuggestionItemLayout">@*android:layout/text_edit_suggestion_item</item>
+        <item name="android:textCursorDrawable">@oppo:drawable/oppo_text_cursor_default</item>
+
+        <!-- Widget styles -->
+        <item name="android:absListViewStyle">@android:style/Widget.AbsListView</item>
+        <item name="android:autoCompleteTextViewStyle">@oppo:style/Widget.OPPO.AutoCompleteTextView</item>        
+        <item name="android:checkboxStyle">@oppo:style/Widget.OPPO.CompoundButton.CheckBox</item>
+        <item name="android:dropDownListViewStyle">@oppo:style/Widget.OPPO.ListView.DropDown</item>
+        <item name="android:editTextStyle">@oppo:style/Widget.OPPO.EditText</item>
+        <item name="android:expandableListViewStyle">@oppo:style/Widget.OPPO.ExpandableListView</item>
+        <item name="android:expandableListViewWhiteStyle">@oppo:style/Widget.OPPO.ExpandableListView.White</item>
+        <item name="android:galleryStyle">@android:style/Widget.Gallery</item>
+        <item name="*android:gestureOverlayViewStyle">@*android:style/Widget.GestureOverlayView</item>
+        <item name="android:gridViewStyle">@oppo:style/Widget.OPPO.GridView</item>
+        <item name="android:imageButtonStyle">@oppo:style/Widget.OPPO.ImageButton</item>
+        <item name="android:imageWellStyle">@oppo:style/Widget.OPPO.ImageWell</item>
+        <item name="android:listViewStyle">@oppo:style/Widget.OPPO.ListView</item>
+        <item name="android:listViewWhiteStyle">@oppo:style/Widget.OPPO.ListView.White</item>
+        <item name="android:popupWindowStyle">@oppo:style/Widget.OPPO.PopupWindow</item>
+        <item name="android:progressBarStyle">@oppo:style/Widget.OPPO.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@oppo:style/Widget.OPPO.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@oppo:style/Widget.OPPO.ProgressBar.Small</item>
+        <item name="android:progressBarStyleSmallTitle">@oppo:style/Widget.OPPO.ProgressBar.Small.Title</item>
+        <item name="android:progressBarStyleLarge">@oppo:style/Widget.OPPO.ProgressBar.Large</item>
+        <item name="android:progressBarStyleInverse">@oppo:style/Widget.OPPO.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@oppo:style/Widget.OPPO.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLargeInverse">@oppo:style/Widget.OPPO.ProgressBar.Large.Inverse</item> 
+        <item name="android:seekBarStyle">@oppo:style/Widget.OPPO.SeekBar</item>
+        <item name="android:radioButtonStyle">@oppo:style/Widget.OPPO.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@android:style/Widget.ScrollView</item>
+        <item name="android:horizontalScrollViewStyle">@*android:style/Widget.HorizontalScrollView</item>
+        <item name="android:spinnerStyle">@oppo:style/Widget.OPPO.Spinner</item>
+        <item name="android:dropDownSpinnerStyle">@oppo:style/Widget.OPPO.Spinner.DropDown</item>
+        <item name="android:tabWidgetStyle">@oppo:style/Widget.OPPO.TabWidget</item>
+        <item name="oppo:oppoTabWidgetStyle">@oppo:style/Widget.OppoTabWidget</item>
+        <item name="android:textViewStyle">@android:style/Widget.TextView</item>
+        <item name="*android:errorMessageBackground">@*android:drawable/popup_inline_error_holo_dark</item>
+        <item name="*android:errorMessageAboveBackground">@*android:drawable/popup_inline_error_above_holo_dark</item>
+        <item name="android:webTextViewStyle">@oppo:style/Widget.OPPO.WebTextView</item>
+        <item name="android:webViewStyle">@android:style/Widget.WebView</item>
+        <item name="android:dropDownItemStyle">@android:style/Widget.DropDownItem</item>
+        <item name="android:spinnerDropDownItemStyle">@oppo:style/Widget.OPPO.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@android:style/Widget.TextView.SpinnerItem</item>
+        <item name="android:dropDownHintAppearance">@android:style/TextAppearance.Widget.DropDownHint</item>
+        <item name="*android:keyboardViewStyle">@oppo:style/Widget.OPPO.KeyboardView</item>
+        <item name="android:quickContactBadgeStyleWindowSmall">@*android:style/Widget.QuickContactBadge.WindowSmall</item>
+        <item name="android:quickContactBadgeStyleWindowMedium">@*android:style/Widget.QuickContactBadge.WindowMedium</item>
+        <item name="android:quickContactBadgeStyleWindowLarge">@*android:style/Widget.QuickContactBadge.WindowLarge</item>
+        <item name="android:quickContactBadgeStyleSmallWindowSmall">@*android:style/Widget.QuickContactBadgeSmall.WindowSmall</item>
+        <item name="android:quickContactBadgeStyleSmallWindowMedium">@*android:style/Widget.QuickContactBadgeSmall.WindowMedium</item>
+        <item name="android:quickContactBadgeStyleSmallWindowLarge">@*android:style/Widget.QuickContactBadgeSmall.WindowLarge</item>
+        <item name="android:listPopupWindowStyle">@oppo:style/Widget.OPPO.ListPopupWindow</item>
+        <item name="android:popupMenuStyle">@oppo:style/Widget.OPPO.PopupMenu</item>
+        <item name="*android:stackViewStyle">@oppo:style/Widget.OPPO.StackView</item>
+        <item name="*android:activityChooserViewStyle">@oppo:style/Widget.OPPO.ActivityChooserView</item>
+
+        <!-- Preference styles -->
+        <item name="android:detailsElementBackground">@*android:drawable/panel_bg_holo_dark</item>
+
+        <!-- Search widget styles -->
+        <item name="*android:searchWidgetCorpusItemBackground">@*android:color/search_widget_corpus_item_background</item>
+        
+        <!-- luoyaojun add begin 2010/08/18. -->
+        <!-- Action bar styles -->
+        <item name="android:actionDropDownStyle">@oppo:style/Widget.OPPO.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionButtonStyle">@oppo:style/Widget.OPPO.ActionButton</item>
+        <item name="android:actionOverflowButtonStyle">@oppo:style/Widget.OPPO.ActionButton.Overflow</item>
+        <item name="android:actionModeBackground">@oppo:drawable/oppo_actionmode_title_background</item>
+        <item name="android:actionModeSplitBackground">@oppo:drawable/oppo_action_bar_bottom_background</item>
+        <item name="android:actionModeCloseDrawable">@oppo:drawable/oppo_back_arrow_selector_inverse</item>
+        <item name="android:actionModeCutDrawable">@oppo:drawable/oppo_ic_menu_cut_selector</item>
+        <item name="android:actionModeCopyDrawable">@oppo:drawable/oppo_ic_menu_copy_selector</item>
+        <item name="android:actionModePasteDrawable">@oppo:drawable/oppo_ic_menu_paste</item>
+        <item name="android:actionModeSelectAllDrawable">@oppo:drawable/oppo_ic_menu_selectall_selector</item>
+        <item name="*android:actionModeShareDrawable">@oppo:drawable/oppo_ic_menu_share</item>
+        <item name="*android:actionModeFindDrawable">@oppo:drawable/oppo_ic_menu_find</item>
+        <item name="*android:actionModeWebSearchDrawable">@oppo:drawable/oppo_titlebar_btn_search</item>
+        <item name="android:actionBarTabStyle">@style/Widget.OPPO.ActionBar.TabView</item>
+        <item name="android:actionBarTabBarStyle">@style/Widget.OPPO.ActionBar.TabBar</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.OPPO.ActionBar.TabText</item>
+        <item name="android:actionModeStyle">@style/Widget.OPPO.ActionMode</item>
+        <item name="android:actionModeCloseButtonStyle">@style/Widget.OPPO.ActionButton.CloseMode</item>
+        <item name="android:actionBarStyle">@oppo:style/Widget.OPPO.ActionBar</item>
+        <item name="android:actionBarSize">@dimen/oppo_action_bar_default_height</item>
+        <item name="*android:actionModePopupWindowStyle">@oppo:style/Widget.OPPO.PopupWindow.ActionMode</item>
+        <item name="android:actionBarWidgetTheme">@oppo:style/Theme.OPPO</item>
+        <item name="android:actionMenuTextColor">?android:attr/textColorPrimary</item>
+        <item name="android:actionBarItemBackground">@oppo:drawable/oppo_item_background_holo_dark</item>
+
+        <item name="android:dividerVertical">?android:attr/listDivider</item>
+        <item name="android:dividerHorizontal">?android:attr/listDivider</item>
+        <item name="android:buttonBarStyle">@oppo:style/OPPO.ButtonBar</item>
+        <item name="android:buttonBarButtonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:segmentedButtonStyle">@oppo:style/OPPO.SegmentedButton</item>
+
+        <!-- SearchView attributes -->
+        <item name="*android:searchDropdownBackground">@*android:drawable/search_dropdown_dark</item>
+        <item name="*android:searchViewTextField">@drawable/oppo_textfield_search</item>
+        <item name="*android:searchViewSearchIcon">@drawable/oppo_ic_search</item>
+        <item name="*android:searchViewTextFieldRight">@*android:drawable/textfield_searchview_right_holo_dark</item>
+        <item name="*android:searchViewCloseIcon">@drawable/oppo_search_clear_selector</item>
+        <item name="*android:searchViewGoIcon">@*android:drawable/ic_go</item>
+        <item name="*android:searchViewVoiceIcon">@*android:drawable/ic_voice_search</item>
+        <item name="*android:searchViewEditQuery">@*android:drawable/ic_commit_search_api_holo_dark</item>
+        <item name="*android:searchViewEditQueryBackground">?android:attr/selectableItemBackground</item>
+        <item name="*oppo:oppoSearchAnimTextField">@drawable/oppo_textfield_search_anim_default</item>
+
+        <item name="*android:searchDialogTheme">@oppo:style/Theme.OPPO.SearchBar</item>
+
+        <!-- NumberPicker styles-->
+        <!--
+        <item name="numberPickerUpButtonStyle">@style/Widget.OPPO.ImageButton.NumberPickerUpButton</item>
+        <item name="numberPickerDownButtonStyle">@style/Widget.OPPO.ImageButton.NumberPickerDownButton</item>
+        <item name="numberPickerInputTextStyle">@style/Widget.OPPO.EditText.NumberPickerInputText</item>
+        remove by danjianjun
+        -->
+
+        <!-- CalendarView style-->
+        <item name="android:calendarViewStyle">@style/Widget.OPPO.CalendarView</item>
+
+        <!-- DatePicker style -->
+        <item name="android:datePickerStyle">@style/Widget.OPPO.DatePicker</item>
+
+        <item name="android:fastScrollThumbDrawable">@*android:drawable/fastscroll_thumb_holo</item>
+        <item name="android:fastScrollPreviewBackgroundLeft">@*android:drawable/fastscroll_label_left_holo_dark</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@*android:drawable/fastscroll_label_right_holo_dark</item>
+        <item name="android:fastScrollTrackDrawable">@*android:drawable/fastscroll_track_holo_dark</item>
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+        <!-- alert activity styles -->
+        <item name="oppo:Dialog_Title_textAppearance">@oppo:style/Dialog_Title_TextAppearance_style</item>
+        <item name="oppo:Dialog_Content_textAppearance">@oppo:style/Dialog_Content_TextAppearance_style</item>
+        <item name="oppo:Dialog_Button_textAppearance">@oppo:style/Dialog_Button_TextAppearance_style</item>
+        <!-- luoyaojun add end. -->
+        <item name="oppo:oppoToggleStyle">@oppo:style/Widget.OPPO.CompoundButton.OppoToggle</item>
+        <item name="oppo:oppoListViewStyle">@oppo:style/Widget.OPPO.OppoListView</item>
+        <item name="oppo:oppoMultiListViewStyle">@oppo:style/Widget.OPPO.OppoMultiListView</item>
+
+    <!-- #ifdef VENDOR_EDIT -->
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2012/12/12, Add for oppo attr -->
+        <item name="oppoPreferenceStyle">@style/Preference.OPPO</item>
+        <item name="oppoPreferenceScreenStyle">@style/Preference.OPPO.PreferenceScreen</item>
+        <item name="oppoPreferenceFragmentStyle">@style/PreferenceFragment.OPPO</item>
+        <item name="oppoPreferenceCategoryStyle">@style/Preference.OPPO.Category</item>
+        <item name="oppoPreferenceInformationStyle">@style/Preference.OPPO.Information</item>
+        <item name="oppoCheckBoxPreferenceStyle">@style/Preference.OPPO.OppoCheckBoxPreference</item>
+        <item name="oppoYesNoPreferenceStyle">@style/Preference.OPPO.DialogPreference.YesNoPreference</item>
+        <item name="oppoDialogPreferenceStyle">@style/Preference.OPPO.DialogPreference</item>
+        <item name="oppoEditTextPreferenceStyle">@style/Preference.OPPO.DialogPreference.EditTextPreference</item>
+        <item name="oppoRingtonePreferenceStyle">@style/Preference.OPPO.RingtonePreference</item>
+        <item name="oppoTogglePreferenceStyle">@style/Preference.OPPO.OppoTogglePreference</item>
+        <item name="oppoPreferenceLayoutChild">@layout/oppo_preference_child</item>
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2012/12/18, Add for oppo attr -->
+        <item name="oppoSearchViewEditQuery">@*android:drawable/ic_commit_search_api_holo_dark</item>
+        <item name="oppoSearchViewEditQueryBackground">?android:attr/selectableItemBackground</item>
+        <item name="oppoSearchViewSearchIcon">@drawable/oppo_ic_search</item>
+        <item name="oppoSearchResultListItemHeight">58dip</item>
+        <item name="oppoTextColorSearchUrl">@*android:color/search_url_text</item>
+        <item name="oppoNumberPickerStyle">@style/Widget.OPPO.NumberPicker</item>
+        <item name="oppoTimePickerStyle">@style/Widget.OPPO.TimePicker</item>
+        <item name="errorMessageBackground">@*android:drawable/popup_inline_error_holo_dark</item>
+        <item name="errorMessageAboveBackground">@*android:drawable/popup_inline_error_above_holo_dark</item>
+        <item name="quickContactBadgeOverlay">@drawable/oppo_quickcontact_badge_overlay</item>
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2012/12/29, Add for android attr -->
+        <item name="android:preferenceStyle">@style/Preference.Android</item>
+        <item name="*android:preferenceFrameLayoutStyle">@style/Widget.Android.PreferenceFrameLayout</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.Android.CheckBoxPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Android.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.Android.DialogPreference.EditTextPreference</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Android.Category</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Android.PreferenceScreen</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.Android.RingtonePreference</item>
+        <item name="android:switchPreferenceStyle">@style/Preference.Android.SwitchPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.Android.DialogPreference.YesNoPreference</item>
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2013/01/17, Add for oppo attr -->
+        <item name="oppoSwitchStyle">@style/Widget.OPPO.CompoundButton.OppoSwitch</item>
+    	<!-- Xiaokang.Feng@Plf.MidWare.SDK, 2013/01/21, Add for OppoAnalogClockPicker attr -->
+        <item name="oppoAnalogClockPickerStyle">@style/Widget.OPPO.OppoAnalogClockPicker</item>
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2013/01/21, Add for android attr -->
+        <item name="android:preferenceLayoutChild">@layout/android_preference_child</item>
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2013/01/23, Add for oppo attr -->
+        <item name="oppoSwitchPreferenceStyle">@style/Preference.Android.OppoSwitchPreference</item>
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2013/01/26, Add for android attr -->
+        <item name="*android:quickContactBadgeOverlay">@drawable/oppo_quickcontact_badge_overlay</item>
+        <!-- Jianhui.Yu@Plf.MidWare.SDK, 2013/01/30, Add for android attr -->
+        <item name="*android:preferenceFragmentStyle">@style/PreferenceFragment.OPPO</item>
+    <!-- #endif //VENDOR_EDIT -->
+        <item name="OppoScrollingTabContainerViewStyle">@style/Widget.OPPO.OppoScrollingTabContainerView</item>
+        <!-- JinPeng@Plf.Framework.SDK, 2013/08/03, Add for OppoPagerTabStrip -->
+        <item name="OppoPagerTabStripStyle">@style/OppoPagerTabStrip</item>
+        <!-- Changwei.Li@Plf.Framework.SDK, 2013/09/06, Add for OppoOptionMenuBar -->
+        <item name="OppoOptionMenuBarStyle">@oppo:style/OppoOptionMenuBarTheme</item>
+    </style>
+
+  
+    <!-- Variant of theme oppo with no title bar -->
+    <style name="Theme.OPPO.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.OPPO.NoActionBarShadow">  
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- Variant of {@link #Theme_Light} that has no title bar and
+         no status bar -->
+    <style name="Theme.OPPO.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- Special variation on the default theme that ensures the background is
+         completely black.  This is useful for things like image viewers and
+         media players.   If you want the normal (dark background) theme
+         do <em>not</em> use this, use {@link android.R.style#Theme}. -->
+    <style name="Theme.OPPO.Black">
+        <item name="oppo:OppoThemeType">1</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="oppoSwitchStyle">@style/Widget.OPPO.CompoundButton.OppoSwitch.Black</item>
+        <item name="android:listChoiceIndicatorSingle">@oppo:drawable/oppo_btn_radio_black</item>
+        <item name="android:listChoiceIndicatorMultiple">@oppo:drawable/oppo_btn_check_black</item>
+        <!-- searchview style -->
+        <item name="*android:searchViewTextField">@drawable/oppo_textfield_search_black</item>        
+        <item name="*oppo:oppoSearchAnimTextField">@drawable/oppo_textfield_search_anim_default_black</item>
+        <item name="*android:searchViewSearchIcon">@drawable/oppo_ic_search_black</item>
+        <item name="android:editTextColor">#ffacacac</item>
+        <item name="android:autoCompleteTextViewStyle">@oppo:style/Widget.OPPO.AutoCompleteTextView.Black</item>
+        <item name="android:textCursorDrawable">@oppo:drawable/oppo_text_cursor_default_black</item>
+     
+        <item name="android:actionBarStyle">@oppo:style/Widget.OPPO.ActionBar.Black</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.OPPO.ActionBar.TabText.Black</item>        
+        <!-- list style -->
+        <item name="android:listViewStyle">@oppo:style/Widget.OPPO.OppoListView.Black</item>
+        <item name="oppo:oppoListViewStyle">@oppo:style/Widget.OPPO.OppoListView.Black</item>        
+        <item name="android:textAppearanceLarge">@oppo:style/OppoListView_text_large_style_black</item>
+        <item name="android:textAppearanceMedium">@oppo:style/OppoListView_text_large_style_black</item>
+        <item name="android:textAppearanceSmall">@oppo:style/OppoListView_text_small_style_black</item>
+        <item name="oppo:textAppearanceSubSmall">@oppo:style/OppoListView_text_small_style_black</item>
+        <item name="android:listPreferredItemHeight">@oppo:dimen/oppo_list_item_normal_height_balck</item>   
+        <item name="android:textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+        <item name="OppoScrollingTabContainerViewStyle">@style/Widget.OPPO.OppoScrollingTabContainerView.Black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Android.Category.Black</item>
+        <!-- Changwei.Li@Plf.Framework.SDK, 2013/09/06, Add for OppoOptionMenuBar -->
+        <item name="OppoOptionMenuBarStyle">@oppo:style/OppoOptionMenuBarTheme.Black</item>           
+    </style> 
+    
+    <style name="Theme.OPPO.BlackTab">
+    
+        
+        <item name="android:actionBarTabTextStyle">@style/Widget.OPPO.ActionBar.TabText.Black</item>        
+        <!-- list style -->
+        <item name="OppoScrollingTabContainerViewStyle">@style/Widget.OPPO.OppoScrollingTabContainerView.Black</item>
+    </style>   
+    
+    <!-- Variant of the black theme with no title bar -->
+    <style name="Theme.OPPO.Black.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>  
+    <style name="Theme.OPPO.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>  
+    <!-- Default holographic (dark) for windows that want to have the user's selected
+         wallpaper appear behind them.  -->
+    <style name="Theme.OPPO.Wallpaper">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>  
+
+    <!-- Variant of the holographic (dark) theme with no title bar -->
+    <style name="Theme.OPPO.Wallpaper.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>  
+    <!-- Variant of {@link #Theme_Wallpaper} that
+         has no title bar or status bar. -->
+    <style name="Theme.OPPO.Wallpaper.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Theme for a wallpaper's setting activity, which is designed to be a transparent
+         background with a dark shade, so the previous Activity is visible in the background. -->
+    <style name="Theme.OPPO.WallpaperSettings">
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <!-- Default theme for translucent activities, that is windows that allow you
+         to see through them to the windows behind.  This sets up the translucent
+         flag and appropriate animations for your windows.  -->
+    <style name="Theme.OPPO.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <!-- Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used. -->
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>  
+
+    <!-- Variant of the translucent theme with no title bar -->
+    <style name="Theme.OPPO.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>  
+    <!-- Variant of {@link #Theme_Translucent} that has no title bar and
+         no status bar -->
+    <style name="Theme.OPPO.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- Default theme for activities that don't actually display a UI; that
+         is, they finish themselves before being resumed.  -->
+    <style name="Theme.OPPO.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    
+        <!-- Default theme for dialog windows and activities (on API level 10 and lower),         
+        which is used by the         
+        {@link android.app.Dialog} class.  This changes the window to be floating (not fill the entire screen), 
+        and puts a frame around its contents.  You can set this theme on an activity if you would like to        
+        make an activity that looks like a Dialog. -->        
+   <style name="Theme.OPPO.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@oppo:style/DialogWindowTitle.OPPO</item>
+        <item name="android:windowBackground">@oppo:drawable/oppo_toast_frame</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Holo.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@*android:bool/config_closeDialogWhenTouchOutside</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:buttonBarStyle">@oppo:style/OPPO.ButtonBar</item>
+        <item name="android:borderlessButtonStyle">@oppo:style/Widget.OPPO.Button.Borderless.Small</item>
+        
+        <item name="android:textAppearance">@oppo:style/TextAppearance.OPPO</item>
+        <item name="android:textAppearanceInverse">@oppo:style/TextAppearance.OPPO.Inverse</item>
+
+        <item name="android:listPreferredItemPaddingLeft">16dip</item>
+        <item name="android:listPreferredItemPaddingRight">16dip</item>
+    </style>
+
+
+    <!-- Variation of Theme.OPPO.Dialog that does not include a frame (or background).
+         The view hierarchy of the dialog is responsible for drawing all of
+         its pixels. -->
+    <style name="Theme.OPPO.Dialog.NoFrame">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>  
+    
+      <!-- Default theme for alert dialog windows (on API level 10 and lower), which is used by the
+         {@link android.app.AlertDialog} class.  This is basically a dialog
+         but sets the background to empty so it can do two-tone backgrounds. -->    
+    <style name="Theme.OPPO.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@oppo:style/DialogWindowTitle.OPPO</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        
+        <item name="android:textColorPrimaryDisableOnly">@oppo:color/oppo_primary_text_disable_only</item>
+        
+    </style>
+    
+       <!-- Variant of Theme.OPPO.Dialog that has a nice minimum width for
+         a regular dialog. -->
+    <style name="Theme.OPPO.Dialog.MinWidth">
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <!-- Variation of Theme.OPPO.Dialog that does not include a title bar. -->
+    <style name="Theme.OPPO.Dialog.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+      <!-- Default oppo theme for panel windows (on API level 10 and lower).  This removes all
+         extraneous window decorations, so you basically have an empty rectangle in which
+         to place your content.  It makes the window floating, with a transparent
+         background, and turns off dimming behind the window. -->
+    <style name="Theme.OPPO.Panel">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+     <!-- Default oppo theme for input methods (on API level 10 and lower), which is used by the
+         {@link android.inputmethodservice.InputMethodService} class.
+         this inherits from Theme.Panel, but sets up IME appropriate animations
+         and a few custom attributes. -->
+
+    <style name="Theme.OPPO.InputMethod" parent="Theme.OPPO.Panel">
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:imeFullscreenBackground">@*android:drawable/screen_background_selector_light</item>
+        <item name="android:imeExtractEnterAnimation">@*android:anim/input_method_extract_enter</item>
+        <item name="android:imeExtractExitAnimation">@*android:anim/input_method_extract_exit</item>
+    </style>
+    
+    <!-- Theme for the search input bar. -->
+    <style name="Theme.OPPO.SearchBar" parent="Theme.OPPO.Panel">
+        <item name="android:actionModeBackground">@*android:drawable/cab_background_top_holo_dark</item>
+        <item name="android:actionModeSplitBackground">@oppo:drawable/oppo_action_bar_bottom_background</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+        <!-- Theme for the search input bar when doing global search. The only
+         difference from non-global search is that we do not dim the background. -->
+    <style name="Theme.OPPO.GlobalSearchBar" parent="Theme.OPPO.Panel">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionModeBackground">@oppo:drawable/oppo_activity_title_bar</item>
+        <item name="android:actionModeSplitBackground">@oppo:drawable/oppo_action_bar_bottom_background</item>
+    </style>
+  
+
+    
+    <style name="Theme.OPPO.IconMenu" parent="Theme.OPPO">
+        <!-- Menu/item attributes -->
+        <item name="android:itemTextAppearance">@android:style/TextAppearance.Widget.IconMenu.Item</item>
+        <item name="android:itemBackground">?android:attr/selectableItemBackground</item>
+        <item name="android:itemIconDisabledAlpha">?android:attr/disabledAlpha</item>
+        <item name="android:horizontalDivider">@oppo:drawable/oppo_menu_divider_horizontal_bright</item>
+        <item name="android:verticalDivider">@oppo:drawable/oppo_menu_divider_vertical_bright</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.OptionsPanel</item>
+        <item name="android:moreIcon">@android:drawable/ic_menu_more</item>
+        <item name="android:background">@null</item>
+    </style>
+    
+    <!-- Variant of the holographic (dark) theme with no action bar. -->
+    <style name="Theme.OPPO.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>   
+
+    <!-- Variant of the holographic (dark) theme that has no title bar and fills
+         the entire screen -->
+    <style name="Theme.OPPO.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>  
+
+    <!-- Variation of Theme.Holo.Dialog.NoActionVar that has a nice minumum width for
+         a regular dialog. -->
+    <style name="Theme.OPPO.Dialog.NoActionBar.MinWidth">
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>  
+
+
+
+    <!-- Theme for a window that will be displayed either full-screen on
+         smaller screens (small, normal) or as a dialog on larger screens
+         (large, xlarge). -->
+    <style name="Theme.OPPO.DialogWhenLarge" parent="@oppo:style/Theme.OPPO">
+    </style>  
+
+    <!-- Theme for a window without a title bar that will be displayed either
+         full-screen on smaller screens (small, normal) or as a dialog on larger screens
+         (large, xlarge). -->
+    <style name="Theme.OPPO.DialogWhenLarge.NoActionBar" parent="@oppo:style/Theme.OPPO.NoActionBar">
+    </style>   
+
+    <!-- Variant of the black theme that has no title bar and
+         fills the entire screen -->
+    
+    <style name="Animation.OPPO" parent="android:Animation">
+    </style>
+    
+    <style name="Animation.OPPO.Activity" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_close_slide_exit</item>
+    </style>
+    
+	 <!--Animation style for the current Activity used OppoOptionMenuBar Widget to start a new activity  -->
+    <style name="Animation.OPPO.OppoOptionMenuBar.CurrentActivity" parent="@oppo:style/Animation.OPPO.Activity">
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_zoom_fade_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_push_down_exit</item>
+    </style>
+
+    <!-- Animation style for the new Activity -->
+    <style name="Animation.OPPO.OppoOptionMenuBar.NewActivity" parent="@oppo:style/Animation.OPPO.Activity">
+    </style>
+    <style name="Animation.OPPO.DropDownUp">
+        <item name="android:windowEnterAnimation">@anim/oppo_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/oppo_shrink_fade_out_from_bottom</item>
+    </style>
+    
+    <style name="Theme.OPPO.OppoSearchBar" >
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>        
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="Theme.OPPO.ActionBar" >
+       
+    </style>
+    <style name="Theme.OPPO.ActionBar.MarkMode" >
+       <item name="android:homeAsUpIndicator">@oppo:drawable/oppo_back_arrow_selector_inverse</item>
+        <item name="android:actionBarStyle">@oppo:style/Widget.OPPO.ActionBar.MarkMode</item>
+        <item name="android:actionBarItemBackground">@oppo:drawable/oppo_btn_cab_done_holo_dark</item>
+    </style>
+    
+    <style name="Theme.OPPO.ActionBar.MarkMode.Black" >
+        <item name="android:actionBarStyle">@oppo:style/Widget.OPPO.ActionBar.MarkMode.Black</item>
+    </style>
+
+    <!--songjianfeng add for GlobalActions-->
+    <style name="Theme.OPPO.Dialog.Alert.Transparent">
+        <item name="android:alertDialogStyle">@oppo:style/AlertDialog.OPPO.Transparent</item>
+    </style>
+
+</resources>

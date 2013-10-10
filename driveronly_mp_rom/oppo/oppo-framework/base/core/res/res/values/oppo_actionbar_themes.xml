@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - actionbar_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: actionabr's params
+** 
+** Version: 1
+** Date created: 10:30:00,22/6/2012
+** Author: Yongdong,Zhang@Prd.MidWare.Res
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**      Yongdong,Zhang       	2012/06/11      create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <dimen name="oppo_action_bar_default_height">44dp</dimen>
+    <dimen name="oppo_action_bar_icon_vertical_padding">9dp</dimen>
+    <dimen name="oppo_action_bar_title_text_size">19dip</dimen>
+    <dimen name="oppo_action_bar_subtitle_text_size">13dip</dimen>
+    <color name="oppo_action_bar_title_textcolor_default">@color/oppo_actionbar_and_list_big_text_color</color>
+    <color name="oppo_action_bar_sub_title_textcolor_default">@color/oppo_actionbar_and_list_small_text_color</color>
+    <dimen name="oppo_action_bar_listmenu_maxheight">263dip</dimen>
+    <dimen name="oppo_action_bar_button_minwidth">47dp</dimen>
+    <dimen name="oppo_action_bar_listmenu_maxwidth">100dip</dimen>
+
+    <color name="oppo_action_bar_title_textcolor_default_inverse">@color/oppo_actionbar_mark_mode_text_color</color>
+    <color name="oppo_action_bar_sub_title_textcolor_default_inverse">@color/oppo_actionbar_mark_mode_text_color</color>
+    
+    <color name="oppo_actionbar_tab_text_color_selected">@color/oppo_tab_text_color_pressed</color>
+    <color name="oppo_actionbar_tab_text_color_unselected">@color/oppo_tab_text_color_normal</color>
+    <dimen name="oppo_actionbar_title_padding_left">12dip</dimen>
+
+    <dimen name="oppo_actionbar_custom_padding_right">20dip</dimen>
+    <dimen name="oppo_actionbar_switch_padding_right">8dip</dimen>
+    <dimen name="oppo_actionbar_button_padding_right">12dip</dimen>
+
+    <dimen name="oppo_actionbar_animatetab_out_length">24dip</dimen>
+    <dimen name="oppo_actionbar_animatetab_offset">8dip</dimen>
+    <dimen name="oppo_actionbar_tab_textsize">14dip</dimen>
+    <dimen name="oppo_actionbar_tab_textsize_selected">17dip</dimen>
+
+    <dimen name="oppo_actionbar_tab_text_padding_left">10dip</dimen>
+    <dimen name="oppo_actionbar_tab_text_padding_right">10dip</dimen>
+    
+
+</resources>
+

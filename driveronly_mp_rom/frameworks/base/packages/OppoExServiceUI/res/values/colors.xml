@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="ivory">#480000</color>
+    <!-- 象牙色 -->
+    <color name="lightyellow">#EE82EE</color>
+    <!-- 亮黄色 -->
+    <color name="yellow">#8B0000</color>
+    <!-- 黄色 -->
+    <color name="foreground_background_color">#FFFFFF</color>
+    <color name="white_color">#FFFFFFFF</color>
+    <color name="black_color">#FF000000</color>
+    <color name="video_name">#C8CCD2</color>
+    <color name="video_duration">#85878A</color>
+    <color name="oppo_download_text_color">#0b984b</color>
+
+    <color name="listview_selector">#191919</color>
+    <color name="oppo_option_menu_bar_big_text_color">#A0c2cfde</color>
+    <color name="oppo_option_menu_bar_big_text_color_disable">#A0555a5f</color>
+    <color name="qiyi_main">#dcdcdc</color>
+    <color name="qiyi_grey">#9B9B9B</color>
+    <color name="qiyi_dark_grey">#7E7E7E</color>
+    <color name="qiyi_green">#78a22f</color>
+    <color name="qiyi_index_txt_bg">#c1c9cf</color>
+    <color name="qiyi_ad_txt">#fb9b13</color>
+    <color name="color_background">#181818</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_orenge">#ff8705</color>
+    <color name="no_video_info_color">#FF4f4f4f</color>
+
+    <!-- for Umeng Top ui use -->
+    <color name="umeng_top_unchecked">#A1AAB4</color>
+    <color name="umeng_top_checked">#608D26</color>
+    <color name="transparent">#00000000</color>
+    <color name="ads_transparent">#50000000</color>
+    <color name="text_num_gray">#333</color>
+    <color name="dialog_title_blue">#9CCCF7</color>
+    <color name="phone_bg">#26282a</color>
+    <color name="phone_top_gray">#b3babf</color>
+    <color name="phone_top_txt_bg">#a4aab1</color>
+    <color name="phone_top_txt_select_bg">#4d9905</color>
+
+    <!-- 播放器loading页面背景色 -->
+    <color name="phone_play_land_left_bg">#333333</color>
+    <color name="phone_play_land_right_bg">#242424</color>
+    <!-- ***************************mini************************************ -->
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="gallerytips_background">#60000000</drawable>
+
+    <!-- mini中间层画面颜色定义 -->
+    <color name="mini_record_name_color">#333333</color>
+    <color name="mini_record_progress_color">#4f4f4f</color>
+    <!-- ***************************mini************************************ -->
+
+
+    <!-- ***************************奇声项目添加************************************ -->
+    <color name="qisheng_white">#ffffff</color>
+    <color name="qisheng_black">#000000</color>
+    <color name="qisheng_red">#ff0000</color>
+    <!-- ***************************奇声项目添加************************************ -->
+
+
+    <!-- for play loading UI use -->
+    <color name="play_textcommon_textColor">#cccccc</color>
+    <color name="play_textbottom_textColor">#848484</color>
+    <!-- 综艺改版 -->
+    <color name="phone_variety_focus_hot_textColor">#f94c1d</color>
+    <color name="phone_variety_focus_bgColor">#2b2b2b</color>
+    <color name="phone_variety_focus_normal_textColor">#888888</color>
+    <!-- PAD -->
+    <color name="pad_top_album_play_times">#F86F01</color>
+    <color name="pad_top_album_detail">#858585</color>
+    <color name="pad_variety_focus_albumPS_Color">#777777</color>
+    <!-- pad_qiyi -->
+    <color name="pad_topbar_button_textColor">#999999</color>
+    <color name="pad_topbar_textview_textColor">#AAAAAA</color>
+    <color name="pad_topbar_version_textview_textColor">#444444</color>
+    <color name="pad_update_app_textColor">#FF9000</color>
+    <color name="pad_input_text_color">#FFFFFF</color>
+    <color name="pad_my_main_adapter_text_color">#77777777</color>
+    <color name="pad_my_main_text_color">#777777</color>
+    <color name="pad_button_new_green">#A3DD08</color>
+    <color name="pad_top_txt_bg">#a4aab1</color>
+    <color name="pad_editor_hint_text_color">#555555</color>
+    <color name="pad_line_one_text_color">#999999</color>
+    <color name="pad_line_two_text_color">#777777</color>
+    <color name="pad_qiyi_green">#78a22f</color>
+    <color name="pad_qiyi_grey">#9B9B9B</color>
+    <color name="pad_search_noresult">#d88729</color>
+    <color name="pad_search_fullscreen_bg">#aa000000</color>
+    <color name="pad_my_main_update_text_color">#FF9000</color>
+    <color name="phone_baidu_voice_hint_text_one_color">#474747</color>
+    <color name="phone_baidu_voice_hint_text_two_color">#a09f9f</color>
+    <color name="phone_baidu_voice_control_button_default_color">#3f3f3f</color>
+    <color name="phone_baidu_voice_control_button_selected_color">#d8d8d8</color>
+
+    <!-- category sort color -->
+    <color name="phone_category_sort_txt_select_color">#4D9905</color>
+    <color name="phone_category_sort_txt_color">#C9D7E7</color>
+	<color name="view_pager_color">#232323</color>
+	<color name="local_video_color">#0ec78b</color>
+	<color name="download_video_color">#d5dad6</color>
+	<color name="img_text_background_color">#65000000</color>
+
+
+	<color name="vistor_video_color">#d5dad6</color>
+	
+    <color name="oppo_font_green">#069f6d</color>
+    <color name="oppo_font_white">#ffffff</color>
+    <color name="oppo_rate_select">#0ec78b</color>
+    <color name="oppo_rate_disselect">#ffffff</color>
+    <color name="oppo_rate_text_normal">#0b984b</color>
+	<color name="oppo_shadow_color">#b3000000</color>
+	
+</resources>

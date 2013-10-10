@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_toggle_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoToggle's params
+** 
+** Version: 1
+** Date created: 10:30:00,07/09/2012
+** Author: JinPeng@Prd.MidWare.Res
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**      JinPeng     	        2012/09/07      create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <dimen name="oppo_toggle_tip_top">6dip</dimen>
+    <dimen name="oppo_toggle_tip_left">6dip</dimen>
+    <dimen name="oppo_toggle_tipwidth">36dip</dimen>
+</resources>

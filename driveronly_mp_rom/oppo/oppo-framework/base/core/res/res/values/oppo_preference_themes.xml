@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/********************************************************************************
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** All rights reserved.
+** VENDOR_EDIT
+** File: - oppo_preference_themes.xml
+** Description: 
+**     Preference's params used to customize OPPO GUI
+**     
+** Version: 1.0
+** Date: 2013/01/09
+** Author: Jianhui.Yu@Plf.MidWare.SDK
+** 
+** ******************************* Revision History: ****************************
+** <author>						<data>		<version>	<desc>
+** ******************************************************************************
+** Jianhui.Yu@Plf.MidWare.SDK	2013/01/09	1.0			build this moudle
+********************************************************************************/
+-->
+<resources>
+
+    <!-- PreferenceFragment -->
+    <dimen name="oppo_preference_fragment_padding_side">0dip</dimen>
+
+    <dimen name="oppo_preference_fragment_item_padding_side">12dip</dimen>
+
+    <!-- PreferenceCategory -->
+    <color name="oppo_preference_category_text_color">@color/oppo_dialog_title_color</color>
+    <dimen name="oppo_preference_category_text_size">@dimen/oppo_actionbar_and_list_small_text_size_2</dimen>
+    <dimen name="oppo_preference_category_text_padding_left">3dip</dimen>
+    <dimen name="oppo_preference_category_text_padding_top">10dip</dimen>
+    <dimen name="oppo_preference_category_text_padding_bottom">4dip</dimen>
+    <dimen name="oppo_common_category_text_padding_top">3dip</dimen>
+    <dimen name="oppo_common_category_text_padding_bottom">0dip</dimen>
+
+    <!-- Preference -->
+    <dimen name="oppo_preference_icon_margin_left">3dip</dimen>
+    <dimen name="oppo_preference_icon_margin_right">13dip</dimen>
+    <dimen name="oppo_preference_text_margin_left">3dip</dimen>
+    <dimen name="oppo_preference_text_margin_right">4dip</dimen>
+    <dimen name="oppo_preference_widget_padding_right">@dimen/oppo_switch_thumb_outer</dimen>
+
+    <!-- SwitchPreference -->
+    <dimen name="android_preference_switch_margin_left">0dip</dimen>
+    <dimen name="android_preference_switch_margin_right">0dip</dimen>
+
+    <!-- OppoSwitchPreference -->
+    <dimen name="oppo_preference_switch_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_switch_margin_right">-4dip</dimen>
+    <dimen name="oppo_preference_switch_padding_right">0dip</dimen>
+
+    <!-- OppoTogglePreference -->
+    <dimen name="oppo_preference_toggle_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_toggle_margin_right">0dip</dimen>
+
+</resources>

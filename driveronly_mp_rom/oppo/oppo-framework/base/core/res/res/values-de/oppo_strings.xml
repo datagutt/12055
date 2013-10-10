@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="perms_modify">Berechtigungen ändern</string>
+    <string name="modify_pkg_perms">Berechtigungen ändern</string>
+    <string name="modify_pkg_perms_detail">Gehen Sie zu Einstellungen→Allgemein→Anwendungsberechtigungen ändern.</string>
+    <string name="does_change_perms">Die Berechtigungen der App haben sich geändert. Speichern?</string>
+    <string name="oppo_global_actions_poweroff_prompt">Schalten Sie schnell Ihr Handy aus</string>
+    <string name="oppo_global_actions_reboot_prompt">Telefon Herunterfahren und Neustarten</string>
+    <string name="global_action_reboot">Starten Sie Ihr Telefon neu</string>
+    <string name="oppo_menu_select_all">Alle auswählen</string>
+    <string name="oppo_menu_cancel_all">Alle abwählen</string>
+    <string name="USB_SETTINGS">USB-Einstellung</string>
+    <string name="usb_selection">Bitte auswählen, um USB-Einstellungen zu ändern</string>
+    <string name="usb_charge">Nur Aufladen</string>
+    <string name="usb_charge_detail">Laden Sie Ihr Telefon über USB</string>
+    <string name="usb_storage">Speichergerät</string>
+    <string name="usb_storage_detail">Nutzen Sie Ihr Telefon als Speichergerät</string>
+    <string name="usb_mtp">Mediengerät (MTP)</string>
+    <string name="usb_mtp_detail">Ermöglicht die Übertragung von Mediendateien auf Windows- oder, mithilfe von Android File Transfer, auf Mac-Computer</string>
+    <string name="usb_internet">USB-Bindung</string>
+    <string name="usb_internet_detail">Das Telefon-Mobilfunknetz mit dem PC teilen</string>
+    <string name="usb_selection_processing">Verarbeitung, bitte warten...</string>
+    <string name="progress_unmounting_phone" product="default">Telefonspeicher wird ausgeworfen...</string>
+    <string name="progress_erasing_phone" product="default">Formatierung läuft...</string>
+    <string name="format_error_phone" product="default">Formatierung des Telefonspeichers fehlgeschlagen.</string>
+    <string name="media_bad_removal_phone">Telefonspeicher wurde vor dem Auswerfen entfernt.</string>
+    <string name="media_removed_phone">Telefonspeicher wurde entfernt.</string>
+    <string name="media_shared_phone" product="default">Telefon wird derzeitig von einem Computer verwendet.</string>
+    <string name="status_silent">Lautlos</string>
+    <string name="status_brightness">Helligkeit</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Flugmodus</string>
+    <string name="status_hotspot">WLAN Hotspot</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">AutoSync</string>
+    <string name="statusbar_edit">Bearbeiten</string>
+    <string name="statusbar_clear_all">Alle löschen</string>
+    <string name="statusbar_key_swmgr">Programm-Manager</string>
+    <string name="statusbar_key_wlan">WLAN</string>
+    <string name="rename_dialog_title">Umbenennen</string>
+    <string name="rename_dialog_btn_ok">OK</string>
+    <string name="rename_dialog_btn_cancel">Abbrechen</string>
+    <string name="lunar_calendar">Mondkalender</string>
+    <string name="solar_calendar">Gregorianischer Kalender</string>
+    <string name="selectText">Auswählen</string>
+    <string name="oppo_whichApplication">Aktion durchführen mit</string>
+    <string name="oppo_alwaysUse">Als Standardoperation nutzen</string>
+    <string name="oppo_power_shutdown_text">Ausschalten</string>
+    <string name="oppo_power_vibrate_text">Vibrieren</string>
+    <string name="oppo_power_slient_text">Lautlos</string>
+    <string name="oppo_power_airplanemode_text">Flugmodus</string>
+    <string name="oppo_power_ring_text">Ton</string>
+    <string name="oppo_power_reboot_text">Neustarten</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">SmarTone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_charge_voltage_low">Die Ladespannung ist zu niedrig; Ersetzen Sie das Ladegerät, um fortzufahren.</string>
+    <string name="oppo_charge_voltage_high">Die Ladespannung ist zu hoch; Ersetzen Sie das Ladegerät, um fortzufahren.</string>
+    <string name="oppo_battery_waring_title">Warnung:</string>
+    <string name="oppo_battery_waring_title_voltage">Spannungsfehler</string>
+    <string name="oppo_battery_waring_title_charging">Ladefehler</string>
+    <string name="oppo_battery_waring_title_temperature">Temp.fehler</string>
+    <string name="oppo_battery_waring_title_battery">Akkufehler</string>
+    <string name="oppo_battery_waring_subtitle">Warnung:</string>
+    <string name="oppo_battery_voltage_high">Akkuspannung ist zu hoch!</string>
+    <string name="oppo_battery_temperature_low">Akkutemperatur ist zu niedrig!</string>
+    <string name="oppo_battery_temperature_high">Akkutemperatur ist zu hoch!</string>
+    <string name="oppo_battery_poor_contact">Schlechter Batteriekontakt</string>
+    <string name="oppo_charge_timeout">Der Akku wurde zu lange geladen, bitte entfernen Sie das Kabel vom Telefon!</string>
+    <string name="oppo_battery_charge_soc_fall">Stromverbrauch ist zu hoch; Bitte versuchen Sie die Anwendungen, die dieses Problem verursacht haben könnten, zu schließen!</string>
+    <string name="smeslist_dialog_title">Neue Termine</string>
+    <string name="sms_dialog_look">Anzeigen</string>
+    <string name="sms_dialog_close">Abbrechen</string>
+    <string name="oppo_nvrestore_title">Einige NV-Objekte sind ungültig</string>
+    <string name="oppo_nvrestore_ticker">Einige NV-Objekte sind ungültig</string>
+    <string name="oppo_nvrestore_text">Der Mobilfunk könnte sich wegen ungültigen NV-Objekten ungewöhnlich verhalten</string>
+    <string name="wifi_p2p_noncuncurrency_message">Wi-Fi Direct starten. Dadurch wird die WLAN-Verbindung getrennt.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">Dieser Vorgang trennt alle existierenden WLAN-Verbindungen.</string>
+    <string name="permission_security_title">Sicherheitswarnung</string>
+    <string name="permission_security_label">" versucht zu "</string>
+    <string name="permission_settings_prompt">Bitte stellen Sie die Optionen unter \"Einstellungen-Allgemeine Einstellungen für Sicherheit-Berechtigungs-Überwachung\" ein.</string>
+    <string name="permission_choice_label">選択を保存する</string>
+    <string name="reject_text">Ablehnen</string>
+    <string name="allow_text">Erlauben</string>
+    <string name="action_mode_done">Fertig</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

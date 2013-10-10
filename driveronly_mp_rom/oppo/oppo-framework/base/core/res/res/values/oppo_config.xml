@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="oppo_config_statusBarIcons">
+       <item><xliff:g id="id">ime</xliff:g></item>
+       <item><xliff:g id="id">sync_failing</xliff:g></item>
+       <item><xliff:g id="id">sync_active</xliff:g></item>
+       <item><xliff:g id="id">gps</xliff:g></item>
+       <item><xliff:g id="id">bluetooth</xliff:g></item>
+       <item><xliff:g id="id">nfc</xliff:g></item>
+       <!-- M: Support "SystemUI Headset icon" feature. -->
+       <item><xliff:g id="id">headset</xliff:g></item>
+       <item><xliff:g id="id">tty</xliff:g></item>
+       <item><xliff:g id="id">speakerphone</xliff:g></item>
+       <item><xliff:g id="id">mute</xliff:g></item>
+       <item><xliff:g id="id">volume</xliff:g></item>
+       <item><xliff:g id="id">wifi</xliff:g></item>
+       <item><xliff:g id="id">cdma_eri</xliff:g></item>
+       <item><xliff:g id="id">phone_signal_second_sub</xliff:g></item>
+       <item><xliff:g id="id">data_connection</xliff:g></item>
+       <item><xliff:g id="id">phone_evdo_signal</xliff:g></item>
+       <item><xliff:g id="id">phone_signal</xliff:g></item>
+       <item><xliff:g id="id">battery</xliff:g></item>
+       <item><xliff:g id="id">alarm_clock</xliff:g></item>
+       <item><xliff:g id="id">secure</xliff:g></item>
+       <item><xliff:g id="id">clock</xliff:g></item>
+       <item><xliff:g id="id">visitor_mode</xliff:g></item>
+       <item><xliff:g id="id">holidy_mode</xliff:g></item>
+       <item><xliff:g id="id">power_save_mode</xliff:g></item>
+	   <item><xliff:g id="id">touch_pad</xliff:g></item>
+    </string-array>
+
+    <!-- The duration (in milliseconds) of a min animation. -->
+    <integer name="oppo_config_minAnimTime">30</integer>
+    <!-- The duration (in milliseconds) of a low animation. -->
+    <integer name="oppo_config_lowAnimTime">150</integer>
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jianrong.Zheng@Prd.BasicSrv.BatteryManager, 2012/09/06, Add for  -->
+    <integer name="oppo_config_screenBrightnessDim">10</integer>
+<!-- #endif //VENDOR_EDIT -->
+    
+    <!---->
+    <integer name="oppo_default_mode">1</integer>
+    <integer name="oppo_longstand_mode">2</integer>
+    <integer name="oppo_shade_mode">3</integer>
+	
+    <integer name="oppo_config_orienAnimTime">300</integer>    
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- SheTao@Prd.BasicSrv.PowerManager, 2012/07/06, Add for  -->
+    
+    <integer-array name="oppo_config_autoBrightnessLevels">
+        <item>30</item>
+        <item>800</item>
+        <item>2500</item>
+        <item>5500</item>
+        <item>8500</item>
+        <item>65535</item>
+    </integer-array>
+
+    <integer-array name="oppo_config_autoBrightnessLcdBacklightValues">
+        <item>31</item>
+        <item>71</item>
+        <item>101</item>
+        <item>131</item>
+        <item>161</item>
+        <item>131</item>
+    </integer-array>
+
+    <integer-array name="oppo_config_autoBrightnessButtonBacklightValues">
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>140</item>
+        <item>180</item>
+    </integer-array>
+
+    <integer-array name="oppo_config_autoBrightnessKeyboardBacklightValues">
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>140</item>
+        <item>180</item>
+    </integer-array>
+
+    <integer name="oppo_config_lightSensorWarmupTime">500</integer>
+<!-- #endif //VENDOR_EDIT -->
+
+<!-- Jianrong.Zheng@Prd.BasicSrv.BatteryManager, 2012/07/26, Add for [], { -->
+    <integer name="oppo_config_criticalBatteryWarningLevel">2</integer>
+	
+    <integer name="oppo_config_secondlowBatteryWarningLevel">10</integer>
+
+    <integer name="oppo_config_lowBatteryWarningLevel">20</integer>
+
+    <integer name="oppo_config_lowBatteryCloseWarningLevel">25</integer>
+    
+    <integer name="oppo_config_tomorrowLowBatteryWarningLevel">40</integer>
+    
+    <integer name="oppo_config_lowBatteryVoltageWarningLevel">3300</integer>
+    
+    <integer name="oppo_config_highBatteryVoltageWarningLevel">4500</integer>
+    
+    <integer name="oppo_config_lowChargerVoltageWarningLevel">4400</integer>
+    
+    <integer name="oppo_config_highChargerVoltageWarningLevel">5800</integer>
+    
+    <string translatable="false" name="oppo_config_charging_notify_sound">/system/media/audio/ui/Usb.ogg</string>
+<!-- //} add end for []. -->
+
+<!-- #ifdef VENDOR_EDIT -->
+<!--Jun.Zhang@Plf.Framework.Vibrator, 2012/9/27, port for upgrade android4.1-->
+<!-- Jiangtao.Guo@Prd.SysSrv.InputManager, 2012/08/06, Add for  -->
+
+    <!-- Vibrator pattern for feedback about touching a virtual key -->
+    <integer-array name="oppo_config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+    </integer-array>
+
+	 <!-- Vibrator pattern for feedback about a long screen/key press -->
+	<integer-array name="oppo_config_longPressVibePattern">
+		<item>0</item>
+		<item>1</item>
+		<item>10</item>
+		<item>50</item>
+	</integer-array>
+    
+<!-- #endif //VENDOR_EDIT -->
+
+    <!-- Maximum number of grid columns permitted in the ResolverActivity
+         used for picking activities to handle an intent. -->
+    <integer name="oppo_config_maxResolverActivityColumns">3</integer>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- #@OppoHook -->
+<!-- wangzequan@EXP.wxSysFrame.usb, 2013/05/29, Add for wx use google's,not baidu's -->
+    <!-- Component name of the service providing geocoder API support.use google's -->
+    <string name="config_geocodeProvider1" translatable="false">com.baidu.bms.location.BaiduGeocodeProvider</string>
+    <string name="config_geocodeProvider2" translatable="false">com.android.location.service.GeocodeProvider</string>
+<!-- #endif //VENDOR_EDIT -->
+    <!-- #ifdef VENDOR_EDIT -->
+	<!-- #@OppoHook only EXP used-->
+	<!-- wangzequan@SysFramework.PhoneWindow, 2013/06/28, Add for exp long press home for google now -->
+	<!--3 - start for Google Now config_longPressOnHomeBehavior_exp for exp behavior
+	    the other home behavior is framework/base/core/res/values/config.xml
+     -->
+    <integer name="config_longPressOnHomeBehavior_exp">3</integer>
+    <!-- #endif //VENDOR_EDIT -->
+</resources>

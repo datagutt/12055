@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="oppo_select_ringtone_old">
+        <!-- ringtone begin  -->
+        <item>ringtone_001</item>
+        <item>ringtone_002</item>
+        <item>ringtone_003</item>
+        <item>ringtone_004</item>
+        <item>ringtone_005</item>
+        <item>ringtone_006</item>
+        <item>ringtone_007</item>
+        <item>ringtone_008</item>
+        <item>ringtone_009</item>
+        <item>ringtone_010</item>
+        <item>ringtone_011</item>
+        <item>ringtone_012</item>
+        <item>ringtone_013</item>
+        <item>ringtone_014</item>
+        <item>ringtone_015</item>
+        <item>ringtone_016</item>
+        <item>ringtone_017</item>
+        <item>ringtone_018</item>
+        <item>ringtone_019</item>
+        <item>ringtone_020</item>
+        <!-- notification begin  -->
+        <item>notification_001</item>
+        <item>notification_002</item>
+        <item>notification_003</item>
+        <item>notification_004</item>
+        <item>notification_005</item>
+        <item>notification_006</item>
+        <item>notification_007</item>
+        <item>notification_008</item>
+        <item>notification_009</item>
+        <item>notification_010</item>
+        <item>notification_011</item>
+        <item>notification_012</item>
+        <item>notification_013</item>
+        <item>notification_014</item>
+        <item>notification_015</item>
+        <!-- alarm begin  -->
+        <item>alarm_001</item>
+        <item>alarm_002</item>
+        <item>alarm_003</item>
+        <item>alarm_004</item>
+        <item>alarm_005</item>
+        <item>alarm_006</item>
+        <item>alarm_007</item>
+        <item>alarm_008</item>
+    </string-array>
+    <string-array name="oppo_select_ringtone_new">
+        <item>Enjoy</item>
+        <item>Soul</item>
+        <item>Colorful life</item>
+        <item>Dancing On The Tradewinds</item>
+        <item>Colorful Day</item>
+        <item>Noon Time</item>
+        <item>Water</item>
+        <item>Delight</item>
+        <item>Rattled</item>
+        <item>Joyful</item>
+        <item>Ringtong 1</item>
+        <item>Ringtong 2</item>
+        <item>Mallets</item>
+        <item>Cordial</item>
+        <item>Funny</item>
+        <item>Sunrise</item>
+        <item>Jumping Finger</item>
+        <item>Night</item>
+        <item>Village</item>
+        <item>Up To Something</item>
+        <!-- notification begin  -->	
+        <item>Joy</item>
+        <item>Spar</item>
+        <item>Pure</item>
+        <item>Echo</item>
+        <item>Beginning</item>
+        <item>Acoustic Guitar</item>
+        <item>Mira</item>
+        <item>Adara</item>
+        <item>Beam</item>
+        <item>Fresh</item>
+        <item>Harp</item>
+        <item>Tambourine</item>
+        <item>Bird</item>
+        <item>Drop</item>
+        <item>Naughty</item>
+        <!-- alarm begin  -->
+        <item>Sea</item>
+        <item>Forest</item>
+        <item>On The Bright Side</item>
+        <item>Distant</item>
+        <item>Comfortable</item>
+        <item>Alarm Beep</item>
+        <item>Morning</item>
+        <item>Relax And Chill</item>		
+    </string-array>   
+</resources>

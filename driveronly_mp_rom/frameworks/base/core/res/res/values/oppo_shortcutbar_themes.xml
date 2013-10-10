@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_Shortcutbar_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoShortcutBar's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Hu Zhaohui@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Hu Zhaohui      2010/09/10    create
+** *****************************************************************************
+*/
+-->
+<resources>
+
+    
+    <integer name="oppo_shortcutbar_max_child_count">4</integer>
+    <integer name="oppo_shortcutbar_childlike">2</integer>
+    <integer name="oppo_shortcutbar_during">300</integer>
+    <integer name="oppo_shortcutbar_category">0</integer>
+    <integer name="oppo_shortcutbar_keymore">-1</integer>
+
+    <bool name="oppo_shortcutbar_animated">false</bool>
+    
+</resources>

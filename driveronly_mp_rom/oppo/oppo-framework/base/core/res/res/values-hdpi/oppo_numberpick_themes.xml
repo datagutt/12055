@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_numberpick_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoNumberPicker's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2012/08/28
+** Author: Feng Xiaokang@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Feng Xiaokang       2012/08/28    create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+
+	  <!-- color -->
+	 <color name ="oppo_numberpicker_text_color">#ff0b984b</color>
+	  
+	  <!-- string -->
+	 <string name="oppo_lunar_leap_11">闰十一</string>
+   	<string name="oppo_lunar_leap_12">闰十二</string>
+    
+	  <!-- dimen -->
+	  
+	  <dimen name="oppo_numberpicker_button_width">80dp</dimen>
+	  <dimen name="oppo_numberpicker_button_height">57dp</dimen>
+	  
+	  <dimen name="oppo_numberpicker_height">144dp</dimen>
+	  
+         <dimen name="oppo_timepicker_width">296dp</dimen>
+	  <dimen name="oppo_timepicker_height">@dimen/oppo_numberpicker_height</dimen>
+
+	  <dimen name="oppo_datepicker_width">296dp</dimen>
+	  <dimen name="oppo_datepicker_height">@dimen/oppo_numberpicker_height</dimen>
+
+	  <dimen name="oppo_big_numberpicker_width">111dp</dimen>
+	  <dimen name="oppo_small_numberpicker_width">81dp</dimen>
+	  
+         <dimen name="oppo_big_numberpicker_clipLength">40dp</dimen>
+         <dimen name="oppo_small_numberpicker_clipLength">27dp</dimen>
+	  
+         
+
+	  <dimen name="oppo_numberpicker_text_offset">0dp</dimen>
+</resources>
+

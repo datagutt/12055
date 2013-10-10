@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/********************************************************************************
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** All rights reserved.
+** VENDOR_EDIT
+** File: - oppo_toast_themes.xml
+** Description: 
+**     Toast's params used to customize OPPO GUI
+       used in Layout oppo_transient_notification.xml
+**     
+** Version: 1.0
+** Date: 2013/02/06
+** Author: Zhichao.Fan@Plf.MidWare.SDK
+** 
+** ******************************************************************************
+** <author>						<data>		<version>	<desc>
+** ******************************************************************************
+** Zhichao.Fan@Plf.MidWare.SDK	2013/02/06	1.0			build this moudle
+********************************************************************************/
+-->
+
+<resources>
+
+    <!-- dimen -->
+    <dimen name="oppo_optionmenubar_more_text_size_1">11sp</dimen>
+    <dimen name="oppo_actionbar_and_list_small_text_size_2">12sp</dimen>
+    <dimen name="oppo_normal_content_text_size_3">13sp</dimen>
+    <dimen name="oppo_tab_and_toast_and_edittext_text_size_4">15sp</dimen>
+    <dimen name="oppo_actionbar_and_list_big_text_size_5">17sp</dimen>
+    <dimen name="oppo_dialog_title_text_size_6">20sp</dimen>
+    <dimen name="oppo_optionmenubar_major_text_size_7">19sp</dimen>
+    
+
+    <color name="oppo_actionbar_and_list_small_text_color">#999D9C</color>
+    <color name="oppo_actionbar_and_list_big_text_color">#333333</color>
+    <color name="oppo_actionbar_and_list_big_text_color_disable">#4C999D9C</color>
+    <color name="oppo_actionbar_mark_mode_text_color">#E8E8E8</color>
+    
+    <color name="oppo_tab_text_color_normal">#494b4b</color>
+    <color name="oppo_tab_text_color_pressed">#0b984b</color>
+    
+    <color name="oppo_edittext_color_disable">@color/oppo_actionbar_and_list_small_text_color</color>
+    
+    <color name="oppo_dialog_title_color">#0B984B</color>
+    <color name="oppo_dialog_button_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>
+    
+    
+    <color name="oppo_optionmenubar_more_text_color_normal">#939392</color>
+</resources>
+

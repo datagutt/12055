@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_menu_panel_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OptionMenu's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/10/19
+** Author: Fu Liangjing@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Fu Liangjing  	2010/10/12  create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <!-- The duration (in milliseconds) of a short animation. -->
+    <integer name="oppo_menu_config_animTime">200</integer>
+    <integer name="oppo_menu_config_alphaTime">100</integer>
+    
+    <color name="oppo_menu_default_text_color">#ff3e424a</color>
+    <color name="oppo_menu_disable_text_color">#ff3e424a</color> 	
+    
+    
+</resources>

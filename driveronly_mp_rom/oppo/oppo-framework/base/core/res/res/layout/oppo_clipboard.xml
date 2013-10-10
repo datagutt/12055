@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/oppo_clipboard_bg"
+    >
+	<RelativeLayout
+	    android:id="@+id/clip_operatalLayer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp"
+	    >
+	    <Button 
+	    	android:id="@+id/clip_clear_all"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="8dp"
+	        android:background="@drawable/oppo_clip_btn_clear_all"
+	        />
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    >
+		    
+		    <Button 
+		        android:id="@+id/clip_mode_copy"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/oppo_clip_button_left"
+		        android:textSize="14sp"
+		        android:text="@string/clip_mode_copy"
+		        style="@style/PathBar_TextAppearance_style"
+		        />
+		    <Button 
+		        android:id="@+id/clip_mode_cut"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/oppo_clip_button_right"
+		        android:textSize="14sp"
+		        android:text="@string/clip_mode_cut"
+		        style="@style/PathBar_TextAppearance_style"
+		        />
+		        
+	    </LinearLayout>
+	    <!-- select all to close the clipboard -->
+	    <Button android:id="@+id/clip_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="8dp"
+	        android:background="@drawable/oppo_clip_btn_close"
+	        />
+	</RelativeLayout>
+        
+    <com.oppo.widget.OppoClipBoardView 
+        android:id="@+id/clip_files"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/clip_operatalLayer"
+        android:layout_marginTop="12dip"
+        android:layout_marginBottom="2dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:transcriptMode="alwaysScroll"
+        android:cacheColorHint="#00000000"
+        android:background="@null"
+        />
+    <TextView 
+    	android:id="@+id/clip_function_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clip_operatalLayer"
+        android:layout_marginTop="13dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
+        android:textSize="14sp"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:visibility="gone"
+    	/>
+</RelativeLayout>

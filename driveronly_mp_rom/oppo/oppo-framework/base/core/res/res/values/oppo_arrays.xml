@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- liyang@Pdt.Audio.RingtoneMgr, 2012/07/11, Add for ringtone name list -->
+    <string-array name="oppo_select_ringtone_old">
+        <!-- ringtone begin  -->
+        <item>ringtone_001</item>
+        <item>ringtone_002</item>
+        <item>ringtone_003</item>
+        <item>ringtone_004</item>
+        <item>ringtone_005</item>
+        <item>ringtone_006</item>
+        <item>ringtone_007</item>
+        <item>ringtone_008</item>
+        <item>ringtone_009</item>
+        <item>ringtone_010</item>
+        <item>ringtone_011</item>
+        <item>ringtone_012</item>
+        <item>ringtone_013</item>
+        <item>ringtone_014</item>
+        <item>ringtone_015</item>
+        <item>ringtone_016</item>
+        <item>ringtone_017</item>
+        <item>ringtone_018</item>
+        <item>ringtone_019</item>
+        <item>ringtone_020</item>
+        <!-- notification begin  -->
+        <item>notification_001</item>
+        <item>notification_002</item>
+        <item>notification_003</item>
+        <item>notification_004</item>
+        <item>notification_005</item>
+        <item>notification_006</item>
+        <item>notification_007</item>
+        <item>notification_008</item>
+        <item>notification_009</item>
+        <item>notification_010</item>
+        <item>notification_011</item>
+        <item>notification_012</item>
+        <item>notification_013</item>
+        <item>notification_014</item>
+        <item>notification_015</item>
+        <!-- alarm begin  -->
+        <item>alarm_001</item>
+        <item>alarm_002</item>
+        <item>alarm_003</item>
+        <item>alarm_004</item>
+        <item>alarm_005</item>
+        <item>alarm_006</item>
+        <item>alarm_007</item>
+        <item>alarm_008</item>
+    </string-array>
+    
+    <string-array name="oppo_select_ringtone_new">
+        <item>Enjoy</item>
+        <item>Soul</item>
+        <item>Colorful life</item>
+        <item>Dancing On The Tradewinds</item>
+        <item>Colorful Day</item>
+        <item>Noon Time</item>
+        <item>Water</item>
+        <item>Delight</item>
+        <item>Rattled</item>
+        <item>Joyful</item>
+        <item>Ringtong 1</item>
+        <item>Ringtong 2</item>
+        <item>Mallets</item>
+        <item>Cordial</item>
+        <item>Funny</item>
+        <item>Sunrise</item>
+        <item>Jumping Finger</item>
+        <item>Night</item>
+        <item>Village</item>
+        <item>Up To Something</item>
+        <!-- notification begin  -->
+        <item>Joy</item>
+        <item>Spar</item>
+        <item>Pure</item>
+        <item>Echo</item>
+        <item>Beginning</item>
+        <item>Acoustic Guitar</item>
+        <item>Mira</item>
+        <item>Adara</item>
+        <item>Beam</item>
+        <item>Fresh</item>
+        <item>Harp</item>
+        <item>Tambourine</item>
+        <item>Bird</item>
+        <item>Drop</item>
+        <item>Naughty</item>
+        <!-- alarm begin  -->
+        <item>Sea</item>
+        <item>Forest</item>
+        <item>On The Bright Side</item>
+        <item>Distant</item>
+        <item>Comfortable</item>
+        <item>Alarm Beep</item>
+        <item>Morning</item>
+        <item>Relax And Chill</item>
+    </string-array>   
+    <!-- #endif //VENDOR_EDIT -->
+    
+    <!--add for OppoFileOperator end-->
+    <string-array name="two_list">
+        <item>From System</item>
+        <item>From File</item>
+    </string-array>
+    
+    <string-array name="normal_touchsearch_keys" translatable="false">
+        <item>*</item>
+        <item>#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+   </string-array>
+
+   <string-array name="union_touchsearch_keys" translatable="false">
+        <!--<item>*</item>-->
+        <item>#</item>
+        <item>A</item>
+        <item>•</item>
+        <item>D</item>
+        <item>•</item>
+        <item>G</item>
+        <item>•</item>
+        <item>I</item>
+        <item>•</item>
+        <item>L</item>
+        <item>•</item>
+        <item>O</item>
+        <item>•</item>
+        <item>R</item>
+        <item>•</item>
+        <item>T</item>
+        <item>•</item>
+        <item>W</item>
+        <item>•</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="touchsearch_side_keys_drawable" translatable="false">
+        <item>touchsearch_popup_search</item>
+        <item>touchsearch_well</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+
+    <!--Jianhua.Lin@Plf.Framework.SDK, add for OppoTouchSearchView,2013-02-17-->  
+    <string-array name="touchsearch_side_keys_pressed_drawable" translatable="false">
+        <item>touchsearch_popup_search_pressed</item>
+        <item>touchsearch_well_pressed</item>
+        <item>a_pressed</item>
+        <item>b_pressed</item>
+        <item>c_pressed</item>
+        <item>d_pressed</item>
+        <item>e_pressed</item>
+        <item>f_pressed</item>
+        <item>g_pressed</item>
+        <item>h_pressed</item>
+        <item>i_pressed</item>
+        <item>j_pressed</item>
+        <item>k_pressed</item>
+        <item>l_pressed</item>
+        <item>m_pressed</item>
+        <item>n_pressed</item>
+        <item>o_pressed</item>
+        <item>p_pressed</item>
+        <item>q_pressed</item>
+        <item>r_pressed</item>
+        <item>s_pressed</item>
+        <item>t_pressed</item>
+        <item>u_pressed</item>
+        <item>v_pressed</item>
+        <item>w_pressed</item>
+        <item>x_pressed</item>
+        <item>y_pressed</item>
+        <item>z_pressed</item>
+    </string-array>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- MingLu.Tu@Exp.DataComm.Contacts, 2013/05/30, Add for [multinational touch search view] -->
+    <string-array name="normal_touchsearch_keys_multi" translatable="false">
+        <item>*</item>
+        <item>#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+ 
+	<item>Â</item>
+	<item>Ê</item>
+	<item>Ô</item>
+	<item>Ơ</item>
+	<item>Ă</item>
+	<item>Đ</item>
+	<item>Ư</item>
+	
+	<item>Ё</item>
+	<item>А</item>
+	<item>Б</item>
+	<item>В</item>
+	<item>Г</item>
+	<item>Д</item>
+	<item>Е</item>
+	<item>Ж</item>
+	<item>З</item>
+	<item>И</item>
+	<item>Й</item>
+	<item>К</item>
+	<item>Л</item>
+	<item>М</item>
+	<item>Н</item>
+	<item>О</item>
+	<item>П</item>
+	<item>Р</item>
+	<item>С</item>
+	<item>Т</item>
+	<item>У</item>
+	<item>Ф</item>
+	<item>Х</item>
+	<item>Ц</item>
+	<item>Ч</item>
+	<item>Ш</item>
+	<item>Щ</item>
+	<item>Ъ</item>
+	<item>Ы</item>
+	<item>Ь</item>
+	<item>Э</item>
+	<item>Ю</item>
+	<item>Я</item>
+	
+	<item>ت</item>
+	<item>ث</item>
+	<item>ج</item>
+	<item>ح</item>
+	<item>خ</item>
+	<item>د</item>
+	<item>غ</item>
+	<item>ي</item>
+	<item>أ</item>
+	<item>ب</item>
+	<item>ذ</item>
+	<item>ر</item>
+	<item>ز</item>
+	<item>س</item>
+	<item>ش</item>
+	<item>ص</item>
+	<item>ض</item>
+	<item>ط</item>
+	<item>ظ</item>
+	<item>ع</item>
+	<item>ف</item>
+	<item>ق</item>
+	<item>ك</item>
+	<item>ل</item>
+	<item>م</item>
+	<item>ن</item>
+	<item>ه</item>
+	<item>و</item>
+	
+	<item>ก</item>
+	<item>ข</item>
+	<item>ฃ</item>
+	<item>ค</item>
+	<item>ฅ</item>
+	<item>๑</item>
+	<item>ฆ</item>
+	<item>ง</item>
+	<item>จ</item>
+	<item>ฉ</item>    
+	<item>๒</item>
+	<item>ช</item>
+	<item>ซ</item>
+	<item>ฌ</item>
+	<item>ญ</item>
+	<item>๓</item>
+	<item>ฎ</item>
+	<item>ฏ</item>
+	<item>ฐ</item>
+	<item>ฑ</item>
+	<item>ฒ</item>
+	<item>ณ</item>
+	<item>๔</item>
+	<item>ด</item>
+	<item>ต</item>
+	<item>ถ</item>
+	<item>ท</item>
+	<item>ธ</item>
+	<item>๕</item>
+	<item>น</item>
+	<item>บ</item>
+	<item>ป</item>
+	<item>ผ</item>
+	<item>ฝ</item>
+	<item>๖</item>
+	<item>พ</item>
+	<item>ฟ</item>
+	<item>ภ</item>
+	<item>ม</item>
+	<item>ย</item>
+	<item>๗</item>
+	<item>ร</item>
+	<item>ฤ</item>
+	<item>ล</item>
+	<item>ฦ</item>
+	<item>ว</item>
+	<item>ศ</item>
+	<item>ษ</item>
+	<item>๘</item>
+	<item>ส</item>
+	<item>ห</item>
+	<item>ฬ</item>
+	<item>อ</item>
+	<item>ฮ</item>
+	<item>๙</item>
+	</string-array>
+	
+	<string-array name="touchsearch_keys_drawable_multi" translatable="false">
+    <item>touchsearch_popup_search</item>
+    <item>touchsearch_well</item>
+	<item>a</item>
+	<item>b</item>
+	<item>c</item>
+	<item>d</item>	
+	<item>e</item>
+	<item>f</item>
+	<item>g</item>
+	<item>h</item>
+	<item>i</item>
+	<item>j</item>
+	<item>k</item>
+	<item>l</item>	
+	<item>m</item>
+	<item>n</item>
+	<item>o</item>
+	<item>p</item>
+	<item>q</item>
+	<item>r</item>
+	<item>s</item>
+	<item>t</item>	
+	<item>u</item>
+	<item>v</item>
+	<item>w</item>
+	<item>x</item>
+	<item>y</item>
+	<item>z</item>
+	
+	<item>v00c2</item>
+	<item>v00ca</item>
+	<item>v00d4</item>
+	<item>v01a0</item>
+	<item>v0102</item>
+	<item>v0110</item>
+	<item>v01af</item>
+	
+	<item>r0401</item>
+	<item>r0410</item>
+	<item>r0411</item>
+	<item>r0412</item>
+	<item>r0413</item>
+	<item>r0414</item>
+	<item>r0415</item>
+	<item>r0416</item>
+	<item>r0417</item>
+	<item>r0418</item>
+	<item>r0419</item>
+	<item>r041a</item>
+	<item>r041b</item>
+	<item>r041c</item>
+	<item>r041d</item>
+	<item>r041e</item>
+	<item>r041f</item>
+	<item>r0420</item>
+	<item>r0421</item>
+	<item>r0422</item>
+	<item>r0423</item>
+	<item>r0424</item>
+	<item>r0425</item>
+	<item>r0426</item>
+	<item>r0427</item>
+	<item>r0428</item>
+	<item>r0429</item>
+	<item>r042a</item>
+	<item>r042b</item>
+	<item>r042c</item>
+	<item>r042d</item>
+	<item>r042e</item>
+	<item>r042f</item>
+	
+	<item>a062a</item>
+	<item>a062b</item>
+	<item>a062c</item>
+	<item>a062d</item>
+	<item>a062e</item>
+	<item>a062f</item>
+	<item>a063a</item>
+	<item>a064a</item>
+	<item>a0623</item>
+	<item>a0628</item>
+	<item>a0630</item>
+	<item>a0631</item>
+	<item>a0632</item>
+	<item>a0633</item>
+	<item>a0634</item>
+	<item>a0635</item>
+	<item>a0636</item>
+	<item>a0637</item>
+	<item>a0638</item>
+	<item>a0639</item>
+	<item>a0641</item>
+	<item>a0642</item>
+	<item>a0643</item>
+	<item>a0644</item>
+	<item>a0645</item>
+	<item>a0646</item>
+	<item>a0647</item>
+	<item>a0648</item>
+	
+	<item>t0e01</item>
+    <item>t0e02</item>
+	<item>t0e03</item>
+	<item>t0e04</item>
+	<item>t0e05</item>
+	<item>t0e51</item>
+	<item>t0e06</item>
+	<item>t0e07</item>
+	<item>t0e08</item>
+	<item>t0e09</item>
+	<item>t0e52</item>
+	<item>t0e0a</item>
+	<item>t0e0b</item>
+	<item>t0e0c</item>
+	<item>t0e0d</item>
+	<item>t0e53</item>
+	<item>t0e0e</item>
+	<item>t0e0f</item>
+	<item>t0e10</item>
+	<item>t0e11</item>
+	<item>t0e12</item>
+	<item>t0e13</item>
+	<item>t0e54</item>
+	<item>t0e14</item>
+	<item>t0e15</item>
+	<item>t0e16</item>
+	<item>t0e17</item>
+	<item>t0e18</item>
+	<item>t0e55</item>
+	<item>t0e19</item>
+	<item>t0e1a</item>
+	<item>t0e1b</item>
+	<item>t0e1c</item>
+	<item>t0e1d</item>
+	<item>t0e56</item>
+	<item>t0e1e</item>
+	<item>t0e1f</item>
+	<item>t0e20</item>
+	<item>t0e21</item>
+	<item>t0e22</item>
+	<item>t0e57</item>
+	<item>t0e23</item>
+	<item>t0e24</item>
+	<item>t0e25</item>
+	<item>t0e26</item>
+	<item>t0e27</item>
+	<item>t0e28</item>
+	<item>t0e29</item>
+	<item>t0e58</item>
+	<item>t0e2a</item>
+	<item>t0e2b</item>
+	<item>t0e2c</item>
+	<item>t0e2d</item>
+	<item>t0e2e</item>
+	<item>t0e59</item>
+    </string-array>
+    <!-- #endif VENDOR_EDIT -->
+    
+      <!-- add begin by zengzhigang 2011-03-09 for resovle english and chinese plmn name -->
+  <string-array name="oppo_plmn_mcc_mnc">
+    <item><xliff:g id="id">46001mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46000mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46002mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45406mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45410mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45412mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45415mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45416mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45419mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45500mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45501mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45503mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45504mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45505mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46601mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46688mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46689mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46692mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46693mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46697mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46699mmcmnc</xliff:g></item>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2013/06/08,
+          add begin by wuyisheng 2013-02-04 for resovle russia plmn name -->
+    <item><xliff:g id="id">25001mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25002mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25003mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25005mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25007mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25012mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25014mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25016mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25017mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25019mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25020mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25023mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25039mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25099mmcmnc</xliff:g></item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle vietnam plmn name -->
+    <item><xliff:g id="id">45201mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45202mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45204mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45205mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45207mmcmnc</xliff:g></item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Indonesia plmn name -->
+    <item><xliff:g id="id">51001mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51008mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51010mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51011mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51089mmcmnc</xliff:g></item>  
+<!-- #endif VENDOR_EDIT-->
+  </string-array>
+  <array name="oppo_plmn_name">
+    <item>@string/mmcmnc46001</item>
+    <item>@string/mmcmnc46000</item>
+    <item>@string/mmcmnc46002</item>
+    <item>@string/mmcmnc45406</item>
+    <item>@string/mmcmnc45410</item>
+    <item>@string/mmcmnc45412</item>
+    <item>@string/mmcmnc45415</item>
+    <item>@string/mmcmnc45416</item>
+    <item>@string/mmcmnc45419</item>
+    <item>@string/mmcmnc45500</item>
+    <item>@string/mmcmnc45501</item>
+    <item>@string/mmcmnc45503</item>
+    <item>@string/mmcmnc45504</item>
+    <item>@string/mmcmnc45505</item>
+    <item>@string/mmcmnc46601</item>
+    <item>@string/mmcmnc46688</item>
+    <item>@string/mmcmnc46689</item>
+    <item>@string/mmcmnc46692</item>
+    <item>@string/mmcmnc46693</item>
+    <item>@string/mmcmnc46697</item>
+    <item>@string/mmcmnc46699</item>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2013/06/08,
+          add begin by wuyisheng 2013-02-04 for resovle russia plmn name -->
+    <item>@string/mmcmnc25001</item>
+    <item>@string/mmcmnc25002</item>
+    <item>@string/mmcmnc25003</item>
+    <item>@string/mmcmnc25005</item>
+    <item>@string/mmcmnc25007</item>
+    <item>@string/mmcmnc25012</item>
+    <item>@string/mmcmnc25014</item>
+    <item>@string/mmcmnc25016</item>
+    <item>@string/mmcmnc25017</item>
+    <item>@string/mmcmnc25019</item>
+    <item>@string/mmcmnc25020</item>
+    <item>@string/mmcmnc25023</item>
+    <item>@string/mmcmnc25039</item>
+    <item>@string/mmcmnc25099</item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Vietnam plmn name -->
+    <item>@string/mmcmnc45201</item>
+    <item>@string/mmcmnc45202</item>
+    <item>@string/mmcmnc45204</item>
+    <item>@string/mmcmnc45205</item>
+    <item>@string/mmcmnc45207</item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Indonesia plmn name -->
+    <item>@string/mmcmnc51001</item>
+    <item>@string/mmcmnc51008</item>
+    <item>@string/mmcmnc51010</item>
+    <item>@string/mmcmnc51011</item>
+    <item>@string/mmcmnc51089</item>
+<!-- #endif VENDOR_EDIT-->
+  </array>    
+  <!-- add end by zengzhigang 2011-03-09 for resovle english and chinese plmn name -->
+  
+  <string-array name="oppo_permissions_prompt">
+    <item>make a call</item>
+    <item>access call logs</item>
+    <item>access contacts</item>
+    <item>access sms or mms</item>
+    <item>send message</item>
+    <item>enable/disable mobile data</item>
+    <item>enable/disable Wi-Fi</item>
+    <item>enable/disable Bluetooth</item>
+    <item>get phone location</item>
+    <item>take a photo/video</item>
+    <item>record voice</item>
+    <item>enable NFC</item>
+  </string-array>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2012/08/22, added for requirement: rtc 120187  -->
+  <string-array name="oppo_time_picker_ampm">
+    <item>AM</item>
+    <item>PM</item>
+  </string-array>
+<!-- #endif VENDOR_EDIT-->
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- Jianjun.Dan@@Prf.Framework.SDK add for preload resoueces array  -->
+    <array name="oppo_preloaded_drawables">
+        <item>@drawable/oppo_shortcut_button_bg</item>
+        <item>@drawable/oppo_tab_widget_bg</item>
+        <item>@drawable/oppo_activity_title_bar</item>
+        <item>@drawable/oppo_btn_default</item>
+        <item>@drawable/oppo_btn_check</item>
+        <item>@drawable/oppo_btn_radio</item>
+        <item>@drawable/oppo_btn_default_small</item>
+        <item>@drawable/oppo_divider_horizontal_dark_opaque</item>
+        <item>@drawable/oppo_toggle_off</item>
+        <item>@drawable/oppo_toggle_off_disable</item>
+        <item>@drawable/oppo_toggle_on</item>
+        <item>@drawable/oppo_toggle_on_disable</item>
+        <item>@drawable/oppo_toggle_pint</item>
+        <item>@drawable/oppo_list_view_top</item>
+        <item>@drawable/oppo_list_view_mi</item>
+        <item>@drawable/oppo_list_view_bm</item>
+        <item>@drawable/oppo_list_view_background</item>
+        <item>@drawable/oppo_list_selector_background_top</item>
+        <item>@drawable/oppo_list_selector_background_mid</item>
+        <item>@drawable/oppo_list_selector_background_bottom</item>
+        <item>@drawable/oppo_list_selector_background_only</item>
+        <item>@drawable/oppo_list_item_bottom_select</item>
+        <item>@drawable/oppo_list_item_round_select</item>
+        <item>@drawable/oppo_list_item_top_select</item>
+        <item>@drawable/oppo_list_item_middle_select</item>
+        <item>@drawable/oppo_list_selector_background_focus</item>
+        <item>@drawable/oppo_list_selector_background_longpress</item>
+        <item>@drawable/oppo_list_selector_background_pressed</item>
+        <item>@drawable/oppo_popup_alertdialog_title_bar</item>
+        <item>@drawable/oppo_popup_alertdialog_list_area</item>
+        <item>@drawable/oppo_popup_alertdialog_button_area</item>
+        <item>@drawable/oppo_popup_alertdialog_content_full</item>
+        <item>@drawable/oppo_popup_alertdialog_content_area</item>
+        <item>@drawable/oppo_progressbar_progress_full</item>
+        <item>@drawable/oppo_progressbar_bg_full</item>
+        <item>@drawable/oppo_seek_thumb_normal</item>
+        <item>@drawable/oppo_seek_thumb_pressed</item>
+        <item>@drawable/oppo_seek_thumb_selected</item>
+        <item>@drawable/oppo_alert_dialog_button</item>
+        <item>@drawable/oppo_scrollbar_handle_horizontal</item>
+        <item>@drawable/oppo_scrollbar_handle_vertical</item>
+        <item>@drawable/oppo_scrollviewbackground</item>
+        <item>@drawable/oppo_springlistviewbackground</item>
+        <item>@drawable/oppo_option_menu_bar_arrow_left</item>
+        <item>@drawable/oppo_option_menu_bar_arrow_right</item>
+        <item>@drawable/oppo_option_menu_bar_icon_more_disable</item>
+        <item>@drawable/oppo_option_menu_bar_icon_more_normal</item>
+        <item>@drawable/oppo_option_menu_bar_icon_more_pressed</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_background</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_default_normal</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_default_disable</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_default_pressed</item>
+	    <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_left_normal</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_left_disable</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_left_pressed</item>
+	    <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_middle_normal</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_middle_disable</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_middle_pressed</item>
+	    <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_right_normal</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_right_disable</item>
+        <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_right_pressed</item>
+        <item>@drawable/oppo_option_menu_bar_minor_operation_item_bg_pressed</item>
+        <item>@drawable/oppo_option_menu_bar_more_operation_bg</item>
+        <item>@drawable/oppo_option_menu_bar_more_operation_divider</item>
+        <item>@drawable/oppo_actionbar_tab_after_selected</item>
+        <item>@drawable/oppo_actionbar_tab_before_selected</item>
+        <item>@drawable/oppo_actionbar_tab_nomal_unselected</item>
+        <item>@drawable/oppo_actionbar_appicon_background_normal</item>
+        <item>@drawable/oppo_actionbar_appicon_background_pressed</item>
+        <item>@drawable/oppo_actionbar_button_background_disable</item>
+        <item>@drawable/oppo_actionbar_button_background_selected</item>
+        <item>@drawable/oppo_actionbar_select_all_normal</item>
+        <item>@drawable/oppo_actionbar_select_all_pressed</item>
+        <item>@drawable/oppo_actionbar_tab_head_selected</item>
+        <item>@drawable/oppo_actionbar_tab_middle_selected</item>
+        <item>@drawable/oppo_actionbar_tab_move</item>
+        <item>@drawable/oppo_actionbar_tab_tail_selected</item>
+        <item>@drawable/oppo_actionbar_unselect_all_normal</item>
+        <item>@drawable/oppo_actionbar_unselect_all_pressed</item>
+    </array>
+
+    <!-- Do not translate. These are all of the color state list resources that should be
+         preloaded by the zygote process before it starts forking application processes. -->
+    <array name="oppo_preloaded_color_state_lists">
+        <item>@color/oppo_primary_text_dark</item>
+        <item>@color/oppo_list_large_text_color</item>
+        <item>@color/oppo_list_small_text_color</item>
+        <item>@color/oppo_alert_dialog_title_text_color</item>
+        <item>@color/oppo_alert_dialog_content_text_color</item>
+        <item>@color/oppo_action_bar_title_textcolor_default</item>
+    </array>
+    <!-- #endif VENDOR_EDIT-->
+</resources>

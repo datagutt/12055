@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/********************************************************************************
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** All rights reserved.
+** VENDOR_EDIT
+** File: - oppo_preference_themes.xml
+** Description: 
+**     oppo preference themes for hdpi
+**     
+** Version: 1.0
+** Date: 2013/01/23
+** Author: Jianhui.Yu@Plf.MidWare.SDK
+** 
+** ******************************* Revision History: ****************************
+** <author>						<data>		<version>	<desc>
+** ******************************************************************************
+** Jianhui.Yu@Plf.MidWare.SDK	2013/01/23	1.0			build this moudle
+********************************************************************************/
+-->
+<resources>
+
+    <!-- CheckBoxPreference -->
+    <dimen name="oppo_preference_checkbox_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_checkbox_margin_right">-2dip</dimen>
+    <dimen name="oppo_preference_icon_margin_right">10dip</dimen>
+
+</resources>

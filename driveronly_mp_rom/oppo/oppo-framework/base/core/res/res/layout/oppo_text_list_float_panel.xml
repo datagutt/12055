@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is layout for the float panel of text view insertion.
+-->
+<android.widget.OppoFloatPanelView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/oppo_panel"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/oppo_text_toolbar_center_nor">
+    </LinearLayout>
+    <ImageView android:id="@+id/oppo_arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oppo_text_toolbar_position_arrow_up"
+        android:visibility="gone" />
+    <ImageView android:id="@+id/oppo_arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oppo_text_toolbar_position_arrow_down"
+        android:visibility="gone" />
+</android.widget.OppoFloatPanelView>

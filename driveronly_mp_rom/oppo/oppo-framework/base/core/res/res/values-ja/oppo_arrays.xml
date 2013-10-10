@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="oppo_select_ringtone_new">
+        <item>Enjoy</item>
+        <item>Soul</item>
+        <item>Colorful life</item>
+        <item>Village</item>
+        <item>Water</item>
+        <item>Delight</item>
+        <item>Lectro beat</item>
+        <item>Ringtong 1</item>
+        <item>Ringtong 2</item>
+        <item>Ringer</item>
+        <item>Mallets</item>
+        <item>Stars</item>
+        <item>Party</item>
+        <item>Crazy kids</item>
+        <item>Novel</item>
+        <item>Funny</item>
+        <item>Halfway home</item>
+        <item>Sunrize</item>
+        <item>Jumping finger</item>
+        <item>OPPO MP3</item>
+        <item>Joy</item>
+        <item>Pure</item>
+        <item>Echo</item>
+        <item>Beginning</item>
+        <item>Mira</item>
+        <item>Adara</item>
+        <item>Fresh</item>
+        <item>Bird</item>
+        <item>Drop</item>
+        <item>Naughty</item>
+        <item>Sea</item>
+        <item>Forest</item>
+        <item>New day</item>
+        <item>Music box</item>
+        <item>Alarm Beep</item>
+        <item>Wind elf</item>
+        <item>Morning</item>
+        <item>Relax and chill</item>
+    </string-array>
+    <string-array name="oppo_permissions_prompt">
+        <item>電話をかける</item>
+        <item>電話履歴を見る</item>
+        <item>電話帳を読み込む</item>
+        <item>SMSメッセージを読む</item>
+        <item>SMSメッセージを送る</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>午前</item>
+        <item>午後</item>
+    </string-array>
+</resources>

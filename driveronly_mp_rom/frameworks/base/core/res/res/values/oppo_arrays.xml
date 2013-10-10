@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+	<!-- #ifdef VENDOR_EDIT -->
+    <!-- liyang@Pdt.Audio.RingtoneMgr, 2012/07/11, Add for ringtone name list -->
+    <string-array name="oppo_select_ringtone_old">
+		<item>ringtone_001</item>
+		<item>ringtone_002</item>
+		<item>ringtone_003</item>
+		<item>ringtone_004</item>
+		<item>ringtone_005</item>
+		<item>ringtone_006</item>
+		<item>ringtone_007</item>
+		<item>ringtone_008</item>
+		<item>ringtone_009</item>
+		<item>ringtone_010</item>
+		<item>ringtone_011</item>
+		<item>ringtone_012</item>
+		<item>ringtone_013</item>
+		<item>ringtone_014</item>
+		<item>ringtone_015</item>
+		<item>ringtone_016</item>
+		<item>ringtone_017</item>
+		<item>ringtone_018</item>
+		<item>ringtone_019</item>
+		<item>ringtone_020</item>
+		<item>notification_001</item>
+		<item>notification_002</item>
+		<item>notification_003</item>
+		<item>notification_004</item>
+		<item>notification_005</item>
+		<item>notification_006</item>
+		<item>notification_007</item>
+		<item>notification_008</item>
+		<item>notification_009</item>
+		<item>notification_010</item>
+		<item>alarm_001</item>
+		<item>alarm_002</item>
+		<item>alarm_003</item>
+		<item>alarm_004</item>
+		<item>alarm_005</item>
+		<item>alarm_006</item>
+		<item>alarm_007</item>
+		<item>alarm_008</item>
+	</string-array>
+	
+	<string-array name="oppo_select_ringtone_new">
+		<item>Enjoy</item>
+		<item>Soul</item>
+		<item>Colorful Life</item>
+		<item>Village</item>
+		<item>Water</item>
+		<item>Delight</item>
+		<item>Lectro Beat</item>
+		<item>Ringtong 1</item>
+		<item>Ringtong 2</item>
+		<item>Ringer</item>
+		<item>Mallets</item>
+		<item>Stars</item>
+		<item>Party</item>
+		<item>Crazy Kids</item>
+		<item>Novel</item>
+		<item>Funny</item>
+		<item>HalfwayHome</item>
+		<item>Sunrise</item>
+		<item>Jumping Finger</item>
+		<item>OPPO MP3</item>
+		<item>Joy</item>
+		<item>Pure</item>
+		<item>Echo</item>
+		<item>Beginning</item>
+		<item>Mira</item>
+		<item>Adara</item>
+		<item>Fresh</item>
+		<item>Bird</item>
+		<item>Drop</item>
+		<item>Naughty</item>
+		<item>Sea</item>
+		<item>Forest</item>
+		<item>New Day</item>
+		<item>Music Box</item>
+		<item>Alarm Beep</item>
+		<item>Wind Elf</item>
+		<item>Morning</item>
+		<item>Relax And Chill</item>
+	</string-array>   
+    <!-- #endif //VENDOR_EDIT -->
+    <!--add for OppoFileOperator end-->
+    <string-array name="two_list">
+    	<item>From System</item>
+        <item>From File</item>
+    </string-array>
+    
+    <string-array name="normal_touchsearch_keys" translatable="false">
+     	<!--item>*</item-->
+     	<item>#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+   </string-array>
+
+   <string-array name="union_touchsearch_keys" translatable="false">
+   	<!--item>*</item-->
+   	<item>#</item>
+        <item>A</item>
+        <item>•</item>
+        <item>D</item>
+        <item>•</item>
+        <item>G</item>
+        <item>•</item>
+        <item>I</item>
+        <item>•</item>
+        <item>L</item>
+        <item>•</item>
+        <item>O</item>
+        <item>•</item>
+        <item>R</item>
+        <item>•</item>
+        <item>T</item>
+        <item>•</item>
+        <item>W</item>
+        <item>•</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="touchsearch_side_keys_drawable" translatable="false">
+        <!--item>touchsearch_search</item-->
+        <item>touchsearch_well</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+</resources>

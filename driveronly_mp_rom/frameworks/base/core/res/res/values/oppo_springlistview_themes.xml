@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wangyingli add for dialog 2010/09/10. -->
+<resources>
+    <color name="oppo_springlistview_background_color">#ff393939</color>
+</resources>

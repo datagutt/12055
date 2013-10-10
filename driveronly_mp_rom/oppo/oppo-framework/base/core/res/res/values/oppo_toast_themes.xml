@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/********************************************************************************
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** All rights reserved.
+** VENDOR_EDIT
+** File: - oppo_toast_themes.xml
+** Description: 
+**     Toast's params used to customize OPPO GUI
+       used in Layout oppo_transient_notification.xml
+**     
+** Version: 1.0
+** Date: 2013/02/06
+** Author: Zhichao.Fan@Plf.MidWare.SDK
+** 
+** ******************************************************************************
+** <author>						<data>		<version>	<desc>
+** ******************************************************************************
+** Zhichao.Fan@Plf.MidWare.SDK	2013/02/06	1.0			build this moudle
+********************************************************************************/
+-->
+
+<resources>
+
+    <!-- dimen -->
+    <dimen name="oppo_toast_padding_top">7dip</dimen>
+    <dimen name="oppo_toast_padding_bottom">10dip</dimen>
+    <dimen name="oppo_toast_padding_left">15dip</dimen>
+    <dimen name="oppo_toast_padding_right">15dip</dimen>
+    
+    <dimen name="oppo_toast_text_size">@dimen/oppo_normal_content_text_size_3</dimen>
+    <!--<color name="oppo_toast_text_color">@color/oppo_actionbar_and_list_big_text_color</color>-->
+    <color name="oppo_toast_text_color">#333333</color>
+</resources>
+

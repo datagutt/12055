@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="oppo_select_ringtone_old">
+        <item>ringtone_001</item>
+        <item>ringtone_002</item>
+        <item>ringtone_003</item>
+        <item>ringtone_004</item>
+        <item>ringtone_005</item>
+        <item>ringtone_006</item>
+        <item>ringtone_007</item>
+        <item>ringtone_008</item>
+        <item>ringtone_009</item>
+        <item>ringtone_010</item>
+        <item>ringtone_011</item>
+        <item>ringtone_012</item>
+        <item>ringtone_013</item>
+        <item>ringtone_014</item>
+        <item>ringtone_015</item>
+        <item>ringtone_016</item>
+        <item>ringtone_017</item>
+        <item>ringtone_018</item>
+        <item>ringtone_019</item>
+        <item>ringtone_020</item>
+        <item>notification_001</item>
+        <item>notification_002</item>
+        <item>notification_003</item>
+        <item>notification_004</item>
+        <item>notification_005</item>
+        <item>notification_006</item>
+        <item>notification_007</item>
+        <item>notification_008</item>
+        <item>notification_009</item>
+        <item>notification_010</item>
+        <item>alarm_001</item>
+        <item>alarm_002</item>
+        <item>alarm_003</item>
+        <item>alarm_004</item>
+        <item>alarm_005</item>
+        <item>alarm_006</item>
+        <item>alarm_007</item>
+        <item>alarm_008</item>
+    </string-array>
+    <string-array name="oppo_select_ringtone_new">
+        <item>Enjoy</item>
+        <item>Soul</item>
+        <item>Colorful life</item>
+        <item>Village</item>
+        <item>Water</item>
+        <item>Delight</item>
+        <item>Lectro beat</item>
+        <item>Ringtong 1</item>
+        <item>Ringtong 2</item>
+        <item>Ringer</item>
+        <item>Mallets</item>
+        <item>Stars</item>
+        <item>Party</item>
+        <item>Crazy kids</item>
+        <item>Novel</item>
+        <item>Funny</item>
+        <item>Halfway home</item>
+        <item>Sunrize</item>
+        <item>Jumping finger</item>
+        <item>OPPO MP3</item>
+        <item>Joy</item>
+        <item>Pure</item>
+        <item>Echo</item>
+        <item>Beginning</item>
+        <item>Mira</item>
+        <item>Adara</item>
+        <item>Fresh</item>
+        <item>Bird</item>
+        <item>Drop</item>
+        <item>Naughty</item>
+        <item>Sea</item>
+        <item>Forest</item>
+        <item>New day</item>
+        <item>Music box</item>
+        <item>Alarm Beep</item>
+        <item>Wind elf</item>
+        <item>Morning</item>
+        <item>Relax and chill</item>
+    </string-array>
+    <string-array name="oppo_permissions_prompt">
+        <item>llamar al teléfono</item>
+        <item>ver el historial de llamadas</item>
+        <item>ver datos de contacto</item>
+        <item>leer mensajes SMS</item>
+        <item>enviar mensajes SMS</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+        <item></item>
+    </string-array>
+</resources>

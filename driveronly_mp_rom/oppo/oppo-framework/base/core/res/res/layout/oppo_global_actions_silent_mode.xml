@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="312dp"
+    android:minHeight="62dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:divider="@drawable/oppo_ga_silent_mode_split"
+    android:showDividers="middle"
+    >
+
+    <LinearLayout
+        android:id="@+id/option1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/oppo_global_actions_silent_height"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/oppo_powerdialog_left_bg"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oppo_powerdialog_silent_mode_mute"
+            android:scaleType="center"
+            android:layout_marginTop="11dp"
+            android:duplicateParentState="true"
+            android:focusable="true"
+            />
+        <TextView
+            android:id="@+id/oppo_power_slient_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="@string/oppo_power_slient_text"
+            android:textColor="#8A9292"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/oppo_global_actions_silent_height"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/oppo_powerdialog_mid_bg"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oppo_powerdialog_silent_mode_vibrate"
+            android:scaleType="center"
+            android:layout_marginTop="11dp"
+            android:duplicateParentState="true"
+            android:focusable="true"
+            />
+        <TextView
+            android:id="@+id/oppo_power_vibrate_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="@string/oppo_power_vibrate_text"
+            android:textColor="#8A9292"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/oppo_global_actions_silent_height"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/oppo_powerdialog_mid_bg"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oppo_powerdialog_silent_mode_ring"
+            android:scaleType="center"
+            android:layout_marginTop="11dp"
+            android:duplicateParentState="true"
+            android:focusable="true"
+            />
+        <TextView
+            android:id="@+id/oppo_power_ring_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="@string/oppo_power_ring_text"
+            android:textColor="#8A9292"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option4"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/oppo_global_actions_silent_height"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/oppo_powerdialog_right_bg"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oppo_powerdialog_mode_airplane"
+            android:scaleType="center"
+            android:layout_marginTop="11dp"
+            android:duplicateParentState="true"
+            android:focusable="true"
+            />
+        <TextView
+            android:id="@+id/oppo_power_airplane_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="@string/oppo_power_airplanemode_text"
+            android:textColor="#8A9292"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

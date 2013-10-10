@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- liyang@Pdt.Audio.RingtoneMgr, 2012/07/11, Add for ringtone name list -->
+    <string-array name="oppo_select_ringtone_old">
+        <!-- ringtone begin  -->
+        <item>ringtone_001</item>
+        <item>ringtone_002</item>
+        <item>ringtone_003</item>
+        <item>ringtone_004</item>
+        <item>ringtone_005</item>
+        <item>ringtone_006</item>
+        <item>ringtone_007</item>
+        <item>ringtone_008</item>
+        <item>ringtone_009</item>
+        <item>ringtone_010</item>
+        <item>ringtone_011</item>
+        <item>ringtone_012</item>
+        <item>ringtone_013</item>
+        <item>ringtone_014</item>
+        <item>ringtone_015</item>
+        <item>ringtone_016</item>
+        <item>ringtone_017</item>
+        <item>ringtone_018</item>
+        <item>ringtone_019</item>
+        <item>ringtone_020</item>
+        <!-- notification begin  -->
+        <item>notification_001</item>
+        <item>notification_002</item>
+        <item>notification_003</item>
+        <item>notification_004</item>
+        <item>notification_005</item>
+        <item>notification_006</item>
+        <item>notification_007</item>
+        <item>notification_008</item>
+        <item>notification_009</item>
+        <item>notification_010</item>
+        <item>notification_011</item>
+        <item>notification_012</item>
+        <item>notification_013</item>
+        <item>notification_014</item>
+        <item>notification_015</item>
+        <!-- alarm begin  -->
+        <item>alarm_001</item>
+        <item>alarm_002</item>
+        <item>alarm_003</item>
+        <item>alarm_004</item>
+        <item>alarm_005</item>
+        <item>alarm_006</item>
+        <item>alarm_007</item>
+        <item>alarm_008</item>
+    </string-array>
+    
+    <string-array name="oppo_select_ringtone_new">
+        <item>享青春</item>
+        <item>索尔</item>
+        <item>缤纷生活</item>
+        <item>风中起舞</item>
+        <item>多彩的一天</item>
+        <item>午间时光</item>
+        <item>水滴之舞</item>
+        <item>乐趣</item>
+        <item>叮叮当当</item>
+        <item>愉悦</item>
+        <item>经典铃声 1</item>
+        <item>经典铃声 2</item>
+        <item>柔和</item>
+        <item>倾心</item>
+        <item>滑稽</item>
+        <item>海上日出</item>
+        <item>指尖跳跃</item>
+        <item>夜</item>
+        <item>美丽村庄</item>
+        <item>芭芭拉</item>
+        <!-- notification begin  -->
+        <item>欢乐</item>
+        <item>晶石</item>
+        <item>叮咚</item>
+        <item>回音</item>
+        <item>木琴</item>
+        <item>木吉他</item>
+        <item>米拉</item>
+        <item>阿达拉</item>
+        <item>光束</item>
+        <item>清新</item>
+        <item>竖琴</item>
+        <item>铃鼓</item>
+        <item>鸟</item>
+        <item>水滴</item>
+        <item>淘气</item>
+        <!-- alarm begin  -->
+        <item>海之声</item>
+        <item>森林</item>
+        <item>光明</item>
+        <item>远方</item>
+        <item>欣喜</item>
+        <item>电子闹钟</item>
+        <item>早安</item>
+        <item>阳光午后</item>
+    </string-array>   
+    <!-- #endif //VENDOR_EDIT -->
+
+    <string-array name="oppo_permissions_prompt">
+        <item>拨打电话</item>
+        <item>访问通话记录</item>
+        <item>访问联系人信息</item>
+        <item>访问短信、彩信信息</item>
+        <item>发送短信</item>
+        <item>打开/关闭数据网络</item>
+        <item>打开/关闭WIFI</item>
+        <item>打开/关闭蓝牙</item>
+        <item>获得手机位置</item>
+        <item>启用拍照、摄像</item>
+        <item>录音</item>
+        <item>打开NFC</item>
+    </string-array>
+    
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2012/08/22, added for requirement: rtc 120187  -->
+    <string-array name="oppo_time_picker_ampm">
+    	<item>上午</item>
+        <item>下午</item>
+    </string-array>
+<!-- #endif VENDOR_EDIT-->
+</resources>

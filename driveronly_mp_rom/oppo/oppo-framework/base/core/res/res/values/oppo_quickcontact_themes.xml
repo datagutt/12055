@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_quickcontact_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoQuickContact's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/09/10    create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+
+	  <!-- color -->
+	  <color name="oppo_quickcontact_text_color">@color/oppo_title_bar_button_text_color</color>
+	
+	  <!-- dimen -->
+	  <dimen name="oppo_quickcontact_name_text_size">20sp</dimen>
+	  <dimen name="oppo_quickcontact_number_text_size">13sp</dimen>
+</resources>
+

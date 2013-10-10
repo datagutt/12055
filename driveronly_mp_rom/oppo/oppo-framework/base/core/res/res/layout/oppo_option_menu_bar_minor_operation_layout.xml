@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/oppo_option_menu_bar_more_operation_height"
+    android:layout_gravity="bottom"
+    android:gravity="center_vertical" >
+
+    <com.oppo.widget.OppoOptionMenuBarGallery
+        android:id="@+id/MoreOperationsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/oppo_option_menu_bar_more_operation_height"
+        android:background="@drawable/oppo_option_menu_bar_more_operation_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/MoreOperationArrowLeft"
+        android:layout_width="@dimen/oppo_option_menu_bar_more_operation_arrow_width"
+        android:layout_height="@dimen/oppo_option_menu_bar_more_operation_arrow_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/oppo_option_menu_bar_more_operation_arrow_margin"
+        android:src="@drawable/oppo_option_menu_bar_arrow_left"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/MoreOperationArrowRight"
+        android:layout_width="@dimen/oppo_option_menu_bar_more_operation_arrow_width"
+        android:layout_height="@dimen/oppo_option_menu_bar_more_operation_arrow_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/oppo_option_menu_bar_more_operation_arrow_margin"
+        android:src="@drawable/oppo_option_menu_bar_arrow_right"
+        android:visibility="invisible" />
+
+</RelativeLayout>

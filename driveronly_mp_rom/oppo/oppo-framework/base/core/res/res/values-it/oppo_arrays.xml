@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="oppo_permissions_prompt">
+        <item>effettuare chiamate</item>
+        <item>accedere al registro chiamate</item>
+        <item>accedere ai contatti</item>
+        <item>accedere agli SMS</item>
+        <item>inviare SMS</item>
+    </string-array>
+</resources>

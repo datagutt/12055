@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_activity_titlebar_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: Acitivty's TitleBar's theme params
+** 
+** Version: 1
+** Date created: 10:30:00,15/02/2012
+** Author: Yongdong,Zhang@Prd.MidWare.Res
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**      Yongdong,Zhang       	2012/06/11      create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <!-- color -->
+    <!-- Theme V3.0'S res, so don't add "oppo_" now.  -->
+    <color name="oppo_title_text_color">#ff4e4f4c</color>
+    <color name="oppo_title_bar_button_text_color">#ffffffff</color>
+    
+    <!-- dimen -->
+    <dimen name="oppo_title_text_size">20sp</dimen>    
+    <dimen name="oppo_title_bar_height">48dp</dimen>   
+    <dimen name="oppo_title_bar_leftbutton_margin">4dip</dimen>
+    <dimen name="oppo_title_bar_rightbutton_margin">4dip</dimen>
+    
+</resources>

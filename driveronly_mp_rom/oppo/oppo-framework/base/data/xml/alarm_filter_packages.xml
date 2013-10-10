@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alarm-filter-packages>
+	<AlignInterval>5</AlignInterval>
+	<AlignIntervalForBlack>30</AlignIntervalForBlack>
+	
+	<UidWhiteArray>1000</UidWhiteArray>
+	<UidWhiteArray>1001</UidWhiteArray>
+	
+	<KeyArray>clock</KeyArray>
+	<KeyArray>alarm</KeyArray>
+	<KeyArray>calendar</KeyArray>
+	
+	<PkgWhiteArray>com.android.cts.app</PkgWhiteArray>
+	<PkgWhiteArray>com.android.cts.stub</PkgWhiteArray>
+	<PkgWhiteArray>com.android.deskclock</PkgWhiteArray>
+	<PkgWhiteArray>com.android.mms</PkgWhiteArray>
+	<PkgWhiteArray>oppo.multimedia.soundrecorder</PkgWhiteArray>
+	<PkgWhiteArray>com.android.providers.calendar</PkgWhiteArray>
+	<PkgWhiteArray>com.oppo.music</PkgWhiteArray>	
+	<PkgWhiteArray>com.codoon.gps</PkgWhiteArray>	
+	<PkgWhiteArray>com.nearme.note</PkgWhiteArray>
+	<PkgWhiteArray>com.oppo.backuprestore</PkgWhiteArray>
+	<PkgWhiteArray>com.oppo.weather</PkgWhiteArray>	
+	
+
+	<PkgBlackArray>com.google.android.gsf</PkgBlackArray>
+
+				
+	<FilterPackagesArray>com.oppo.alarmclock</FilterPackagesArray>
+	<FilterPackagesArray>com.android.calendar</FilterPackagesArray>
+	<FilterPackagesArray>com.android.mms</FilterPackagesArray>
+	<FilterPackagesArray>com.android.settings</FilterPackagesArray>
+	<FilterPackagesArray>com.oppo.market</FilterPackagesArray>
+	<FilterPackagesArray>com.oppo.mms</FilterPackagesArray>
+	<FilterPackagesArray>com.nearme.note</FilterPackagesArray>
+	<FilterPackagesArray>com.oppo.ota</FilterPackagesArray>
+	<FilterPackagesArray>com.nearme.statistics.rom</FilterPackagesArray>
+	<FilterPackagesArray>android</FilterPackagesArray>
+	<FilterPackagesArray>com.nearme.feedback</FilterPackagesArray>
+	
+</alarm-filter-packages>

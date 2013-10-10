@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="oppo_empty_bottle_light_color">#ffa2a2a2</color>
+    <color name="oppo_empty_bottle_dark_color">#ff5a5a5a</color>
+
+    <dimen name="oppo_empty_bottle_text_size">15dip</dimen>
+    <dimen name="oppo_message_margin_top">10dip</dimen>
+
+    <integer name="oppo_empty_bottle_duration0">800</integer>
+    <integer name="oppo_empty_bottle_duration1">200</integer>
+    <integer name="oppo_empty_bottle_duration2">150</integer>
+    <integer name="oppo_empty_bottle_duration3">120</integer>
+    <integer name="oppo_empty_bottle_duration4">80</integer>
+</resources>

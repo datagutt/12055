@@ -1,0 +1,9 @@
+20120809 - V2.4.4.2
+========================================================================
+1.Modify aacDecoder_GetLibInfo() for potential memory overwriteen probelm.
+
+2.Enhance error recovery for 01._«¢ÂÄ¶®µX(¤p¤k«Äª©)_44100_C5.1.aac (ADTS) @ frame 73
+
+  The consumed bit length is smaller than frame lenth, but decode ok
+  
+  For better error recovery, do not return error .

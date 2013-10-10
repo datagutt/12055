@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  oppo luoyaojun add for a  special button widget 2010/11/04. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="64.5dip"
+    android:gravity="center_vertical"
+    android:background="@drawable/oppo_shortcut_button_bg"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    >
+
+    <!-- android:singleLine="true" -->
+	<Button  
+	    android:id="@+id/ButtonPositive"
+	    android:layout_width="0dip" 
+	    android:layout_height="38.5dip"
+	    android:gravity="center" 
+	    android:layout_weight="1"
+	    android:layout_marginLeft="5dip"
+	    android:layout_marginRight="5dip"
+	    android:visibility="gone"
+	    style="@style/ShortCutButtonTextAppearance"
+	    />
+
+    	<!-- android:singleLine="true" -->
+       <Button  
+            android:id="@+id/ButtonNegative"
+	    android:layout_width="0dip" 
+	    android:layout_height="38.5dip"
+	    android:gravity="center" 
+	    android:layout_weight="1"
+	    android:layout_marginLeft="5dip"
+	    android:layout_marginRight="5dip"
+	    android:visibility="gone"
+	    style="@style/ShortCutButtonTextAppearance"
+	    />
+
+	  <!-- android:singleLine="true" -->
+	 <Button 
+	    android:id="@+id/ButtonNeutral" 
+	    android:layout_width="0dip" 
+	    android:layout_height="38.5dip"
+	    android:gravity="center" 
+	    android:layout_weight="1"
+	    android:layout_marginLeft="5dip"
+	    android:layout_marginRight="5dip"
+	    android:visibility="gone"
+	    style="@style/ShortCutButtonTextAppearance"
+	    />
+	    
+</LinearLayout>

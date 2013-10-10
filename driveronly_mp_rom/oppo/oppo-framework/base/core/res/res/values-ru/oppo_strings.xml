@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="perms_modify">Изменить</string>
+    <string name="modify_pkg_perms">Изменять разрешения</string>
+    <string name="modify_pkg_perms_detail">Перейти к Настройки→Стандартные→Управление приложением→изменить разрешения!</string>
+    <string name="does_change_perms">Уровень доступа приложения был изменен, сохранить или отменить?</string>
+    <string name="oppo_global_actions_poweroff_prompt">Выключение</string>
+    <string name="oppo_global_actions_reboot_prompt">Перезагрузка</string>
+    <string name="global_action_reboot">Перезагрузка</string>
+    <string name="oppo_menu_select_all">Выбр.</string>
+    <string name="oppo_menu_cancel_all">Отмен.</string>
+    <string name="USB_SETTINGS">USB-подключение</string>
+    <string name="usb_selection">Выберите, чтобы изменить настройку USB</string>
+    <string name="usb_charge">Только зарядка</string>
+    <string name="usb_charge_detail">Зарядить телефон через USB</string>
+    <string name="usb_storage">Накопитель</string>
+    <string name="usb_storage_detail">Открыть память телефона</string>
+    <string name="usb_adb">Последовательный интерфейс / ПК пакет</string>
+    <string name="usb_adb_detail">Синхронизация с ПК</string>
+    <string name="usb_mtp">Режим мультимедиа</string>
+    <string name="usb_mtp_detail">Синхронизация с ПК</string>
+    <string name="usb_internet">Интернет-модем</string>
+    <string name="usb_internet_detail">Интернет-модем</string>
+    <string name="usb_selection_processing">Обработка, пожалуйста, ждите…</string>
+    <string name="progress_unmounting_phone" product="default">Извлечение памяти телефона...</string>
+    <string name="progress_erasing_phone" product="default">Очистка памяти телефона…</string>
+    <string name="format_error_phone" product="default">Ошибка очистки памяти телефона</string>
+    <string name="media_bad_removal_phone">Память телефона была удалена перед извлечением</string>
+    <string name="media_checking_phone" product="default">Память телефона проверяется</string>
+    <string name="media_removed_phone">Память телефона была удалена</string>
+    <string name="media_shared_phone" product="default">Память телефона используется компьютером</string>
+    <string name="status_silent">Без звука</string>
+    <string name="status_brightness">Яркость</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Режим полета</string>
+    <string name="status_hotspot">Wi-Fi</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">Автосинхронизация</string>
+    <string name="statusbar_edit">Редактировать</string>
+    <string name="statusbar_clear_all">Очистить все</string>
+    <string name="statusbar_key_swmgr">Программа</string>
+    <string name="statusbar_key_wlan">Wi-Fi</string>
+    <string name="statusbar_key_bt">Bluetooth</string>
+    <string name="statusbar_key_net">Данные</string>
+    <string name="statusbar_key_screen">Поворот\nэкрана</string>
+    <string name="rename_dialog_title">Переименовать</string>
+    <string name="rename_dialog_btn_ok">ОК</string>
+    <string name="rename_dialog_btn_cancel">Отмена</string>
+    <string name="lunar_calendar">Лунный календарь</string>
+    <string name="solar_calendar">Солнечный календарь</string>
+    <string name="selectText">"Выбрать"</string>
+    <string name="internal_sd_name">Память телефона</string>
+    <string name="external_sd_name">"SD карта"</string>
+    <string name="oppo_whichApplication">"Что использовать?"</string>
+    <string name="oppo_alwaysUse">"Использовать по-умолчанию:"</string>
+    <string name="oppo_power_shutdown_text">Выключение</string>
+    <string name="oppo_power_vibrate_text">Вибрация</string>
+    <string name="oppo_power_slient_text">Без звука</string>
+    <string name="oppo_power_airplanemode_text">Режим полета</string>
+    <string name="oppo_power_ring_text">Сигнал вызова</string>
+    <string name="oppo_power_reboot_text">Перезагрузка</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">SmarTone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">"3"</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_charge_voltage_low">Напряжение слишком низкое!</string>
+    <string name="oppo_charge_voltage_high">Напряжение слишком высокое!</string>
+    <string name="oppo_battery_waring_title">Предупреждение:</string>
+    <string name="oppo_battery_waring_title_voltage">Ошибка с напряжением</string>
+    <string name="oppo_battery_waring_title_charging">Ошибка с зарядкой</string>
+    <string name="oppo_battery_waring_title_temperature">Ошибка с температурой</string>
+    <string name="oppo_battery_waring_title_battery">Ошибка с батареей</string>
+    <string name="oppo_battery_waring_subtitle">Предупреждение:</string>
+    <string name="oppo_battery_voltage_high">Напряжение слишком высокое!</string>
+    <string name="oppo_battery_temperature_low">Температура батареи слишком высокая!</string>
+    <string name="oppo_battery_temperature_high">Температура батареи слишком низкая!</string>
+    <string name="oppo_battery_poor_contact">Плохой контакт с батареей</string>
+    <string name="oppo_charge_timeout">Время непрерывной зарядки слишком велико, временно отключите зарядный кабель!</string>
+    <string name="oppo_battery_charge_soc_fall">Потребляемый ток слишком велик; попробуйте закрыть некоторые приложения!</string>
+    <string name="smeslist_dialog_title">Новое событие</string>
+    <string name="sms_dialog_look">Просмотр</string>
+    <string name="sms_dialog_close">Отмена</string>
+    <string name="oppo_nvrestore_title">Сбой NV</string>
+    <string name="oppo_nvrestore_ticker">Сбой NV</string>
+    <string name="oppo_nvrestore_text">Сбой NV может привести к некорректной работе мобильной связи</string>
+    <string name="wifi_noncuncurrency_message">Открытие точки доступа Wi-Fi или подключение к точке доступа остановит работу Wi-Fi Direct</string>
+    <string name="wifi_p2p_noncuncurrency_message">Включение Wi-Fi Direct. Текущее Wi-Fi подключение будет остановлено.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">Текущие Wi-Fi подключения будут остановлены.</string>
+    <string name="permission_security_title">Предупреждение</string>
+    <string name="permission_security_label">" пытаются "</string>
+    <string name="permission_settings_prompt">Настройте в \"Настройки-Общые-Натсройки безопасности-Права доступа\"</string>
+    <string name="permission_choice_label">Ingat pilihan saya</string>
+    <string name="reject_text">Отклонить</string>
+    <string name="allow_text">"Разрешить"</string>
+    <string name="action_mode_done">"Готово"</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_month_day_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_day_month_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="month_year_day_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="day_month_year_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="day_year_month_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_screen_shot_up_text">向上滑动1/3屏幕高度</string>
+    <string name="oppo_screen_shot_down_text">向下滑动1/3屏幕高度</string>
+</resources>

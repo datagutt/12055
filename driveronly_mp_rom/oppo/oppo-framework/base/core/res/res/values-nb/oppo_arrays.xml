@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="oppo_select_ringtone_old">
+        <item>ringtone_001</item>
+        <item>ringtone_002</item>
+        <item>ringtone_003</item>
+        <item>ringtone_004</item>
+        <item>ringtone_005</item>
+        <item>ringtone_006</item>
+        <item>ringtone_007</item>
+        <item>ringtone_008</item>
+        <item>ringtone_009</item>
+        <item>ringtone_010</item>
+        <item>ringtone_011</item>
+        <item>ringtone_012</item>
+        <item>ringtone_013</item>
+        <item>ringtone_014</item>
+        <item>ringtone_015</item>
+        <item>ringtone_016</item>
+        <item>ringtone_017</item>
+        <item>ringtone_018</item>
+        <item>ringtone_019</item>
+        <item>ringtone_020</item>
+        <item>notification_001</item>
+        <item>notification_002</item>
+        <item>notification_003</item>
+        <item>notification_004</item>
+        <item>notification_005</item>
+        <item>notification_006</item>
+        <item>notification_007</item>
+        <item>notification_008</item>
+        <item>notification_009</item>
+        <item>notification_010</item>
+        <item>alarm_001</item>
+        <item>alarm_002</item>
+        <item>alarm_003</item>
+        <item>alarm_004</item>
+        <item>alarm_005</item>
+        <item>alarm_006</item>
+        <item>alarm_007</item>
+        <item>alarm_008</item>
+    </string-array>
+    <string-array name="oppo_select_ringtone_new">
+        <item>享青春</item>
+        <item>索爾</item>
+        <item>繽紛生活</item>
+        <item>美麗村莊</item>
+        <item>水滴之舞</item>
+        <item>樂趣</item>
+        <item>靈動節拍</item>
+        <item>經典鈴聲1</item>
+        <item>經典鈴聲2</item>
+        <item>時尚鈴聲</item>
+        <item>柔和</item>
+        <item>繁星</item>
+        <item>派對</item>
+        <item>瘋狂小子</item>
+        <item>新穎</item>
+        <item>滑稽</item>
+        <item>歸途</item>
+        <item>海上日出</item>
+        <item>指尖跳躍</item>
+        <item>啦啦啦</item>
+        <item>歡樂</item>
+        <item>叮咚</item>
+        <item>回音</item>
+        <item>木琴</item>
+        <item>米拉</item>
+        <item>阿達拉</item>
+        <item>清新</item>
+        <item>鳥</item>
+        <item>水滴</item>
+        <item>淘氣</item>
+        <item>海之聲</item>
+        <item>森林</item>
+        <item>新的一天</item>
+        <item>音樂盒</item>
+        <item>電子鬧鐘</item>
+        <item>風之精靈</item>
+        <item>早安</item>
+        <item>陽光午後</item>
+    </string-array>
+    <string-array name="oppo_permissions_prompt">
+        <item>ring telefon</item>
+        <item>les ringelogg</item>
+        <item>les kontaktdata</item>
+        <item>les SMS meldinger</item>
+        <item>send SMS meldinger</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>

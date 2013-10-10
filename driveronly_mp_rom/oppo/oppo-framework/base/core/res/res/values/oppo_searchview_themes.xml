@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_multilisview_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoMultiListView's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/09/10    create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+    <color name="oppo_searchview_text_hint_color_normal">#ffbbc0c0</color>
+    <color name="oppo_searchview_text_color_normal">#ff333333</color>    
+    <dimen name="oppo_searchview_text_hint_size">@oppo:dimen/oppo_normal_content_text_size_3</dimen>
+    <dimen name="oppo_searchview_text_size">@oppo:dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
+</resources>

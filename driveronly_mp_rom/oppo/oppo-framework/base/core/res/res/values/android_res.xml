@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!--  bool  -->
+    <bool name="android_config_enable_puk_unlock_screen">@*android:bool/config_enable_puk_unlock_screen</bool>
+    <bool name="android_config_enable_emergency_call_while_sim_locked">@*android:bool/config_enable_emergency_call_while_sim_locked</bool>
+    <bool name="android_config_allowActionMenuItemTextWithIcon">@*android:bool/config_allowActionMenuItemTextWithIcon</bool>
+    <bool name="android_preferences_prefer_dual_pane">@*android:bool/preferences_prefer_dual_pane</bool>
+        <!-- public -->
+    <bool name="android_config_use_strict_phone_number_comparation">@*android:bool/config_use_strict_phone_number_comparation</bool>
+    <bool name="android_config_voice_capable">@*android:bool/config_voice_capable</bool>
+    <bool name="android_config_automatic_brightness_available">@*android:bool/config_automatic_brightness_available</bool>
+    <bool name="android_config_enableDreams">false</bool><!-- android:bool/config_enableDreams -->
+    <bool name="android_config_wimaxEnabled">@*android:bool/config_wimaxEnabled</bool>
+    <bool name="android_config_intrusiveNotificationLed">@*android:bool/config_intrusiveNotificationLed</bool>
+    <bool name="android_config_alwaysUseCdmaRssi">@*android:bool/config_alwaysUseCdmaRssi</bool>
+    <bool name="android_config_useMasterVolume">@*android:bool/config_useMasterVolume</bool>
+    <bool name="android_config_useVolumeKeySounds">@*android:bool/config_useVolumeKeySounds</bool>
+    <bool name="android_config_dreamsEnabledByDefault">@*android:bool/config_dreamsEnabledByDefault</bool>
+    <bool name="android_config_dreamsActivatedOnDockByDefault">@*android:bool/config_dreamsActivatedOnDockByDefault</bool>
+    <bool name="android_config_dreamsActivatedOnSleepByDefault">@*android:bool/config_dreamsActivatedOnSleepByDefault</bool>
+
+    <!-- color -->
+    <color name="android_tab_indicator_text_v4">@*android:color/tab_indicator_text_v4</color>
+
+    <!-- dimen -->
+    <dimen name="android_textview_error_popup_default_width">@*android:dimen/textview_error_popup_default_width</dimen>
+    <dimen name="android_search_view_preferred_width">@*android:dimen/search_view_preferred_width</dimen>
+    <dimen name="android_dropdownitem_icon_width">@*android:dimen/dropdownitem_icon_width</dimen>
+    <dimen name="android_dropdownitem_text_padding_left">@*android:dimen/dropdownitem_text_padding_left</dimen>
+    <dimen name="android_password_keyboard_spacebar_vertical_correction">@*android:dimen/password_keyboard_spacebar_vertical_correction</dimen>
+    <dimen name="android_config_viewConfigurationTouchSlop">@*android:dimen/config_viewConfigurationTouchSlop</dimen>
+        <!-- public -->
+    <dimen name="android_status_bar_height">@*android:dimen/status_bar_height</dimen>
+    <dimen name="android_preference_fragment_padding_side">@*android:dimen/preference_fragment_padding_side</dimen>
+    <dimen name="android_preference_item_padding_side">@*android:dimen/preference_item_padding_side</dimen>
+    <dimen name="android_preference_widget_width">@*android:dimen/preference_widget_width</dimen>
+    <dimen name="android_preference_fragment_padding_bottom">@*android:dimen/preference_fragment_padding_bottom</dimen>
+    <dimen name="android_navigation_bar_height">@*android:dimen/navigation_bar_height</dimen>
+    <dimen name="android_status_bar_icon_size">@*android:dimen/status_bar_icon_size</dimen>
+    <dimen name="android_system_bar_icon_size">@*android:dimen/system_bar_icon_size</dimen>
+    <dimen name="android_volume_panel_top">@*android:dimen/volume_panel_top</dimen>
+
+    <!-- drawable -->
+    <drawable name="android_ic_emergency">@*android:drawable/ic_emergency</drawable>
+    <drawable name="android_tab_indicator_v4">@*android:drawable/tab_indicator_v4</drawable>
+    <drawable name="android_indicator_input_error">@*android:drawable/indicator_input_error</drawable>
+    <drawable name="android_text_edit_side_paste_window">@*android:drawable/text_edit_side_paste_window</drawable>
+    <!--<drawable name="android_ic_suggestions_add">@*android:drawable/ic_suggestions_add</drawable>-->
+    <!--<drawable name="android_ic_suggestions_delete">@*android:drawable/ic_suggestions_delete</drawable>-->
+    <drawable name="android_text_edit_paste_window">@*android:drawable/text_edit_paste_window</drawable>
+        <!-- public -->
+    <drawable name="android_dialog_full_holo_dark">@*android:drawable/dialog_full_holo_dark</drawable>
+    <drawable name="android_quickcontact_badge_overlay_pressed_light">@*android:drawable/quickcontact_badge_overlay_pressed_light</drawable>
+    <drawable name="android_quickcontact_badge_overlay_normal_light">@*android:drawable/quickcontact_badge_overlay_normal_light</drawable>
+    <drawable name="android_search_plate_global">@*android:drawable/search_plate_global</drawable>
+    <drawable name="android_textfield_search">@*android:drawable/textfield_search</drawable>
+    <drawable name="android_divider_horizontal_dark_opaque">@*android:drawable/divider_horizontal_dark_opaque</drawable>
+    <drawable name="android_btn_keyboard_key_fulltrans">@*android:drawable/btn_keyboard_key_fulltrans</drawable>
+    <drawable name="android_code_lock_left">@*android:drawable/code_lock_left</drawable>
+    <drawable name="android_list_selector_background_disabled">@*android:drawable/list_selector_background_disabled</drawable>
+    <drawable name="android_list_selector_background_focused">@*android:drawable/list_selector_background_focused</drawable>
+    <drawable name="android_code_lock_top">@*android:drawable/code_lock_top</drawable>
+    <drawable name="android_code_lock_bottom">@*android:drawable/code_lock_bottom</drawable>
+    <drawable name="android_ic_menu_moreoverflow_holo_dark">@*android:drawable/ic_menu_moreoverflow_holo_dark</drawable>
+    <drawable name="android_list_divider_holo_dark">@*android:drawable/list_divider_holo_dark</drawable>
+    <drawable name="android_stat_sys_gps_on">@*android:drawable/stat_sys_gps_on</drawable>
+    <drawable name="android_dialog_divider_horizontal_light">@*android:drawable/dialog_divider_horizontal_light</drawable>
+    <drawable name="android_sym_app_on_sd_unavailable_icon">@*android:drawable/sym_app_on_sd_unavailable_icon</drawable>
+    <drawable name="android_ic_menu_archive">@*android:drawable/ic_menu_archive</drawable>
+    <drawable name="android_ic_menu_goto">@*android:drawable/ic_menu_goto</drawable>
+    <drawable name="android_expander_ic_minimized">@*android:drawable/expander_ic_minimized</drawable>
+    <drawable name="android_expander_ic_maximized">@*android:drawable/expander_ic_maximized</drawable>
+    <drawable name="android_create_contact">@*android:drawable/create_contact</drawable>
+    <drawable name="android_ic_contact_picture">@*android:drawable/ic_contact_picture</drawable>
+    <drawable name="android_ic_action_assist_generic">@*android:drawable/ic_action_assist_generic</drawable>
+    <drawable name="android_list_selector_pressed_holo_dark">@*android:drawable/list_selector_pressed_holo_dark</drawable>
+    <drawable name="android_load_average_background">@*android:drawable/load_average_background</drawable>
+    <drawable name="android_notification_bg">@*android:drawable/notification_bg</drawable>
+    <drawable name="android_scrubber_control_disabled_holo">@*android:drawable/scrubber_control_disabled_holo</drawable>
+    <drawable name="android_scrubber_control_selector_holo">@*android:drawable/scrubber_control_selector_holo</drawable>
+    <drawable name="android_scrubber_progress_horizontal_holo_dark">@*android:drawable/scrubber_progress_horizontal_holo_dark</drawable>
+    <drawable name="android_stat_sys_data_usb">@*android:drawable/stat_sys_data_usb</drawable>
+    <drawable name="android_stat_sys_tether_bluetooth">@*android:drawable/stat_sys_tether_bluetooth</drawable>
+    <drawable name="android_status_bar_background">@*android:drawable/status_bar_background</drawable>
+    <drawable name="android_usb_android">@*android:drawable/usb_android</drawable>
+    <drawable name="android_usb_android_connected">@*android:drawable/usb_android_connected</drawable>
+    <drawable name="android_ic_menu_cc">@*android:drawable/ic_menu_cc</drawable>
+    <drawable name="android_ic_media_route_on_holo_dark">@*android:drawable/ic_media_route_on_holo_dark</drawable>
+    <drawable name="android_ic_media_route_disabled_holo_dark">@*android:drawable/ic_media_route_disabled_holo_dark</drawable>
+    <drawable name="android_ic_audio_vol_mute">@*android:drawable/ic_audio_vol_mute</drawable>
+    <drawable name="android_ic_audio_vol">@*android:drawable/ic_audio_vol</drawable>
+
+    <!-- string -->
+    <string name="android_dlg_ok">@*android:string/dlg_ok</string>   
+    <string name="android_date_picker_dialog_title">@*android:string/date_picker_dialog_title</string>
+    <string name="android_time_picker_dialog_title">@*android:string/time_picker_dialog_title</string>
+    <string name="android_format_error">@*android:string/format_error</string>
+    <string name="android_media_bad_removal">@*android:string/media_bad_removal</string>
+    <string name="android_media_checking">@*android:string/media_checking</string>
+    <string name="android_media_shared">@*android:string/media_shared</string>
+    <string name="android_media_unknown_state">@*android:string/media_unknown_state</string>
+    <string name="android_lockscreen_return_to_call">@*android:string/lockscreen_return_to_call</string>
+    <string name="android_lockscreen_emergency_call">@*android:string/lockscreen_emergency_call</string>
+    <string name="android_date_picker_increment_day_button">@*android:string/date_picker_increment_day_button</string>
+    <string name="android_date_picker_decrement_day_button">@*android:string/date_picker_decrement_day_button</string>
+    <string name="android_date_picker_increment_month_button">@*android:string/date_picker_increment_month_button</string>
+    <string name="android_date_picker_decrement_month_button">@*android:string/date_picker_decrement_month_button</string>
+    <string name="android_date_picker_increment_year_button">@*android:string/date_picker_increment_year_button</string>
+    <string name="android_date_picker_decrement_year_button">@*android:string/date_picker_decrement_year_button</string>
+    <string name="android_number_picker_increment_scroll_action">@*android:string/number_picker_increment_scroll_action</string>
+    <string name="android_number_picker_increment_scroll_mode">@*android:string/number_picker_increment_scroll_mode</string>
+    <string name="android_lockscreen_access_pattern_cell_added">@*android:string/lockscreen_access_pattern_cell_added</string>
+    <string name="android_lockscreen_access_pattern_start">@*android:string/lockscreen_access_pattern_start</string>
+    <string name="android_lockscreen_access_pattern_detected">@*android:string/lockscreen_access_pattern_detected</string>
+    <string name="android_lockscreen_access_pattern_cleared">@*android:string/lockscreen_access_pattern_cleared</string>
+    <string name="android_deleteText">@*android:string/deleteText</string>
+    <string name="android_textSelectionCABTitle">@*android:string/textSelectionCABTitle</string>   
+    <string name="android_time_picker_increment_minute_button">@*android:string/time_picker_increment_minute_button</string>
+    <string name="android_time_picker_decrement_minute_button">@*android:string/time_picker_decrement_minute_button</string>
+    <string name="android_time_picker_increment_hour_button">@*android:string/time_picker_increment_hour_button</string>
+    <string name="android_time_picker_decrement_hour_button">@*android:string/time_picker_decrement_hour_button</string>
+    <string name="android_time_picker_increment_set_pm_button">@*android:string/time_picker_increment_set_pm_button</string>
+    <string name="android_time_picker_decrement_set_am_button">@*android:string/time_picker_decrement_set_am_button</string>
+    <string name="android_delete">@*android:string/delete</string>
+    <string name="android_addToDictionary">@*android:string/addToDictionary</string>
+    <string name="android_replace">@*android:string/replace</string>
+    <string name="android_inputMethod">@*android:string/inputMethod</string>
+    <string name="android_global_actions">@*android:string/global_actions</string>
+        <!-- public -->
+    <string name="android_megabyteShort">@*android:string/megabyteShort</string> 
+    <string name="android_gigabyteShort">@*android:string/gigabyteShort</string>  
+    <string name="android_ringtone_unknown">@*android:string/ringtone_unknown</string>  
+    <string name="android_ringtone_silent">@*android:string/ringtone_silent</string>   
+    <string name="android_power_off">@*android:string/power_off</string>   
+    <string name="android_report">@*android:string/report</string>    
+    <string name="android_ssl_certificate">@*android:string/ssl_certificate</string> 
+    <string name="android_fast_scroll_alphabet">@*android:string/fast_scroll_alphabet</string> 
+    <string name="android_am">am</string> 
+    <string name="android_pm">pm</string> 
+    <string name="android_common_name_prefixes">@*android:string/common_name_prefixes</string>
+    <string name="android_common_last_name_prefixes">@*android:string/common_last_name_prefixes</string>
+    <string name="android_common_name_suffixes">@*android:string/common_name_suffixes</string>
+    <string name="android_common_name_conjunctions">@*android:string/common_name_conjunctions</string>
+    <string name="android_imProtocolAim">@*android:string/imProtocolAim</string>
+    <string name="android_chooseUsbActivity">@*android:string/chooseUsbActivity</string>
+    <string name="android_config_defaultDreamComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
+    <string name="android_ext_media_badremoval_notification_message">@*android:string/ext_media_badremoval_notification_message</string>
+    <string name="android_ext_media_badremoval_notification_title">@*android:string/ext_media_badremoval_notification_title</string>
+    <string name="android_ext_media_checking_notification_message">@*android:string/ext_media_checking_notification_message</string>
+    <string name="android_ext_media_checking_notification_title">@*android:string/ext_media_checking_notification_title</string>
+    <string name="android_ext_media_nofs_notification_message">@*android:string/ext_media_nofs_notification_message</string>
+    <string name="android_ext_media_nofs_notification_title">@*android:string/ext_media_nofs_notification_title</string>
+    <string name="android_ext_media_nomedia_notification_message">@*android:string/ext_media_nomedia_notification_message</string>
+    <string name="android_ext_media_nomedia_notification_title">@*android:string/ext_media_nomedia_notification_title</string>
+    <string name="android_ext_media_safe_unmount_notification_message">@*android:string/ext_media_safe_unmount_notification_message</string>
+    <string name="android_ext_media_safe_unmount_notification_title">@*android:string/ext_media_safe_unmount_notification_title</string>
+    <string name="android_ext_media_unmountable_notification_message">@*android:string/ext_media_unmountable_notification_message</string>
+    <string name="android_ext_media_unmountable_notification_title">@*android:string/ext_media_unmountable_notification_title</string>
+    <string name="android_lockscreen_carrier_default">@*android:string/lockscreen_carrier_default</string>
+    <string name="android_share">@*android:string/share</string>
+    <string name="android_usb_storage_message">@*android:string/usb_storage_message</string>
+    <string name="android_usb_storage_notification_message">@*android:string/usb_storage_notification_message</string>
+    <string name="android_usb_storage_notification_title">@*android:string/usb_storage_notification_title</string>
+    <string name="android_usb_storage_stop_message">@*android:string/usb_storage_stop_message</string>
+    <string name="android_usb_storage_stop_notification_message">@*android:string/usb_storage_stop_notification_message</string>
+    <string name="android_usb_storage_stop_notification_title">@*android:string/usb_storage_stop_notification_title</string>
+    <string name="android_usb_storage_stop_title">@*android:string/usb_storage_stop_title</string>
+    <string name="android_usb_storage_title">@*android:string/usb_storage_title</string>
+    <string name="android_wifi_tether_configure_ssid_default">@*android:string/wifi_tether_configure_ssid_default</string>
+    <string name="android_dlg_confirm_kill_storage_users_title">@*android:string/dlg_confirm_kill_storage_users_title</string>
+    <string name="android_dlg_confirm_kill_storage_users_text">@*android:string/dlg_confirm_kill_storage_users_text</string>
+    <string name="android_dlg_error_title">@*android:string/dlg_error_title</string>
+    <string name="android_usb_storage_error_message">@*android:string/usb_storage_error_message</string>
+    <string name="android_ringtone_picker_title">@*android:string/ringtone_picker_title</string>
+    <string name="android_volume_icon_description_bluetooth">@*android:string/volume_icon_description_bluetooth</string>
+    <string name="android_volume_icon_description_ringer">@*android:string/volume_icon_description_ringer</string>
+    <string name="android_volume_icon_description_incall">@*android:string/volume_icon_description_incall</string>
+    <string name="android_volume_alarm">@*android:string/volume_alarm</string>
+    <string name="android_volume_icon_description_media">@*android:string/volume_icon_description_media</string>
+    <string name="android_volume_icon_description_notification">@*android:string/volume_icon_description_notification</string>
+    <string name="android_global_action_toggle_silent_mode">@*android:string/global_action_toggle_silent_mode</string>
+    <string name="android_global_action_silent_mode_on_status">@*android:string/global_action_silent_mode_on_status</string>
+    <string name="android_global_action_silent_mode_off_status">@*android:string/global_action_silent_mode_off_status</string>
+    <string name="android_hour_minute_24">@*android:string/hour_minute_24</string>
+    <string name="android_hour_cap_ampm">@*android:string/hour_cap_ampm</string>
+    <string name="android_hour_ampm">@*android:string/hour_ampm</string>
+    <string name="android_hour_minute_cap_ampm">@*android:string/hour_minute_cap_ampm</string>
+    <string name="android_hour_minute_ampm">@*android:string/hour_minute_ampm</string>
+    <string name="android_Noon">@*android:string/Noon</string>
+    <string name="android_noon">@*android:string/noon</string>
+    <string name="android_Midnight">@*android:string/Midnight</string>
+    <string name="android_midnight">@*android:string/midnight</string>
+    <string name="android_numeric_date">@*android:string/numeric_date</string>
+    <string name="android_abbrev_month_year">@*android:string/abbrev_month_year</string>
+    <string name="android_abbrev_month_day_year">@*android:string/abbrev_month_day_year</string>
+    <string name="android_month_year">@*android:string/month_year</string>
+    <string name="android_month_day_year">@*android:string/month_day_year</string>
+    <string name="android_abbrev_month">@*android:string/abbrev_month</string>
+    <string name="android_abbrev_month_day">@*android:string/abbrev_month_day</string>
+    <string name="android_month">@*android:string/month</string>
+    <string name="android_month_day">@*android:string/month_day</string>
+    <string name="android_wday1_date1_time1_wday2_date2_time2">@*android:string/wday1_date1_time1_wday2_date2_time2</string>
+    <string name="android_wday1_date1_wday2_date2">@*android:string/wday1_date1_wday2_date2</string>
+    <string name="android_date1_time1_date2_time2">@*android:string/date1_time1_date2_time2</string>
+    <string name="android_date1_date2">@*android:string/date1_date2</string>
+    <string name="android_short_format_month">@*android:string/short_format_month</string>
+    <string name="android_time1_time2">@*android:string/time1_time2</string>
+    <string name="android_time_wday_date">@*android:string/time_wday_date</string>
+    <string name="android_wday_date">@*android:string/wday_date</string>
+    <string name="android_time_date">@*android:string/time_date</string>
+    <string name="android_time_wday">@*android:string/time_wday</string>
+    <string name="android_twenty_four_hour_time_format">@*android:string/twenty_four_hour_time_format</string>
+    <string name="android_twelve_hour_time_format">@*android:string/twelve_hour_time_format</string>
+    <string name="android_numeric_date_template">@*android:string/numeric_date_template</string>
+    <string name="android_numeric_date_format">@*android:string/numeric_date_format</string>
+    <string name="android_config_dreamsDefaultComponent">@*android:string/config_dreamsDefaultComponent</string>
+    <string name="android_safe_media_volume_warning">@*android:string/safe_media_volume_warning</string>
+    <string name="android_text_copied">@*android:string/text_copied</string>
+
+    <!-- array-->
+        <!-- public -->
+    <array name="android_config_mobile_hotspot_provision_app">@*android:array/config_mobile_hotspot_provision_app</array>
+    <array name="android_config_virtualKeyVibePattern">@*android:array/config_virtualKeyVibePattern</array>  
+    <array name="android_common_nicknames">@*android:array/common_nicknames</array> 
+
+    <!-- integer -->
+         <!-- public -->
+    <integer name="android_preference_fragment_scrollbarStyle">@*android:integer/preference_fragment_scrollbarStyle</integer> 
+    <integer name="android_config_criticalBatteryWarningLevel">@*android:integer/config_criticalBatteryWarningLevel</integer>
+    <integer name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</integer>
+    <integer name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</integer>
+
+    <!-- anim -->
+         <!-- public -->
+    <item type="anim" name="android_push_down_in">@*android:anim/push_down_in</item>
+    <item type="anim" name="android_push_down_out">@*android:anim/push_down_out</item>
+    <item type="anim" name="android_push_up_in">@*android:anim/push_up_in</item>
+    <item type="anim" name="android_push_up_out">@*android:anim/push_up_out</item>
+
+    <!-- layout -->
+    <item type="layout" name="android_screen_simple">@*android:layout/screen_simple</item>
+
+    <!-- raw-->
+        <!-- public -->
+    <item type="raw" name="android_fallbackring">@*android:raw/fallbackring</item>
+
+    <!-- xml -->   
+    <item type="xml" name="android_password_kbd_symbols_shift">@*android:xml/password_kbd_symbols_shift</item>
+        <!-- public -->
+    <item type="xml" name="android_apns">@*android:xml/apns</item>
+
+</resources>
+

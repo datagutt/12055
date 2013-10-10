@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="perms_modify">Modify permissions</string>
+    <string name="modify_pkg_perms">Modify permissions</string>
+    <string name="modify_pkg_perms_detail">Goto Settings→Normal→ManageApplication, modify permissions!</string>
+    <string name="does_change_perms">This app\'s permissions have been changed, save or not?</string>
+    <string name="oppo_global_actions_poweroff_prompt">Quickly turn off your cell phone</string>
+    <string name="oppo_global_actions_reboot_prompt">Shut down and reboot the phone system</string>
+    <string name="global_action_reboot">Reboot</string>
+    <string name="oppo_menu_select_all">Select All</string>
+    <string name="oppo_menu_cancel_all">Cancel All</string>
+    <string name="USB_SETTINGS">USB Setting</string>
+    <string name="usb_selection">Please select to change USB setting</string>
+    <string name="usb_charge">Only Charging</string>
+    <string name="usb_charge_detail">Charge your phone via USB</string>
+    <string name="usb_storage">Storage device</string>
+    <string name="usb_storage_detail">Use your phone as storage device</string>
+    <string name="usb_adb">Serial interface/Assistant</string>
+    <string name="usb_adb_detail">Sync with OPPO assistant</string>
+    <string name="usb_mtp">Media device (MTP)</string>
+    <string name="usb_mtp_detail">Lets you transfer media files on Windows, or using Android File Transfer on Mac</string>
+    <string name="usb_internet">USB binding</string>
+    <string name="usb_internet_detail">"Share phone\'s mobile network with PC"</string>
+    <string name="usb_selection_processing">"Please wait while process..."</string>
+    <string name="progress_unmounting_phone" product="default">Unmounting phone storage...</string>
+    <string name="progress_erasing_phone" product="default">Formatting phone storage...</string>
+    <string name="format_error_phone" product="default">Failed to format phone storage.</string>
+    <string name="media_bad_removal_phone">Phone storage was removed before being unmounted.</string>
+    <string name="media_checking_phone" product="default">Phone storage is currently being checked.</string>
+    <string name="media_removed_phone">Phone storage has been removed.</string>
+    <string name="media_shared_phone" product="default">Phone storage is currently in use by a computer.</string>
+    <string name="status_silent">Silent</string>
+    <string name="status_brightness">Brightness</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Flight</string>
+    <string name="status_hotspot">WlanSpot</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">AutoSync</string>
+    <string name="statusbar_edit">edit</string>
+    <string name="statusbar_clear_all">Clear all</string>
+    <string name="statusbar_key_swmgr">Program manager</string>
+    <string name="statusbar_key_wlan">Wi-Fi</string>
+    <string name="statusbar_key_bt">Bluetooth</string>
+    <string name="statusbar_key_net">Data</string>
+    <string name="statusbar_key_screen">Rotation</string>
+    <string name="rename_dialog_title">Rename</string>
+    <string name="rename_dialog_btn_ok">OK</string>
+    <string name="rename_dialog_btn_cancel">Cancel</string>
+    <string name="lunar_calendar">Lunar calendar</string>
+    <string name="solar_calendar">Solar calendar</string>
+    <string name="selectText">Select</string>
+    <string name="internal_sd_name">Phone storage</string>
+    <string name="external_sd_name">SD card</string>
+    <string name="oppo_whichApplication">Complete action using</string>
+    <string name="oppo_alwaysUse">Use this as default option</string>
+    <string name="oppo_power_shutdown_text">Power off</string>
+    <string name="oppo_power_vibrate_text">Vibrate</string>
+    <string name="oppo_power_slient_text">Silent</string>
+    <string name="oppo_power_airplanemode_text">Flight</string>
+    <string name="oppo_power_ring_text">Ring</string>
+    <string name="oppo_power_reboot_text">Restart</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">3</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_charge_voltage_low">Charging voltage too low!</string>
+    <string name="oppo_charge_voltage_high">Charging voltage too high!</string>
+    <string name="oppo_battery_waring_title">Warning:</string>
+    <string name="oppo_battery_waring_title_voltage">Voltage Error</string>
+    <string name="oppo_battery_waring_title_charging">Charging Error</string>
+    <string name="oppo_battery_waring_title_temperature">Tem. Error</string>
+    <string name="oppo_battery_waring_title_battery">Battery Error</string>
+    <string name="oppo_battery_waring_subtitle">Warning:</string>
+    <string name="oppo_battery_voltage_high">Battery voltage too high!</string>
+    <string name="oppo_battery_temperature_low">Battery temperature too low!</string>
+    <string name="oppo_battery_temperature_high">Battery temperature too high!</string>
+    <string name="oppo_battery_poor_contact">Battery poor contact</string>
+    <string name="oppo_charge_timeout">连续充电时间过长；请插拔数据线继续充电！</string>
+    <string name="oppo_battery_charge_soc_fall">Current consumption is too large; Please try to close the applications that may have caused this problem!</string>
+    <string name="smeslist_dialog_title">New events</string>
+    <string name="sms_dialog_look">View</string>
+    <string name="sms_dialog_close">Cancel</string>
+    <string name="oppo_nvrestore_title">Some nvitems are invalid</string>
+    <string name="oppo_nvrestore_ticker">Some nvitems are invalid</string>
+    <string name="oppo_nvrestore_text">The mobile may be unusual because of some nvitmes invalid</string>
+    <string name="wifi_noncuncurrency_message">Start Wi-Fi client/hotspot. This will disconnect Wi-Fi Direct.</string>
+    <string name="wifi_p2p_noncuncurrency_message">Start Wi-Fi Direct.This will disconnect Wi-Fi connection.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">This will disconnect any existing Wi-Fi connection.</string>
+    <string name="permission_security_title">Security Warning</string>
+    <string name="permission_security_label">" is trying to "</string>
+    <string name="permission_settings_prompt">Please set the options in \"Settings-General settings-Security-Permission monitor\"</string>
+    <string name="permission_choice_label">下次不再询问</string>
+    <string name="reject_text">Reject</string>
+    <string name="allow_text">Allow</string>
+    <string name="action_mode_done">Done</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s年 %3$s %4$s日"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s年 %3$s日 %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s日, %4$s年"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s %3$s年 %4$s日"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s日 %3$s %4$s年"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s日 %3$s年 %4$s"</string>
+    <string name="year_month_day_wday" translatable="false">"%1$s年 %2$s %3$s日, %4$s"</string>
+    <string name="year_day_month_wday" translatable="false">"%1$s年 %2$s日 %3$s, %4$s"</string>
+    <string name="month_day_year_wday" translatable="false">"%1$s %2$s日, %3$s年, %4$s"</string>
+    <string name="month_year_day_wday" translatable="false">"%1$s %2$s年 %3$s日, %4$s"</string>
+    <string name="day_month_year_wday" translatable="false">"%1$s日 %2$s %3$s年, %4$s"</string>
+    <string name="day_year_month_wday" translatable="false">"%1$s日 %2$s年 %3$s, %4$s"</string>
+    <string name="oppo_screen_shot_up_text">向上滑动1/3屏幕高度</string>
+    <string name="oppo_screen_shot_down_text">向下滑动1/3屏幕高度</string>
+</resources>

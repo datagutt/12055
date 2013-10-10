@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - actionbar_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: actionabr's params
+** 
+** Version: 1
+** Date created: 10:30:00,22/6/2012
+** Author: Yongdong,Zhang@Prd.MidWare.Res
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**      Yongdong,Zhang       	2012/06/11      create
+** *****************************************************************************
+*/
+-->
+<resources>
+
+    <dimen name="oppo_action_bar_title_text_size">17dip</dimen>
+    <dimen name="oppo_action_bar_subtitle_text_size">12dip</dimen>
+    <dimen name="oppo_actionbar_tab_textsize">14dip</dimen>
+</resources>
+

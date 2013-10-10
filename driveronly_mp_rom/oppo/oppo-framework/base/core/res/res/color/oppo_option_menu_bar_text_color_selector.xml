@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_window_focused="false" android:state_enabled="true"
+        android:color="@oppo:color/oppo_actionbar_and_list_big_text_color" />
+    <item android:state_window_focused="false" android:state_enabled="false"
+        android:color="@oppo:color/oppo_actionbar_and_list_big_text_color_disable" />
+    <item android:state_pressed="true" 
+        android:color="@oppo:color/oppo_actionbar_and_list_big_text_color" />
+    <item android:state_enabled="true"
+        android:color="@oppo:color/oppo_actionbar_and_list_big_text_color" />
+    <item
+         android:color="@oppo:color/oppo_actionbar_and_list_big_text_color_disable" />
+         
+         
+</selector>
+
+

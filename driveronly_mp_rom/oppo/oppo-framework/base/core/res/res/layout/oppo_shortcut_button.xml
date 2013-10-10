@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  oppo luoyaojun add for a  special button widget 2010/11/04. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/oppo_option_menu_bar_height"
+    android:gravity="center_vertical"
+    android:background="@drawable/oppo_option_menu_bar_major_operation_background"
+    android:paddingLeft="@dimen/oppo_option_menu_bar_major_operation_group_padding"
+    android:paddingRight="@dimen/oppo_option_menu_bar_major_operation_group_padding"
+    >
+
+    <!-- android:singleLine="true" -->
+	<Button  
+	    android:id="@+id/ButtonPositive"
+	    android:layout_width="0dip" 
+	    android:layout_height="match_parent"
+	    android:gravity="center" 
+	    android:layout_weight="1"
+	    android:layout_marginLeft="@dimen/oppo_option_menu_bar_major_operation_item_padding"
+	    android:layout_marginRight="@dimen/oppo_option_menu_bar_major_operation_item_padding"
+	    android:layout_marginTop="@dimen/oppo_option_menu_bar_major_operation_item_top_margin"
+	    android:visibility="gone"
+	    style="@style/OppoOptionMenuBarTextAppearance"
+	    />
+
+    	<!-- android:singleLine="true" -->
+       <Button  
+            android:id="@+id/ButtonNegative"
+	    android:layout_width="0dip" 
+	    android:layout_height="match_parent"
+	    android:gravity="center" 
+	    android:layout_weight="1"
+	    android:layout_marginLeft="@dimen/oppo_option_menu_bar_major_operation_item_padding"
+	    android:layout_marginRight="@dimen/oppo_option_menu_bar_major_operation_item_padding"
+	    android:layout_marginTop="@dimen/oppo_option_menu_bar_major_operation_item_top_margin"
+	    android:visibility="gone"
+	    style="@style/OppoOptionMenuBarTextAppearance"
+	    />
+
+	  <!-- android:singleLine="true" -->
+	 <Button 
+	    android:id="@+id/ButtonNeutral" 
+	    android:layout_width="0dip" 
+	    android:layout_height="match_parent"
+	    android:gravity="center" 
+	    android:layout_weight="1"
+	    android:layout_marginLeft="@dimen/oppo_option_menu_bar_major_operation_item_padding"
+	    android:layout_marginRight="@dimen/oppo_option_menu_bar_major_operation_item_padding"
+	    android:layout_marginTop="@dimen/oppo_option_menu_bar_major_operation_item_top_margin"
+	    android:visibility="gone"
+	    style="@style/OppoOptionMenuBarTextAppearance"
+	    />
+	    
+</LinearLayout>

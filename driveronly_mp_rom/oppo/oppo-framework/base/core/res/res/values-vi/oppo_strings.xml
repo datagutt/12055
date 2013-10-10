@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="perms_modify">Chỉnh sửa giấy phép</string>
+    <string name="modify_pkg_perms">Chỉnh sửa giấy phép</string>
+    <string name="modify_pkg_perms_detail">Vào Cài đặt→Bình thường→Quản lý Ứng dụng, chỉnh sửa giấy phép!</string>
+    <string name="does_change_perms">Giấy phép của ứng dụng này đã thay đổi, chỉnh sửa hay không?</string>
+    <string name="oppo_global_actions_poweroff_prompt">Nhanh chóng tắt điện thoại di động của bạn</string>
+    <string name="oppo_global_actions_reboot_prompt">Tắt và khởi động lại hệ thống điện thoại</string>
+    <string name="global_action_reboot">Khởi động lại</string>
+    <string name="oppo_menu_select_all">Chọn tất cả</string>
+    <string name="oppo_menu_cancel_all">Hủy tất cả</string>
+    <string name="USB_SETTINGS">Cài đặt USB</string>
+    <string name="usb_selection">Hãy chọn để thay đổi cài đặt USB</string>
+    <string name="usb_charge">Chỉ sạc pin</string>
+    <string name="usb_charge_detail">Sạc điện thoại qua cổng USB</string>
+    <string name="usb_storage">Thiết bị lưu trữ</string>
+    <string name="usb_storage_detail">Làm điện thoại của bạn như thiết bị lưu trữ</string>
+    <string name="usb_adb">Cổng nối tiếp/Kết nối PC</string>
+    <string name="usb_adb_detail">Đồng bộ với Hỗ trợ điện thoại OPPO</string>
+    <string name="usb_mtp">Thiết bị đa phương tiện (MTP)</string>
+    <string name="usb_mtp_detail">Cho phép bạn chuyển các tệp đa phương tiện trên Windows hoặc sử dụng trình Android File Transfer trên Mac</string>
+    <string name="usb_internet">Liên kết qua USB</string>
+    <string name="usb_internet_detail">Chia sẻ mạng di động của điện thoại với PC</string>
+    <string name="usb_selection_processing">Vui lòng đợi xử lý...</string>
+    <string name="progress_unmounting_phone" product="default">Đang tháo lưu trữ của điện thoại...</string>
+    <string name="progress_erasing_phone" product="default">Đang xóa bộ nhớ điện thoại...</string>
+    <string name="format_error_phone" product="default">Không xóa được bộ nhớ điện thoại.</string>
+    <string name="media_bad_removal_phone">Lưu trữ  điện thoại đã bị gỡ bỏ trước khi bị tháo.</string>
+    <string name="media_checking_phone" product="default">Hiện đang kiểm tra lưu trữ  điện thoại.</string>
+    <string name="media_removed_phone">Đã gỡ bỏ lưu trữ của điện thoại.</string>
+    <string name="media_shared_phone" product="default">Hiện máy tính đang sử dụng lưu trữ điện thoại.</string>
+    <string name="status_silent">Im lặng</string>
+    <string name="status_brightness">Độ sáng</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">C.độ trên M.bay</string>
+    <string name="status_hotspot">Điểm Wlan</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">T.động Đ.bộ</string>
+    <string name="statusbar_edit">sửa</string>
+    <string name="statusbar_clear_all">Xóa tất cả</string>
+    <string name="statusbar_key_swmgr">Trình quản lý ứng dụng</string>
+    <string name="statusbar_key_wlan">Wi-Fi</string>
+    <string name="statusbar_key_bt">Bluetooth</string>
+    <string name="statusbar_key_net">Dữ liệu</string>
+    <string name="statusbar_key_screen">Xoay màn hình</string>
+    <string name="rename_dialog_title">Đổi tên</string>
+    <string name="rename_dialog_btn_ok">OK</string>
+    <string name="rename_dialog_btn_cancel">Hủy</string>
+    <string name="lunar_calendar">Lịch âm</string>
+    <string name="solar_calendar">Lịch dương</string>
+    <string name="selectText">Chọn</string>
+    <string name="internal_sd_name">Lưu trữ của điện thoại</string>
+    <string name="external_sd_name">Thẻ SD</string>
+    <string name="oppo_whichApplication">Chọn để hoàn thành thao tác</string>
+    <string name="oppo_alwaysUse">Đặt này thành thao tác mặc định</string>
+    <string name="oppo_power_shutdown_text">"Tắt nguồn"</string>
+    <string name="oppo_power_vibrate_text">Rung</string>
+    <string name="oppo_power_slient_text">Im lặng</string>
+    <string name="oppo_power_airplanemode_text">Chế độ máy bay</string>
+    <string name="oppo_power_ring_text">Chuông</string>
+    <string name="oppo_power_reboot_text">Khởi động lại</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">Smartone-Vodafone</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">Smartone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchinson</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">Far EasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chunghwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_charge_voltage_low">Điện áp sạc quá thấp!</string>
+    <string name="oppo_charge_voltage_high">Điện áp sạc quá cao!</string>
+    <string name="oppo_battery_waring_title">Cảnh báo:</string>
+    <string name="oppo_battery_waring_title_voltage">Lỗi điện áp</string>
+    <string name="oppo_battery_waring_title_charging">Lỗi sạc</string>
+    <string name="oppo_battery_waring_title_temperature">Lỗi nhiệt độ</string>
+    <string name="oppo_battery_waring_title_battery">Lỗi pin</string>
+    <string name="oppo_battery_waring_subtitle">Cảnh báo:</string>
+    <string name="oppo_battery_voltage_high">Điện áp pin quá cao!</string>
+    <string name="oppo_battery_temperature_low">Nhiệt độ pin quá thấp!</string>
+    <string name="oppo_battery_temperature_high">Nhiệt độ pin quá cao!</string>
+    <string name="oppo_battery_poor_contact">Lỗi kết nối pin.Kiểm tra tình trạng tiếp xúc của pin!</string>
+    <string name="oppo_charge_timeout">Pin đã được sạc quá giờ. Xin cắm dây chuyền</string>
+    <string name="oppo_battery_charge_soc_fall">Điện hiện tại là quá lớn; Hãy thử đóng các ứng dụng tiêu thụ cao!</string>
+    <string name="smeslist_dialog_title">sự kiện chưa biết</string>
+    <string name="sms_dialog_look">Xem</string>
+    <string name="sms_dialog_close">Hủy</string>
+    <string name="oppo_nvrestore_title">Một số nvitems đã hết hạn</string>
+    <string name="oppo_nvrestore_ticker">Một số nvitems đã hết hạn</string>
+    <string name="oppo_nvrestore_text">Điện thoại sẽ có lỗi do nvitmes hết hạn</string>
+    <string name="wifi_noncuncurrency_message">Khởi động Wi-Fi khách hàng / điểm truy cập. Điều này sẽ ngắt kết nối Wi-Fi Direct.</string>
+    <string name="wifi_p2p_noncuncurrency_message">Bật Wi-Fi Direct. Thao tác này sẽ ngắt kết nối Wi-Fi.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">Thao tác này sẽ ngắt tất cả kết nối Wi-Fi.</string>
+    <string name="permission_security_title">Cảnh báo bảo mật</string>
+    <string name="permission_security_label">Đang thử</string>
+    <string name="permission_choice_label">Không hỏi từ lần sau</string>
+    <string name="reject_text">Từ chối</string>
+    <string name="allow_text">Cho phép</string>
+    <string name="action_mode_done">"Xong"</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="permission_settings_prompt">Bạn có thể đặt trong \"Cài đặt-Cài đặt chung-Bảo mật-Quyền giám sát\"</string>
+</resources>

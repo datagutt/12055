@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_pathbar_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoPahBar's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Hu Zhaohui@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Hu Zhaohui      2010/09/10    create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+
+    <!-- dimen -->
+    <dimen name="oppo_pathbar_text_size">20sp</dimen>
+    <dimen name="oppo_pathbar_button_text_size">20sp</dimen>
+    
+    <color name="oppo_pathbar_text_color">#ffffffff</color>
+    <color name="oppo_pathbar_button_text_color_normal">#ffffffff</color>
+    <color name="oppo_pathbar_button_text_color_pressed">#ffffffff</color>
+</resources>
+

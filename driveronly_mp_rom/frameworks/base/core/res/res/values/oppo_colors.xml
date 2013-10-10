@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- =================add by danjianjun for merger oppo framework   2012-03-05=====================-->
+    <color name="oppo_overlay_transparent_background">#FFFF00FF</color>
+    <color name="oppo_widget_background_color">#fff7fbff</color>
+    <color name="oppo_transparence">#00000000</color> 
+    <color name="oppo_text_disabled_color">#ff909499</color>
+    <color name="oppo_multilist_primary_text_dark">#ff141414</color>
+    <drawable name="oppo_collapsitem_bg">#FFE5E5E5</drawable>
+    <!-- ================add end by danjianjun 2012-03-05====================-->
+    <!-- OPPO fanzc add 2011.11.16 for Dailer's text color -->
+    <color name="oppo_dial_text_color">#ffffffff</color>
+    <!-- End of OPPO fanzc add -->  
+    
+    <!-- yongdong,zhang@ComUI.Theme, 2012/04/16, add for theme3.0(MMS color)-->
+    <color name="mms_receive_text_color">#ff4f4f4f</color>
+    <color name="mms_send_text_color">#ffffffff</color>
+    <color name="mms_send_btn_color">#ff545454</color>
+    <color name="mms_text_time_color">#ff888888</color>
+    <color name="mms_header_time_color">#ff75787b</color>
+    <!--oppotextview's default color--> 
+    <color name="oppo_textview_default_normal">#ff5a5e69</color>
+    <color name="oppo_textview_default_disable">#ffb6b6b6</color>
+    <color name="oppo_textview_default_selected">#ffffffff</color>
+    <!--yongdong,zhang@ComUI.Theme, 2012/04/16, add end-->
+
+    <!-- OPPO 2012/06/22 luoyaojun add for [theme color] -->
+    <color name="oppo_btn_text_normal_color">#ff5a5e69</color>
+    <color name="oppo_btn_text_pressed_color">#ffffffff</color>
+    
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Pihe.Wu@Prd.MidWare.Theme, 2012/09/04, Add for  -->
+    <color name="oppo_alert_dialog_button_text_normal_color">#ff5a5e69</color>
+    <color name="oppo_alert_dialog_button_text_pressed_color">#ffffffff</color>    
+<!-- #endif //VENDOR_EDIT -->
+	<drawable name="oppo_stat_sys_upload_done">@drawable/oppo_stat_sys_upload_anim0</drawable>
+	<drawable name="oppo_stat_sys_download_done">@drawable/oppo_stat_sys_download_done_static</drawable>
+  	<!-- #ifdef VENDOR_EDIT -->
+	<!-- Pihe.Wu@Prd.MidWare.Theme, 2012/08/06, Add for  -->
+  	<color name="oppo_status_bar_latest_event_title_color">#424242</color>
+	<color name="oppo_status_bar_latest_event_content_color">#424242</color>
+	<color name="oppo_status_bar_latest_event_time_color">#424242</color>  
+	<color name="oppo_dark_header_text_color">#141414</color>
+	<!-- #endif //VENDOR_EDIT -->  
+   <color name="oppo_textcolor_hint">#ff9499aa</color>
+   <color name="oppo_primary_text_disable_only">#ff141414</color>   
+</resources>
+

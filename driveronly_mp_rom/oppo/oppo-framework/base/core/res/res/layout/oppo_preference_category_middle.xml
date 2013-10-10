@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout used for blank PreferenceCategory in oppo PreferenceActivity. -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:id="@+id/title"
+    android:layout_height="@oppo:dimen/oppo_list_separator_height_middle"
+/>

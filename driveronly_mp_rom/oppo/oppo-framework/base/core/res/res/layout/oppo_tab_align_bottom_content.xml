@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright, The Oppo Android Source Project.
+ */
+-->
+
+<com.oppo.widget.OppoTabHost xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:oppo="http://schemas.android.com/apk/res/oppo"
+	android:id="@+id/oppo_tabhost"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<FrameLayout 
+		android:id="@android:id/tabcontent"
+		android:layout_width="match_parent" 
+		android:layout_height="0dip"
+		android:layout_weight="1">
+	</FrameLayout>
+
+	<com.oppo.widget.OppoTabWidget 
+		android:id="@android:id/tabs"
+		android:layout_width="match_parent"
+		android:layout_height="0dip" 
+		android:layout_gravity="bottom|center_horizontal"
+		oppo:oppo_tabwidget_align_mode="bottom" 
+		android:background="@drawable/oppo_tab_widget_bg"
+		android:soundEffectsEnabled="true"/>
+
+</com.oppo.widget.OppoTabHost>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* *****************************************************************************
+**
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** VENDOR_EDIT
+** File: - oppo_permission_choice.xml
+** Description: permission choices layout,add for permission intercept.
+**
+** Version: 1.0
+** Date: 2012/12/20
+** Author: wangy@OnLineRD.Framework.pms
+**
+** ******************************* Revision History: ***************************
+**       <author>        <date>          <version >        <desc>
+**         wangy        2012/12/20           1.0      build this moudle
+** *****************************************************************************
+*/
+
+
+
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sec_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/oppo_permission_warn" />
+
+        <TextView
+            android:id="@+id/permission_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/permission_settings_prompt"
+            style="?android:attr/textAppearanceSmall"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#ff40464b" />
+
+        <LinearLayout
+            android:id="@+id/save_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/remember_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:minHeight="31dp"
+            android:text="@string/permission_choice_label"
+            style="?android:attr/textAppearanceSmall"
+            android:textColor="@oppo:color/oppo_actionbar_and_list_big_text_color"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

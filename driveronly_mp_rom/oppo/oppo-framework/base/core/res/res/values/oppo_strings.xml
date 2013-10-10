@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- used by widget OppoFileSaveActivity -->
+    <string name="alert_dialog_username">Name:</string>
+    <!-- the following are used for alertdialog's buttons -->
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="default_foler_name">New Folder</string>
+    <string name="name_file_error_title">Error when name file or folder</string>
+    <string name="name_file_null">The file name can not be null,please rename:</string>
+    <string name="name_file_error">File name exist alerady, please enter again:</string>
+
+    <!-- save file -->
+    <string name="save_file">Save File</string>
+    <string name="new_folder">New</string>
+    <string name="confirm">Confirm</string>
+    <string name="back">Back</string>
+    <string name="error_save">Unable to save files under current directory!</string>
+    <string name="error_new">Unable to create files under current directory!</string>
+    <string name="error">ERROR</string>
+
+    <!-- select file -->
+    <string name="select_file">Select File </string>
+
+    <string name="view">View</string>
+    <string name="scan_folder">Scan Folder</string>
+    <string name="select">Select</string>
+
+    <string name="empty">empty</string>
+    <string name="mount_sdcard">Mount SD card!</string>
+    <string name="unmount_sdcard">Unmount SD card!</string>
+    <string name="mount_localusb">Mount phone memory!</string>
+    <string name="unmount_localusb">Unmount phone memory!</string>
+    <string name="mount_usb">Mount usb!</string>
+    <string name="unmount_usb">Unmount usb!</string>
+    <!-- File end-->
+    <string name="unknown">"Unknown"</string>
+    <!-- Attbution of a contact status update, when the time of update is known -->
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> via <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+    <!-- Attbution of a contact status update, when the time of update is unknown -->
+    <string name="contact_status_update_attribution">via <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
+
+    <string name="sd_card">"Memory card"</string>
+    <string name="internal">"Phone"</string>
+
+    <string name="nosdcard">No Sdcard</string>
+    <string name="record">History</string>
+    <string name="favorite">My favorites</string>
+    <!-- password related strings-->
+    <string name="alert_dialog_password">Request password when access encrypted file. Please input:</string>
+    <string name="confirm_alert_dialog_password">Confirm PassWord</string>
+    <string name="alert_dialog_password_title">Enter PassWord</string>
+    <string name="error_password">Incorrect Password!</string>
+    <string name="alert_dialog_past_password">Old Password</string>
+    <string name="alert_dialog_new_password">New Password</string>
+
+    <string name="setImage">Set picture as</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set">\"%s\" set as phone ringtone.</string>
+
+    <!-- search page -->
+    <string name="filetype">File Type:</string>
+    <string name="filename">Complete Or Partial File Name:</string>
+    <string name="filepath">Search File Path:</string>
+    <string name="searchButton">Search</string>
+    <string name="stopButton">Stop</string>
+    <string name="searchConfiguration">Search As Follows</string>
+    <string name="searchResult">Search Results</string>
+    <string name="picture">Picture</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="other">Other</string>
+    <string name="emptyresult">Search has completed,and no results are displayed.</string>
+    <string name="searchCompleted">Search has completed.</string>
+    <string name="choose_filepath">Choose File path</string>
+    <string name="file_noexist">File not exsit!</string>
+
+    <!-- clip board -->
+    <string name="clip_mode_copy">Copy</string>
+    <string name="clip_mode_cut">Cut</string>
+    <string name="clip_function_tip">Drag file/folder into clipboard, and drag it out to the target folder, then you can copy or cut one or several more files/folders.</string>
+
+    <!-- password controls -->
+    <string name="oppo_password_controller_btn1">1</string>
+    <string name="oppo_password_controller_btn2">2</string>
+    <string name="oppo_password_controller_btn3">3</string>
+    <string name="oppo_password_controller_btn4">4</string>
+    <string name="oppo_password_controller_btn5">5</string>
+    <string name="oppo_password_controller_btn6">6</string>
+    <string name="oppo_password_controller_btn7">7</string>
+    <string name="oppo_password_controller_btn8">8</string>
+    <string name="oppo_password_controller_btn9">9</string>
+    <string name="oppo_password_controller_btn0">0</string>
+
+    <!-- used for oppo password controller   -->
+    <string name="oppo_password_controller_label">Password entry</string>
+    <string name="oppo_password_controller_tips">Please input privacy password:</string>
+    <string name="oppo_password_controller_text_cancel">Cancel</string>
+    <string name="oppo_password_controller_password_empty">Password can not be empty!</string>
+    <string name="oppo_password_controller_input_password">Please input password:</string>
+    <string name="oppo_password_controller_input_old_password">Please input old private password:</string>
+    <string name="oppo_password_controller_input_new_password">Please input new private password:</string>
+    <string name="oppo_password_controller_input_new_password_confirm">please confirm new private password:</string>
+    <string name="oppo_password_controller_password_confirm_error">confirm password wrong!</string>
+    <string name="oppo_password_controller_password_wrong">Password error!</string>
+    <string name="global_action_reboot">Reboot</string>
+
+    <string name="lunar_calendar">Lunar calendar</string>
+    <string name="solar_calendar">Solar calendar</string>
+    <string name="touchsearch_dot">•</string>
+    <string name="touchsearch_search_char">*</string>
+    <string name="touchsearch_side_keys_prefix">oppo_</string>
+
+    <string name="oppo_menu_select_all">Select All</string>
+    <string name="oppo_menu_cancel_all">Cancel All</string>
+    <string name="USB_SETTINGS">USB Setting</string>
+    <string name="usb_charge">Only Charging</string>
+    <string name="usb_charge_detail">Charge your phone via USB</string>
+    <string name="usb_storage">Storage device</string>
+    <string name="usb_storage_detail">Use your phone as storage device</string>
+    <string name="usb_adb">Serial interface/Assistant</string>
+    <string name="usb_selection">Please select to change USB setting</string>
+    <string name="usb_adb_detail">Sync with OPPO Assistant</string>
+    <string name="usb_mtp">Media device (MTP)</string>
+    <string name="usb_mtp_detail">Lets you transfer media files on Windows, or using Android File Transfer on Mac</string>
+    <string name="usb_internet">USB binding</string>
+    <string name="usb_internet_detail">"Share phone's mobile network with PC"</string>
+    <string name="usb_selection_processing">"Please wait while process..."</string>
+    <string name="smiling">\\^_\\^</string>
+    <string name="exultation">\\^o\\^</string>
+    <string name="shy">\"\\^_\\^\"</string>
+    <string name="boring">\\(@_@\\)</string>
+    <string name="bad_smile">~&gt;_&lt;~</string>
+    <string name="wondering">\\?_\\?</string>
+    <string name="naughty">\\^_-</string>
+    <string name="foolish">\\(-_-\\)</string>
+    <string name="smiling_on_the_side">:\\^\\)</string>
+    <string name="rose">\@\\)--</string>
+    <string name="very_sad">:-&lt;</string>
+    <string name="sad_expression">:-\\(</string>
+    <string name="cry">:\'-\\(</string>
+    <string name="kiss">:-\\*</string>
+    <string name="sweet_kiss">:-X</string>
+    <string name="a_cup_of_tea">\\\\_/7</string>
+    <string name="surprise">:-o</string>
+    <string name="What">:-\\{</string>
+    <string name="hamburger">\\(\\|0\\|\\)</string>
+    <string name="convey_love_by_e">\@_@</string>
+
+    <string name="emo_smiling">^_^</string>
+    <string name="emo_exultation">^o^</string>
+    <string name="emo_shy">\"^_^\"</string>
+    <string name="emo_boring">(@_@)</string>
+    <string name="emo_bad_smile">~&gt;_&lt;~</string>
+    <string name="emo_wondering">\?_\?</string>
+    <string name="emo_naughty">^_-</string>
+    <string name="emo_foolish">(-_-)</string>
+    <string name="emo_smiling_on_the_side">:^)</string>
+    <string name="emo_rose">\@)--</string>
+    <string name="emo_very_sad">:-&lt;</string>
+    <string name="emo_sad_expression">:-(</string>
+    <string name="emo_cry">:\'-(</string>
+    <string name="emo_kiss">:-*</string>
+    <string name="emo_sweet_kiss">:-X</string>
+    <string name="emo_a_cup_of_tea">\\_/7</string>
+    <string name="emo_surprise">:-o</string>
+    <string name="emo_What">:-{</string>
+    <string name="emo_hamburger">(|0|)</string>
+    <string name="emo_convey_love_by_e">\@_@</string>
+
+
+
+    <string name="does_change_perms">This apk\'s permissions have changed, modify or not?</string>
+    <string name="lodingcvs">loading csv</string>
+    <string name="rename_dialog_title">Rename</string>
+    <string name="rename_dialog_btn_ok">OK</string>
+    <string name="rename_dialog_btn_cancel">Cancel</string>
+
+    <string name="statusbar_key_wlan">WLAN</string>
+    <string name="statusbar_key_bt">Bluetooth</string>
+    <string name="statusbar_key_net">NetData</string>
+    <string name="statusbar_key_screen">Screen</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Flight</string>
+    <string name="status_silent">Silent</string>
+    <string name="status_3g">3G</string>
+    <string name="status_brightness">Brightness</string>
+    <string name="status_autosync">AutoSync</string>
+    <string name="status_hotspot">WlanSpot</string>
+    <string name="statusbar_edit">edit</string>
+    <string name="statusbar_clear_all">Clear all</string>
+    <string name="perms_modify">Modify permissions</string>
+    <string name="modify_pkg_perms">Modify permissions</string>
+    <string name="modify_pkg_perms_detail">Goto Settings→Normal→ManageApplication, modify permissions!</string>
+
+    <string name="oppo_global_actions_poweroff_prompt">Quickly turn off your cell phone</string>
+    <string name="oppo_global_actions_reboot_prompt">Shut down and reboot the phone system</string>
+    <string name="selectText">Select</string>
+    <string name="oppo_wifi_tether_configure_ssid_default" translatable="false">OPPO T29</string>
+
+    <string name="path">Current Path: </string>
+
+    <!-- Text displayed when the recipientedittextview is not focused. Displays the total number of recipients since the field is shrunk to just display a portion -->
+    <string name="more_string"> more...</string>
+    <!-- Text displayed when there are remote directories not returning results.
+         [CHAR LIMIT=50] -->
+    <string name="chips_waiting_for_directory_result">Waiting for more contacts</string>
+    <!-- LinJie.Xu@SystemSrv.Storage, 2012/05/18, Add for   ExternalStorageFormatter edit-->
+    <!-- OPPO LanceYao add for ExternalStorageFormatter service 20120222 -->
+    <!-- Text for progress dialog while unmounting phone storage [CHAR LIMIT=NONE] -->
+    <string name="progress_unmounting_phone" product="default">Unmounting phone storage...</string>
+    <!-- Text for progress dialog while erasing phone storage [CHAR LIMIT=NONE] -->
+    <string name="progress_erasing_phone" product="default">Erasing phone storage...</string>
+    <!-- Text for message to user that an error happened when formatting phone storage [CHAR LIMIT=NONE] -->
+    <string name="format_error_phone" product="default">Failed to erase phone storage.</string>
+    <!-- Text for message to user that phone storage has been removed while in use [CHAR LIMIT=NONE] -->
+    <string name="media_bad_removal_phone">Phone storage was removed before being unmounted.</string>
+    <!-- Text for message to user phone storage is currently being checked [CHAR LIMIT=NONE] -->
+    <string name="media_checking_phone" product="default">Phone storage is currently being checked.</string>
+    <!-- Text for message to user phone storage has been removed [CHAR LIMIT=NONE] -->
+    <string name="media_removed_phone">Phone storage has been removed.</string>
+    <!-- Text for message to user phone storage is currently mounted on a computer [CHAR LIMIT=NONE] -->
+    <string name="media_shared_phone" product="default">Phone storage is currently in use by a computer.</string>
+    <!-- OPPO LanceYao add end 20120222 -->
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- JiangLin.Ma@Prd.SysApp.Settings, 2012/07/20, Add for storage name -->
+    <string name="internal_sd_name">Phone storage</string>
+    <string name="external_sd_name">SDcard</string>
+
+    <!--yaolang add for global actions -->
+    <string name="oppo_power_shutdown_text">Power off</string>
+    <string name="oppo_power_vibrate_text">Vibrate</string>
+    <string name="oppo_power_slient_text">Silence</string>
+    <string name="oppo_power_airplanemode_text">Flight</string>
+    <string name="oppo_power_ring_text">Ring</string>
+    <string name="oppo_power_reboot_text">Reboot</string>
+    <!--yaolang add end -->
+
+    <!-- add begin by zengzhigang 2011-03-09 for english and chinese china display -->
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">3</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2013/06/08,
+          add begin by wuyisheng 2013-02-04 for resovle russia plmn name -->
+    <string name="mmcmnc25001">MTS RUS</string>
+    <string name="mmcmnc25002">MegaFon</string>
+    <string name="mmcmnc25003">NCC</string>
+    <string name="mmcmnc25005">ETK</string>
+    <string name="mmcmnc25007">SMARTS</string>
+    <string name="mmcmnc25012">Baykalwstern</string>
+    <string name="mmcmnc25014">SMARTS</string>
+    <string name="mmcmnc25016">NTC</string>
+    <string name="mmcmnc25017">Utel</string>
+    <string name="mmcmnc25019">INDIGO</string>
+    <string name="mmcmnc25020">Tele2</string>
+    <string name="mmcmnc25023">Mobicom</string>
+    <string name="mmcmnc25039">Utel</string>
+    <string name="mmcmnc25099">Beeline</string>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle vietnam plmn name -->
+    <string name="mmcmnc45201">VN MOBIFONE</string>
+    <string name="mmcmnc45202">VINAPHONE</string>
+    <string name="mmcmnc45204">VIETTEL</string>
+    <string name="mmcmnc45205">Vietnamobile</string>
+    <string name="mmcmnc45207">Beeline VN</string>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Indonesia plmn name -->
+    <string name="mmcmnc51001">INDOSAT</string>
+    <string name="mmcmnc51008">AXIS</string>
+    <string name="mmcmnc51010">TELKOMSEL</string>
+    <string name="mmcmnc51011">XL Axiata</string>
+    <string name="mmcmnc51089">3</string>
+<!-- #endif VENDOR_EDIT-->   
+    <!-- add begin by zengzhigang 2011-03-09 for english and chinese china display -->
+
+    <!-- add by danjinjun from 12025 BatteryPolicy.java -->
+    <string name="oppo_charge_voltage_low">Charging voltage too low!</string>
+    <string name="oppo_charge_voltage_high">Charging voltage too high!</string>
+    <string name="oppo_battery_waring_title">Warning:</string>
+    <string name="oppo_battery_waring_subtitle">Warning:</string>
+    <string name="oppo_battery_poor_contact">Battery poor contact</string>
+    <string name="oppo_battery_temperature_low">Battery temperature too low!</string>
+    <string name="oppo_battery_temperature_high">Battery temperature too high!</string>
+    <string name="oppo_battery_voltage_high">Battery voltage too high!</string>
+
+    <!-- add by danjinjun from 12025 NotificationManagerService.java -->
+    <string name="smeslist_dialog_title">unknown event</string>
+    <string name="sms_dialog_look">View</string>
+    <string name="sms_dialog_close">Cancel</string>
+    <!-- #ifdef VENDOR_EDIT-->
+    <!-- liuqiang@OnLineRD.DesktopApp, 2012/12/20, add for nv restore warming -->
+    <string name="oppo_nvrestore_title">Some nvitems are invalid</string>
+    <string name="oppo_nvrestore_ticker">Some nvitems are invalid</string>
+    <string name="oppo_nvrestore_text">The mobile may be unusual because of some nvitmes invalid</string>
+    <!-- #ifdef VENDOR_EDIT-->
+    <string name="wifi_noncuncurrency_message">Start WLAN client.This will disconnect WLAN Direct.</string>
+    <string name="wifi_p2p_noncuncurrency_message">Start WLAN Direct.This will disconnect WLAN connection.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">This will disconnect any existing WLAN connection.</string>
+
+
+    <string name="permission_security_title">Security Warning</string>
+    <string name="permission_security_label">" is trying to "</string>
+    <string name="permission_settings_prompt">Please set the options in “Settings-General settings-Security-Permission monitor”</string>
+    <string name="permission_choice_label">rember my choice</string>
+    <string name="reject_text">Reject</string>
+    <string name="allow_text">Allow</string>
+    
+    <string name="oppo_action_mode_done">Done</string>
+    <!--Jianhua.Lin@Plf.Framework.SDK, 2013-04-17, Modify the title of intent resolver dialog-->
+    <string name="oppo_whichApplication">Complete action using</string>
+ <!-- #ifdef VENDOR_EDIT -->
+ <!-- Jifeng.Tan@EXP.MidWare.MidWare , 2012/12/12, Added for thailand calendar support -->
+    <string name="wday_year_month_day" translatable="false">"%s, %s %s %s"</string>
+    <string name="wday_year_day_month" translatable="false">"%s, %s %s %s"</string>
+    <string name="wday_month_day_year" translatable="false">"%s, %s %s, %s"</string>
+    <string name="wday_month_year_day" translatable="false">"%s, %s %s %s"</string>
+    <string name="wday_day_month_year" translatable="false">"%s, %s %s %s"</string>
+    <string name="wday_day_year_month" translatable="false">"%s, %s %s %s"</string>
+    <string name="year_month_day_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="year_day_month_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="month_day_year_wday" translatable="false">"%s %s, %s, %s"</string>
+    <string name="month_year_day_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="day_month_year_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="day_year_month_wday" translatable="false">"%s %s %s, %s"</string>
+    <!-- #endif VENDOR_EDIT-->
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- MingLu.Tu@Exp.DataComm.Contacts, 2013/05/24, Add for [area option of IM] -->
+    <!--Russian-->
+    <string name="imProtocolMail">Mail.ru Agent</string>
+    <string name="imProtocolQip">QIP</string>
+    <!--Vietnam-->
+    <string name="imProtocolViber">Viber</string>
+    <string name="imProtocolWechat">Wechat</string>
+    <!--Indonesia-->
+    <string name="imProtocolWhatsapp">Whatsapp</string>
+    <string name="imProtocolFBM">FBM</string>
+<!-- #endif VENDOR_EDIT -->
+    <!-- JinPeng@Plf.Framework.SDK, 2013/08/03, Add for loading box -->
+    <string name="oppo_loading">Loading......</string>
+</resources>

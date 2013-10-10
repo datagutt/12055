@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - actionbar_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: OppoPagerTabStrip's params
+** 
+** Version: 1
+** Date created: 2013/08/26
+** Author: JinPeng@Plf.Framework.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		    <date>			<desc>
+**      JinPeng@Plf.Framework.SDK   2013/08/26      create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <dimen name="oppo_pager_title_text_size">14dip</dimen>
+    <dimen name="oppo_pager_focus_line_width">88dip</dimen>
+    <dimen name="oppo_pager_text_width_two_count">112dip</dimen>
+    <dimen name="oppo_pager_text_width_three_count">88dip</dimen>
+    <dimen name="oppo_pager_horizontal_padding">12dip</dimen>
+    <dimen name="oppo_pager_title_height">40dip</dimen>
+</resources>
+

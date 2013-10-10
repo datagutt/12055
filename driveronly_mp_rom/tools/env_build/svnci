@@ -1,0 +1,89 @@
+#!/usr/bin/perl
+
+use warnings;
+&useage;
+my $log=&inputlog;
+my $svn_commit_cmd="svn commit -m \"${log}\" @ARGV";
+print ${svn_commit_cmd}."\n";
+my $retvalue = system("$svn_commit_cmd");
+#print $retvalue."\n\n";
+
+sub inputlog
+{
+	my $projects="";
+	my $description="";
+	my $analyse="";
+	my $scheme="";
+	my $risk="";
+	my $reviewer="";
+	my $ignoreprj="";
+	my $log_arg="";
+			
+	do
+	{
+		print"项目(Project)："; 
+		chomp($projects=<STDIN>); 
+		if (lc($projects) eq 'all'){
+			$projects="All"
+		}
+		while($projects eq 'All' xor length($ignoreprj)==0)
+		{
+			print"无此问题项目(IgnoreProject)：";
+			chomp($ignoreprj=<STDIN>);
+		}
+	}while(length($projects)==0);
+		
+	do
+	{	
+		print"描述(Description)："; 
+		chomp($description=<STDIN>);
+	}while(length($description)==0);
+
+	do
+	{
+		print"分析(Analyse)："; 
+		chomp($analyse=<STDIN>);
+	}while(length($analyse)==0);
+
+	do
+	{
+		print"方案(Scheme)："; 
+		chomp($scheme=<STDIN>);
+	}while(length($scheme)==0);
+	
+	do
+	{
+		print"风险(Risk)："; 
+		chomp($risk=<STDIN>);
+	}while(length($risk)==0);
+	
+	do
+	{
+		print"检视人(Reviewer)："; 
+		chomp($reviewer=<STDIN>);
+	}while(length($reviewer)==0);
+	
+	if($projects eq 'All'){
+		$log_arg = "[".$projects."] ".$description."\n分析：".$analyse."\n方案：".$scheme."\n风险：".$risk."\n检视人：".$reviewer."\n";
+	}else{
+		$log_arg = "[".$projects."] ".$description."\t".$ignoreprj."无此问题"."\n分析：".$analyse."\n方案：".$scheme."\n风险：".$risk."\n检视人：".$reviewer."\n";
+	}
+	return($log_arg);
+}
+
+sub useage
+{
+print "***********************************************************
+**                   SVN提交向导                         **
+**                      示例                             **
+** 项目：All                                             **
+** 描述：提交与媒体扫描权限的问题，应用进入权限的修改    **
+** 分析：android4.2对android：exported属性做了强制要求   **
+** 方案：无                                              **
+** 风险：无                                              **
+** 检视人：姜小刚                                        **
+***********************************************************\n\n"
+}
+
+
+

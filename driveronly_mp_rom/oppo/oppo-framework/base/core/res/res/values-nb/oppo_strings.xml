@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="perms_modify">Administrer tillatelser</string>
+    <string name="modify_pkg_perms">Administrer tillatelser</string>
+    <string name="modify_pkg_perms_detail">Gå til Innstillinger→Normal→StyrApplikasjon, modifisér tillatelser!</string>
+    <string name="does_change_perms">Denne appens tilllatelser er blitt endret, lagre eller ikke?</string>
+    <string name="oppo_global_actions_poweroff_prompt">Slå av din telefon raskt</string>
+    <string name="oppo_global_actions_reboot_prompt">Slå av og start opp ditt telefonens system på nytt</string>
+    <string name="global_action_reboot">Omstart</string>
+    <string name="oppo_menu_select_all">Merk alt</string>
+    <string name="oppo_menu_cancel_all">Avbryt alt</string>
+    <string name="USB_SETTINGS">USB-innstillinger</string>
+    <string name="usb_charge">Lader kun</string>
+    <string name="usb_charge_detail">Lad telefonen via USB</string>
+    <string name="usb_storage">Lagringsenhet</string>
+    <string name="usb_storage_detail">Bruk telefonen din som en lagringsenhet</string>
+    <string name="usb_adb">Serial interface/Assistent</string>
+    <string name="usb_adb_detail">Synkroniser med OPPO assistent</string>
+    <string name="usb_mtp">Mediaenhet (MTP</string>
+    <string name="usb_mtp_detail">Lar deg overføre mediafiler på Windows, eller bruke Android File Transfer på Mac.</string>
+    <string name="usb_internet">USB tilknytting</string>
+    <string name="usb_internet_detail">"Del telefonens mobile nettverk med PC"</string>
+    <string name="usb_selection_processing">"Vennligst vent mens prosessen..."</string>
+    <string name="progress_unmounting_phone" product="default">Fjerner telefonlagring...</string>
+    <string name="progress_erasing_phone" product="default">Formaterer telefonlagring...</string>
+    <string name="format_error_phone" product="default">Formattering av telefonlagring lyktes ikke.</string>
+    <string name="media_bad_removal_phone">Telefonlagring fjernet på feil måte</string>
+    <string name="media_checking_phone" product="default">Telefonminne sjekkes for øyeblikket.</string>
+    <string name="media_removed_phone">Telefonlagring har blitt fjernet.</string>
+    <string name="media_shared_phone" product="default">Telefonlagring er i bruk av en datamaskin</string>
+    <string name="status_silent">Stille</string>
+    <string name="status_brightness">Lysstyrke</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Fly</string>
+    <string name="status_hotspot">WlanSpot</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">Autosynkronisér</string>
+    <string name="statusbar_edit">rediger</string>
+    <string name="statusbar_clear_all">Avslutt alt</string>
+    <string name="statusbar_key_swmgr">Programadministrerer</string>
+    <string name="statusbar_key_wlan">Wi-Fi</string>
+    <string name="statusbar_key_bt">Bluetooth</string>
+    <string name="statusbar_key_net">Data</string>
+    <string name="statusbar_key_screen">Rotasjon</string>
+    <string name="rename_dialog_title">Gi nytt navn</string>
+    <string name="rename_dialog_btn_ok">OK</string>
+    <string name="rename_dialog_btn_cancel">Avbryt</string>
+    <string name="lunar_calendar">Månekalenderen</string>
+    <string name="solar_calendar">Solkalenderen</string>
+    <string name="selectText">Velg</string>
+    <string name="internal_sd_name">Telefonlagring</string>
+    <string name="external_sd_name">SD kort</string>
+    <string name="oppo_whichApplication">Fullfør handling med</string>
+    <string name="oppo_alwaysUse">Bruk dette som standardvalg</string>
+    <string name="oppo_power_shutdown_text">Slå av</string>
+    <string name="oppo_power_vibrate_text">Vibrer</string>
+    <string name="oppo_power_slient_text">Stille</string>
+    <string name="oppo_power_airplanemode_text">Fly</string>
+    <string name="oppo_power_ring_text">Lyd</string>
+    <string name="oppo_power_reboot_text">Omstart</string>
+    <string name="mmcmnc46001">Unicom</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Folk</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_charge_voltage_low">Ladespenningen er for lav!</string>
+    <string name="oppo_charge_voltage_high">Ladespenningen er for høy!</string>
+    <string name="oppo_battery_waring_title">Advarsel:</string>
+    <string name="oppo_battery_waring_title_voltage">Spenningsfeil</string>
+    <string name="oppo_battery_waring_title_charging">Feil ved lading</string>
+    <string name="oppo_battery_waring_title_temperature">Tem. Feil</string>
+    <string name="oppo_battery_waring_title_battery">Batterifeil</string>
+    <string name="oppo_battery_waring_subtitle">Advarsel:</string>
+    <string name="oppo_battery_voltage_high">Batterispenningen er for høy!</string>
+    <string name="oppo_battery_temperature_low">Batteritemperatur er for lav</string>
+    <string name="oppo_battery_temperature_high">Batteritemperatur er for høy!</string>
+    <string name="oppo_battery_poor_contact">Dårlig batterikontakt</string>
+    <string name="oppo_charge_timeout">Batteriet er blitt ladet på overtid, koble til strøm igjen for å fortsette!</string>
+    <string name="oppo_battery_charge_soc_fall">Nåværende forbruk er for høyt; Vennligst forsøk å lukket applikasjonene som kan ha ført til dette problemet!</string>
+    <string name="smeslist_dialog_title">Nye hendelser</string>
+    <string name="sms_dialog_look">Vis</string>
+    <string name="sms_dialog_close">Avbryt</string>
+    <string name="oppo_nvrestore_title">Noen nvitems er ugyldige</string>
+    <string name="oppo_nvrestore_ticker">Noen nvitems er ugyldige</string>
+    <string name="oppo_nvrestore_text">Mobiltelefonen kan oppføre seg uvanlig fordi noen nvitems er ugyldige</string>
+    <string name="wifi_noncuncurrency_message">Start Wi-Fi client/hotspot. Dette frakobler Wi-Fi Direct.</string>
+    <string name="wifi_p2p_noncuncurrency_message">Start Wi-Fi Direct. Dette frakobler Wi-Fi.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">Dette frakobler en ekststerende Wi-Fi tilkobling.</string>
+    <string name="permission_security_title">Sikkerhetsadvarsel</string>
+    <string name="permission_security_label">" prøver på "</string>
+    <string name="permission_settings_prompt">Vennligst still inn valgmuligheter i \"Innstillinger-Generelle innstillinger-Sikkerhet-Tillatelsesmonitor\"</string>
+    <string name="permission_choice_label">記住此選擇</string>
+    <string name="reject_text">Avslå</string>
+    <string name="allow_text">Tillat</string>
+    <string name="action_mode_done">Ferdig</string>
+    <string name="wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_screen_shot_up_text">向上滑动1/3屏幕高度</string>
+    <string name="oppo_screen_shot_down_text">向下滑动1/3屏幕高度</string>
+</resources>

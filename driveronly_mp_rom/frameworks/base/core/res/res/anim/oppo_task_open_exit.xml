@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_edittext_themes.xml.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: TaskOpenExit animation about oppo_theme ;
+** 
+** Version: 1
+** Date created: 10:30:00, 2012/08/27
+** Author: Kaiyu.Zhong@Prd.MidWare.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			                <desc>
+**    Zhong Kaiyu      	      2010/08/27                        create
+** *****************************************************************************
+*/
+-->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#ff000000" android:shareInterpolator="false" android:zAdjustment="normal">
+	    <alpha android:fromAlpha="1.0" android:toAlpha="0.5"
+            android:fillEnabled="true" android:fillBefore="true" android:fillAfter="true"
+            android:interpolator="@interpolator/decelerate_cubic"
+            android:duration="200"/>
+    	<scale android:fromXScale="1.0" android:toXScale="1.0"
+            android:fromYScale="1.0" android:toYScale="1.0"
+            android:pivotX="50%p" android:pivotY="50%p"
+            android:fillEnabled="true" android:fillBefore="true" android:fillAfter="true"
+            android:interpolator="@interpolator/decelerate_quint"
+            android:duration="300" /> 
+	<!-- This is needed to keep the animation running while task_open_enter completes -->
+   		 <alpha android:fromAlpha="1.0" android:toAlpha="1.0"
+            android:duration="540" />
+
+
+</set>

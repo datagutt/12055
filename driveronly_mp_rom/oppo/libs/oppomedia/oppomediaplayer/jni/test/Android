@@ -1,0 +1,26 @@
+#####################test#####################
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE_TAGS := optional
+
+LOCAL_SRC_FILES:= playertest.cpp
+
+LOCAL_SHARED_LIBRARIES:= \
+		libbinder \
+		libutils \
+		liboppostagefright \
+		liboppoplayer
+
+
+LOCAL_C_INCLUDES:= \
+		$(LOCAL_PATH)/../include \
+		$(LOCAL_PATH)/../include/media/openmax \
+        $(LOCAL_PATH)/../libstagefright/include \    
+
+LOCAL_MODULE:= playertest
+
+LOCAL_PRELINK_MODULE:= false
+
+include $(BUILD_EXECUTABLE)

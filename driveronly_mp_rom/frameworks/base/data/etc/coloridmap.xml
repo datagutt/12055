@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<colormap>
+
+  <!-- Public colors of launcher -->
+  <color name="launcher_mainmenu_default_text_color" id="0x0106082c" />
+  <color name="launcher_folder_group_title_color" id="0x01060b15" />
+  <color name="launcher_folder_group_text_color" id="0x01060b16" />
+
+  <!-- Public colors of list view -->
+  <color name="title_text_color" id="0x01060816" />
+
+  <color name="listview_background_color" id="0x0106080a" />
+  <color name="listview_item_color" id="0x0106080b" />
+
+  <color name="large_text_color" id="0x0106080d" />
+  <color name="large_text_selected_color" id="0x0106080e" />
+  <color name="small_text_color" id="0x01060b00" />
+  <color name="small_text_selected_color" id="0x01060b01" />
+
+  <!--popup menu text color-->
+  <color name="menu_default_text_color" id="0x01060810"/>
+  <color name="menu_disable_text_color" id="0x01060b19"/>
+
+  <!--button text color-->
+  <color name="btn_text_normal_color" id="0x01060b17" />
+  <color name="btn_text_pressed_color" id="0x01060b18" />
+
+  <!-- statusbar_button_text_color -->
+  <color name="status_bar_button_text_color" id="0x0106081c" />
+  <color name="status_bar_latest_event_title_color" id="0x01060b0c" />
+  <color name="status_bar_latest_event_content_color" id="0x01060b0d" />
+  <color name="status_bar_latest_event_time_color" id="0x01060b0e" />
+  <color name="status_bar_clear_all_button_color" id="0x01060b0f"/>
+
+  <!--alert dialog text color-->
+  <color name="oppo_alert_dialog_content_text_color" id="0x01060801" />
+  <color name="oppo_alert_dialog_title_text_color" id="0x01060802" />
+
+  <!--MMS text color-->
+  <color name="mms_receive_text_color" id="0x01060b10" />
+  <color name="mms_send_text_color" id="0x01060b11" />
+  <color name="mms_send_btn_color" id="0x01060b12" />
+  <color name="mms_text_time_color" id="0x01060b13" />
+  <color name="mms_header_time_color" id="0x01060b14"/>
+  
+</colormap>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/emptybottle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/message"
+        android:layout_marginTop="@dimen/oppo_message_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/oppo_empty_bottle_text_size"
+        android:textColor="@color/oppo_empty_bottle_light_color"/>
+</merge>

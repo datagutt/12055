@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="oppo_select_ringtone_old">
+        <item>ringtone_001</item>
+        <item>ringtone_002</item>
+        <item>ringtone_003</item>
+        <item>ringtone_004</item>
+        <item>ringtone_005</item>
+        <item>ringtone_006</item>
+        <item>ringtone_007</item>
+        <item>ringtone_008</item>
+        <item>ringtone_009</item>
+        <item>ringtone_010</item>
+        <item>ringtone_011</item>
+        <item>ringtone_012</item>
+        <item>ringtone_013</item>
+        <item>ringtone_014</item>
+        <item>ringtone_015</item>
+        <item>ringtone_016</item>
+        <item>ringtone_017</item>
+        <item>ringtone_018</item>
+        <item>ringtone_019</item>
+        <item>ringtone_020</item>
+        <item>notification_001</item>
+        <item>notification_002</item>
+        <item>notification_003</item>
+        <item>notification_004</item>
+        <item>notification_005</item>
+        <item>notification_006</item>
+        <item>notification_007</item>
+        <item>notification_008</item>
+        <item>notification_009</item>
+        <item>notification_010</item>
+        <item>alarm_001</item>
+        <item>alarm_002</item>
+        <item>alarm_003</item>
+        <item>alarm_004</item>
+        <item>alarm_005</item>
+        <item>alarm_006</item>
+        <item>alarm_007</item>
+        <item>alarm_008</item>
+    </string-array>
+    <string-array name="oppo_select_ringtone_new">
+        <item>Fornøjelse</item>
+        <item>Sjæl</item>
+        <item>Farverigt liv</item>
+        <item>Landsby</item>
+        <item>Vand</item>
+        <item>Glæde</item>
+        <item>Elektrobeat</item>
+        <item>Ringetone 1</item>
+        <item>Ringetone 2</item>
+        <item>Ringetone</item>
+        <item>Hamre</item>
+        <item>Stjerner</item>
+        <item>Fest</item>
+        <item>Skøre unger</item>
+        <item>Roman</item>
+        <item>Sjov</item>
+        <item>Halvvejs hjemme</item>
+        <item>Solopgang</item>
+        <item>Hoppende finger</item>
+        <item>OPPO MP3</item>
+        <item>Glæde</item>
+        <item>Ren</item>
+        <item>Ekko</item>
+        <item>Begyndelse</item>
+        <item>Mira</item>
+        <item>Adara</item>
+        <item>Frisk</item>
+        <item>Fugl</item>
+        <item>Dryp</item>
+        <item>Fræk</item>
+        <item>Hav</item>
+        <item>Skov</item>
+        <item>Ny dag</item>
+        <item>Musikæske</item>
+        <item>Alarmbip</item>
+        <item>Vindelver</item>
+        <item>Morgen</item>
+        <item>Slap af</item>
+    </string-array>
+    <string-array name="oppo_permissions_prompt">
+        <item>Çağrı yapabilsin mi</item>
+        <item>Aramaları inceyebilsin mi</item>
+        <item>Rehberi inceleyebilsin mi</item>
+        <item>SMS\'leri okuyabilsin mi</item>
+        <item>SMS yollayabilsin mi</item>
+    </string-array>
+</resources>

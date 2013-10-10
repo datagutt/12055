@@ -1,0 +1,35 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libatrc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+LOCAL_SRC_FILES := libatrc.so
+include $(BUILD_PREBUILT)
+
+#-------------------
+include $(CLEAR_VARS)
+LOCAL_MODULE := librv20.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+LOCAL_SRC_FILES := librv20.so
+include $(BUILD_PREBUILT)
+
+#-------------------
+include $(CLEAR_VARS)
+LOCAL_MODULE := librv40.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+LOCAL_SRC_FILES := librv40.so
+include $(BUILD_PREBUILT)
+
+#-------------------
+include $(CLEAR_VARS)
+LOCAL_MODULE := libx13.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+LOCAL_SRC_FILES := libx13.so
+include $(BUILD_PREBUILT)

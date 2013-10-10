@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is layout for the float panel of text view insertion.
+-->
+<android.widget.OppoFloatPanelView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/oppo_panel"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/oppo_textview_toolbar_bg">
+
+        <TextView android:id="@+id/oppo_buttonSelect"
+            style="@style/OppoTextViewFloatPanelButton"
+            android:text="@string/selectText"
+            />
+        <ImageView android:id="@+id/oppo_separator1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/oppo_textview_toolbar_separator"
+            />
+        <TextView android:id="@+id/oppo_buttonSelectAll"
+        	style="@style/OppoTextViewFloatPanelButton"
+             android:text="@android:string/selectAll"
+            />
+        <ImageView android:id="@+id/oppo_separator2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/oppo_textview_toolbar_separator"
+            />
+        <TextView android:id="@+id/oppo_buttonPaste"
+            style="@style/OppoTextViewFloatPanelButton"
+            android:text="@android:string/paste"
+            />
+        <ImageView android:id="@+id/oppo_separator3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/oppo_textview_toolbar_separator"
+            />
+        <TextView android:id="@+id/oppo_inputmethodSwitch"
+            style="@style/OppoTextViewFloatPanelButton"
+            android:text="@*android:string/inputMethod"
+            />
+    </LinearLayout>
+    <ImageView android:id="@+id/oppo_arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oppo_text_toolbar_position_arrow_up"
+        android:visibility="gone" />
+    <ImageView android:id="@+id/oppo_arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oppo_text_toolbar_position_arrow_down"
+        android:visibility="gone" />
+</android.widget.OppoFloatPanelView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/shortcutlist_selector_layout"
+    >
+
+    <LinearLayout
+        android:id="@+id/shortcutlist_selector_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shortcutlist_selector_arrow"
+        layout_alignWithParentIfMissing="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dip"
+        android:paddingTop="12dip"
+        android:paddingBottom="12dip"
+        android:background="@drawable/oppo_shortcutlist_selector_bg_right"
+        android:orientation="vertical"
+        >
+
+        <view class="com.oppo.widget.OppoShortCutList$SubMultiListView"
+            android:id="@+id/shortcuts_list"
+            android:layout_width="135dip"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:divider="@drawable/oppo_shortcutlist_selector_separator"
+            android:cacheColorHint="@null"
+            android:scrollbars="vertical"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/shortcutlist_selector_arrow"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dip"
+        android:layout_marginBottom="0dip"
+        android:layout_marginRight="0dip"
+        android:src="@null"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

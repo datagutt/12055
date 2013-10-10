@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The duration (in milliseconds) of a min animation. -->
+    <integer name="oppo_config_minAnimTime">30</integer>
+    <!-- The duration (in milliseconds) of a low animation. -->
+    <integer name="oppo_config_lowAnimTime">150</integer>
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jianrong.Zheng@Prd.BasicSrv.BatteryManager, 2012/09/06, Add for  -->
+    <integer name="oppo_config_screenBrightnessDim">20</integer>
+<!-- #endif //VENDOR_EDIT -->
+    
+    <!---->
+    <integer name="oppo_default_mode">1</integer>
+    <integer name="oppo_longstand_mode">2</integer>
+    <integer name="oppo_shade_mode">3</integer>
+	
+    <integer name="oppo_config_orienAnimTime">300</integer>    
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- SheTao@Prd.BasicSrv.PowerManager, 2012/07/06, Add for  -->
+    
+    <integer-array name="oppo_config_autoBrightnessLevels">
+        <item>30</item>
+        <item>800</item>
+        <item>2500</item>
+        <item>5500</item>
+        <item>8500</item>
+        <item>65535</item>
+    </integer-array>
+
+    <integer-array name="oppo_config_autoBrightnessLcdBacklightValues">
+        <item>31</item>
+        <item>71</item>
+        <item>101</item>
+        <item>131</item>
+        <item>161</item>
+        <item>191</item>
+	<item>255</item>
+    </integer-array>
+
+    <integer-array name="oppo_config_autoBrightnessButtonBacklightValues">
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>140</item>
+        <item>180</item>
+    </integer-array>
+
+    <integer-array name="oppo_config_autoBrightnessKeyboardBacklightValues">
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>140</item>
+        <item>180</item>
+    </integer-array>
+
+    <integer name="oppo_config_lightSensorWarmupTime">500</integer>
+<!-- #endif //VENDOR_EDIT -->
+
+<!-- Jianrong.Zheng@Prd.BasicSrv.BatteryManager, 2012/07/26, Add for [], { -->
+    <integer name="oppo_config_criticalBatteryWarningLevel">2</integer>
+	
+    <integer name="oppo_config_secondlowBatteryWarningLevel">10</integer>	
+
+    <integer name="oppo_config_lowBatteryWarningLevel">20</integer>
+
+    <integer name="oppo_config_lowBatteryCloseWarningLevel">25</integer>
+<!-- //} add end for []. -->
+
+<!-- #ifdef VENDOR_EDIT -->
+<!--Jun.Zhang@Plf.Framework.Vibrator, 2012/9/27, port for upgrade android4.1-->
+<!-- Jiangtao.Guo@Prd.SysSrv.InputManager, 2012/08/06, Add for  -->
+
+    <!-- Vibrator pattern for feedback about touching a virtual key -->
+    <integer-array name="oppo_config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+    </integer-array>
+
+	 <!-- Vibrator pattern for feedback about a long screen/key press -->
+	<integer-array name="oppo_config_longPressVibePattern">
+		<item>0</item>
+		<item>1</item>
+		<item>10</item>
+		<item>50</item>
+	</integer-array>
+    
+<!-- #endif //VENDOR_EDIT -->
+
+	<!-- #ifdef VENDOR_EDIT -->
+    <!-- YanChen@Prd.SysApp.WIFI, 2012/08/23, Add for wifi auto scan-->
+	
+    <!-- Integer indicating the framework scan interval in milliseconds. This is used in the scenario
+         where the chipset does not support background scanning (config_wifi_background_scan_suport
+         is false) to set up a periodic wake up scan so that the device can connect to a new access
+         point on the move. A value of 0 means no periodic scans will be used in the framework. -->
+	<integer name="oppo_config_wifi_framework_scan_interval">15000</integer>  
+	
+    <!-- #endif //VENDOR_EDIT -->
+    
+</resources>

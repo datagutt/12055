@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="oppo_screen_shot_up_text">向上滑動1/3屏幕高度</string>
+    <string name="oppo_screen_shot_down_text">向下滑動1/3屏幕高度</string>	
+    <string name="oppo_volume_media">媒體音</string>	
+    <string name="oppo_volume_system">系統音</string>	
+    <string name="oppo_volume_ringtone">鈴聲</string>	
+</resources>

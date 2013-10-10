@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_touchsearch_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: Touch Search's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Hu Zhaohui@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Hu Zhaohui      2010/09/10    create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <!-- dimen -->
+    <dimen name="oppo_loading_height">44dp</dimen>
+    <dimen name="oppo_loading_text_size">16dp</dimen>
+    <dimen name="oppo_loading_text_space">12dp</dimen>
+    
+    <!-- color -->
+    <color name="oppo_loading_text_color">#ff999d9c</color>
+    
+</resources>

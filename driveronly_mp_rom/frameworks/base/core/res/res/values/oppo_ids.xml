@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+	
+	 <!-- add by danjianjun for merger oppo framework   2012-03-05-->
+  <!-- file begin -->
+  <item type="id" name="detail_icon" />
+  <item type="id" name="detail_title" />
+  <item type="id" name="detail_text" />
+  <item type="id" name="list_icon" />
+  <item type="id" name="list_name" />
+  <item type="id" name="filesave_path"  />
+  <item type="id" name="filesave_emptyFile" />
+  <item type="id" name="filesave_list"  />
+  <item type="id" name="filesave_new_folder"  />
+  <item type="id" name="filesave_back"  />
+  <item type="id" name="filesave_confirm"  />
+  <item type="id" name="filename_username_view"  />
+  <item type="id" name="filename_username_edit" />
+  <!--  zhusj adding for id -->
+  <item type="id" name="sysfivekey_up" />
+  <item type="id" name="sysfivekey_down" />
+  <item type="id" name="sysfivekey_left" />
+  <item type="id" name="sysfivekey_right" />
+  <item type="id" name="sysfivekey_ok" />
+  <item type="id" name="sysfivekey_ll" />  
+  <!--  luoyaojun  adding for id -->  
+  <!-- The EditText for entries in the EditContactActivity -->
+
+  <!-- add end by danjianjun 2012-03-05-->
+  <item type="id" name="img" />
+  <item type="id" name="modify" />
+  <item type="id" name="modify_button" /> 
+  <item type="id" name="screenLocked" />
+  <item type="id" name="show_more_icon" />
+  <item type="id" name="show_more_text" />
+  <item type="id" name="status1" />
+  <item type="id" name="oppo_tabhost" />
+  
+  <item type="id" name="perm_icon" />
+  <item type="id" name="am_pm" />
+  
+  
+  <item type="id" name="id_usbnoasklayout" />
+  <!-- layout/oppo_mark_list_title.xml  ids -->
+  <item type="id" name="label" />
+  <item type="id" name="mark_all" />
+  <item type="id" name="mark_none" />
+  <item type="id" name="marked_count" />
+  <!-- layout/oppo_rename_dialog_layout.xml id -->
+  <item type="id" name="rename_dialog_edit" />
+</resources>

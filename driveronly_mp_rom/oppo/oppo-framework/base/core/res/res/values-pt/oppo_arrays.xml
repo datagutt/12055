@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="oppo_select_ringtone_new">
+        <item>Disfrutar</item>
+        <item>Alma</item>
+        <item>Vida a todo color</item>
+        <item>Pueblo</item>
+        <item>Agua</item>
+        <item>Deleitarse</item>
+        <item>Sonido electrónico</item>
+        <item>Tono 1</item>
+        <item>Tono 2</item>
+        <item>Campanero</item>
+        <item>Mazos</item>
+        <item>Estrellas</item>
+        <item>Fiesta</item>
+        <item>Niños desenfrenados</item>
+        <item>Novela</item>
+        <item>Divertido</item>
+        <item>A mitad de camino de casa</item>
+        <item>Amanecer</item>
+        <item>Dedo saltarín</item>
+        <item>OPPO MP3</item>
+        <item>Alegría</item>
+        <item>Puro</item>
+        <item>Eco</item>
+        <item>Comienza</item>
+        <item>Mira</item>
+        <item>Adara</item>
+        <item>Fresco</item>
+        <item>Pájaro</item>
+        <item>Soltar</item>
+        <item>Travieso</item>
+        <item>Mar</item>
+        <item>Bosque</item>
+        <item>Nuevo día</item>
+        <item>Caja de música</item>
+        <item>Sonido de la alarma</item>
+        <item>Duende del viento</item>
+        <item>Mañana</item>
+        <item>Relajarse y descansar</item>
+    </string-array>
+    <string-array name="oppo_permissions_prompt">
+        <item>telefonar</item>
+        <item>ler registo de chamadas</item>
+        <item>ler dados dos contactos</item>
+        <item>ler SMS</item>
+        <item>mandar SMS</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>

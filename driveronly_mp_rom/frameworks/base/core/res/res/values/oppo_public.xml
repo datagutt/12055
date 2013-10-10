@@ -1,0 +1,1010 @@
+<!-- This file defines the base public resources exported by the
+     platform, which must always exist. -->
+
+<!-- ***************************************************************
+     ***************************************************************
+     IMPORTANT NOTE FOR ANYONE MODIFYING THIS FILE
+     READ THIS BEFORE YOU MAKE ANY CHANGES
+
+     This file defines the binary compatibility for resources.  As such,
+     you must be very careful when making changes here, or you will
+     completely break backwards compatibility with old applications.
+
+     To avoid breaking compatibility, all new resources must be placed
+     at the end of the list of resources of the same type.  Placing a resource
+     in the middle of type will cause all following resources to be
+     assigned new resource numbers, breaking compatibility.
+
+     ***************************************************************
+     *************************************************************** -->
+<resources>
+  <private-symbols package="com.android.internal" />
+  <!-- From oppo 3d widget -->  
+  <java-symbol type="bool" name="oppo_texture_resize" />
+  <java-symbol type="bool" name="oppo_scene_preview_tap_scroll_fast_mode" />
+  <java-symbol type="string" name="oppo_flip_frame_step" />
+  <java-symbol type="string" name="oppo_scene_preview_track_scroll_fast_step" />
+  <java-symbol type="integer" name="oppo_roll_cover_render_delay" />
+  <java-symbol type="integer" name="oppo_scene_preview_track_scroll_fast_slop" />
+  <java-symbol type="integer" name="oppo_scene_preview_render_delay" />
+  <!-- From oppo 2d widget -->
+  <java-symbol type="layout" name="oppo_number_picker" />
+  <java-symbol type="layout" name="oppo_date_picker" />
+  <java-symbol type="layout" name="oppo_time_picker" />
+  <java-symbol type="layout" name="oppo_chips_alternate_item" />
+  <java-symbol type="layout" name="oppo_more_item" />
+  <java-symbol type="layout" name="oppo_copy_chip_dialog_layout" />
+  <java-symbol type="layout" name="oppo_app_perms_summary" />
+  <java-symbol type="layout" name="oppo_app_dangerous_permission_item" />
+  <java-symbol type="layout" name="oppo_touchsearch_poppup_preview" />
+  <java-symbol type="layout" name="tab_indicator" />
+  <java-symbol type="layout" name="oppo_tab_align_bottom_content" />
+  <java-symbol type="layout" name="oppo_shortcut_button" />
+  <java-symbol type="layout" name="oppo_shortcutlist_selection_dialog" />
+  <java-symbol type="layout" name="oppo_shortcutlist_item_icon_text" />
+  <java-symbol type="layout" name="oppo_clipboard" />
+  <java-symbol type="layout" name="oppo_contact_header" />
+  <java-symbol type="layout" name="oppo_search_view" />
+  <java-symbol type="layout" name="oppo_date_picker_dialog" />
+  <java-symbol type="layout" name="oppo_list_content" />
+  <java-symbol type="layout" name="oppo_multi_list_content" />
+  <java-symbol type="layout" name="oppo_progress_dialog_notitle" />
+  <java-symbol type="layout" name="oppo_time_picker_dialog" />
+  <java-symbol type="layout" name="oppo_preference" />
+  <java-symbol type="layout" name="oppo_preference_list_fragment" />
+  <java-symbol type="layout" name="oppo_preference_list_content" />
+  <java-symbol type="layout" name="oppo_preference_list_content_single" />
+  <java-symbol type="layout" name="oppo_preference_widget_seekbar" />
+  <java-symbol type="layout" name="oppo_preference_header_item" />
+  <java-symbol type="layout" name="oppo_popup_menu_item_layout" />
+  <java-symbol type="layout" name="oppo_notification_template_base" />
+  <java-symbol type="layout" name="oppo_notification_template_big_base" />
+  <java-symbol type="layout" name="oppo_notification_template_inbox" />
+  <java-symbol type="layout" name="oppo_notification_template_big_text" />
+  <java-symbol type="layout" name="oppo_notification_template_big_picture" />
+  <java-symbol type="layout" name="oppo_notification_template_part_time" />
+  <java-symbol type="layout" name="oppo_list_menu_item_layout" />
+  <java-symbol type="color" name="oppo_numberpicker_text_color" />
+  <java-symbol type="color" name="perms_dangerous_grp_color" />
+  <java-symbol type="color" name="perms_dangerous_perm_color" />
+  <java-symbol type="color" name="oppo_touchsearch_popupwin_default_textcolor" />
+  <java-symbol type="color" name="oppo_tab_widget_only_text_color_normal" />
+  <java-symbol type="color" name="oppo_tab_widget_only_text_color_selected" />
+  <java-symbol type="color" name="hint_foreground_light" />
+  <java-symbol type="string" name="oppo_lunar_leap_11" />
+  <java-symbol type="string" name="oppo_lunar_leap_12" />
+  <java-symbol type="string" name="perms_modify" />
+  <java-symbol type="string" name="does_change_perms" />
+  <java-symbol type="string" name="selectText" />
+  <java-symbol type="string" name="touchsearch_dot" />
+  <java-symbol type="string" name="touchsearch_side_keys_prefix" />
+  <java-symbol type="string" name="unknown" />
+  <java-symbol type="string" name="contact_status_update_attribution_with_date" />
+  <java-symbol type="string" name="contact_status_update_attribution" />
+  <java-symbol type="dimen" name="oppo_numberpicker_text_offset" /> 
+  <java-symbol type="dimen" name="oppo_chip_padding" />
+  <java-symbol type="dimen" name="oppo_chip_height" />
+  <java-symbol type="dimen" name="oppo_chip_text_size" />
+  <java-symbol type="dimen" name="oppo_dialog_max_height" />
+  <java-symbol type="dimen" name="oppo_touchsearch_popupwin_default_width" />
+  <java-symbol type="dimen" name="oppo_touchsearch_popupwin_default_height" />
+  <java-symbol type="dimen" name="oppo_touchsearch_popupwin_default_textsize" />
+  <java-symbol type="dimen" name="oppo_tab_widget_default_text_size" />
+  <java-symbol type="dimen" name="oppo_tab_widget_default_text_size_landscape" />
+  <java-symbol type="dimen" name="oppo_tabwidget_top_shadow_height" />
+  <java-symbol type="dimen" name="oppo_tab_widget_only_text_size" />
+  <java-symbol type="dimen" name="oppo_toggle_tip_top" />
+  <java-symbol type="dimen" name="oppo_toggle_tip_left" />
+  <java-symbol type="dimen" name="oppo_toggle_tipwidth" />
+  <java-symbol type="drawable" name="oppo_number_pick_2_left" />
+  <java-symbol type="drawable" name="oppo_number_pick_2" />
+  <java-symbol type="drawable" name="oppo_ic_contact_picture" />
+  <java-symbol type="drawable" name="oppo_chip_background" />
+  <java-symbol type="drawable" name="oppo_chip_background_selected" />
+  <java-symbol type="drawable" name="oppo_chip_delete" />
+  <java-symbol type="drawable" name="oppo_chip_background_invalid" />
+  <java-symbol type="drawable" name="oppo_btn_text_edit_delete_normal" />
+  <java-symbol type="drawable" name="oppo_btn_text_edit_delete_pressed" />
+  <java-symbol type="drawable" name="oppo_collapsitem_bg" />
+  <java-symbol type="drawable" name="oppo_collapslist_shadow" />
+  <java-symbol type="drawable" name="oppo_collapslist_divider" />
+  <java-symbol type="drawable" name="oppo_toggle_pint" />
+  <java-symbol type="drawable" name="oppo_toggle_on" />
+  <java-symbol type="drawable" name="oppo_toggle_off" />
+  <java-symbol type="drawable" name="oppo_toggle_on_disable" />
+  <java-symbol type="drawable" name="oppo_toggle_off_disable" />
+  <java-symbol type="drawable" name="oppo_touchsearch_touch_bg" />
+  <java-symbol type="drawable" name="oppo_touchsearch_point" />
+  <java-symbol type="drawable" name="oppo_tab_widget_divider" />
+  <java-symbol type="drawable" name="oppo_tab_hl" />
+  <java-symbol type="drawable" name="oppo_shortcutlist_selector_separator" />
+  <java-symbol type="drawable" name="oppo_shortcutlist_selector_background_top" />
+  <java-symbol type="drawable" name="oppo_shortcutlist_selector_background_bottom" />
+  <java-symbol type="drawable" name="oppo_shortcutlist_selector_background_mid" />
+  <java-symbol type="drawable" name="oppo_shortcutlist_selector_background_only" />
+  <java-symbol type="drawable" name="oppo_sym_keyboard_shift" />
+  <java-symbol type="drawable" name="oppo_sym_keyboard_shift_locked" />
+  <java-symbol type="drawable" name="oppo_progressbar_progress_full" />
+  <java-symbol type="drawable" name="oppo_progressbar_bg_full" />
+  <java-symbol type="drawable" name="oppo_comma_bg" />
+  <java-symbol type="drawable" name="oppo_ic_contact_picture_2" />
+  <java-symbol type="drawable" name="oppo_ic_contact_picture_3" />
+  <java-symbol type="drawable" name="oppo_phone_drawable" />
+  <java-symbol type="drawable" name="oppo_newbuild_drawable" />
+  <java-symbol type="drawable" name="oppo_list_view_background" />
+  <java-symbol type="drawable" name="oppo_btn_code_lock_default" />
+  <java-symbol type="drawable" name="oppo_btn_code_lock_touched" />
+  <java-symbol type="drawable" name="oppo_indicator_code_lock_point_area_default" />
+  <java-symbol type="drawable" name="oppo_indicator_code_lock_point_area_green" />
+  <java-symbol type="drawable" name="oppo_indicator_code_lock_point_area_red" />
+  <java-symbol type="drawable" name="oppo_indicator_code_lock_drag_direction_green_up" />
+  <java-symbol type="drawable" name="oppo_indicator_code_lock_drag_direction_red_up" />
+  <java-symbol type="drawable" name="oppo_list_view_top" />
+  <java-symbol type="drawable" name="oppo_list_view_mi" />
+  <java-symbol type="drawable" name="oppo_list_view_bm" />
+  <java-symbol type="drawable" name="oppo_left_p" />
+  <java-symbol type="drawable" name="oppo_right_p" />
+  <java-symbol type="drawable" name="oppo_left_9" />
+  <java-symbol type="drawable" name="oppo_right_9" />
+  <java-symbol type="drawable" name="oppo_shortcut_button_bg" />
+  <java-symbol type="drawable" name="oppo_shortcutbutton_separator" />
+  <java-symbol type="drawable" name="oppo_list_selector_background_disabled" />
+  <java-symbol type="id" name="modify" />
+  <java-symbol type="id" name="modify_button" />
+  <java-symbol type="id" name="touchsearch_popup_content_textview" />
+  <java-symbol type="id" name="viewpager" />
+  <java-symbol type="id" name="ButtonPositive" />
+  <java-symbol type="id" name="ButtonNegative" />
+  <java-symbol type="id" name="ButtonNeutral" />
+  <java-symbol type="id" name="shortcuts_list" />
+  <java-symbol type="id" name="clip_close" />
+  <java-symbol type="id" name="clip_clear_all" />
+  <java-symbol type="id" name="clip_mode_copy" />
+  <java-symbol type="id" name="clip_mode_cut" />
+  <java-symbol type="id" name="clip_function_tip" />
+  <java-symbol type="id" name="clip_files" />
+  <java-symbol type="id" name="aggregate_badge" />
+  <java-symbol type="id" name="phonetic_name" />
+  <java-symbol type="id" name="star" />
+  <java-symbol type="id" name="photo" />
+  <java-symbol type="id" name="presence" />
+  <java-symbol type="id" name="status_date" />
+  <java-symbol type="id" name="new_build_button" />
+  <java-symbol type="id" name="phone_button" />
+  <java-symbol type="id" name="contact_button" />
+  <java-symbol type="id" name="display_telephonenumber_or_group" />
+  <java-symbol type="id" name="datePicker_btn" />
+  <java-symbol type="id" name="solar_btn" />
+  <java-symbol type="id" name="lunar_btn" />
+  <java-symbol type="id" name="notitle_dialog_message" />
+  <java-symbol type="attr" name="oppoListViewStyle" />
+  <java-symbol type="attr" name="oppoToggleStyle" />
+  <java-symbol type="attr" name="oppoMultiListViewStyle" />
+  <java-symbol type="attr" name="oppoPreferenceStyle" />
+  <java-symbol type="attr" name="oppoPreferenceScreenStyle" />
+  <java-symbol type="attr" name="oppoPreferenceCategoryStyle" />
+  <java-symbol type="attr" name="oppoTogglePreferenceStyle" />
+  <java-symbol type="integer" name="oppo_touchsearch_popupwin_default_top_mincoordinate" />
+  <java-symbol type="array" name="normal_touchsearch_keys" />
+  <java-symbol type="array" name="union_touchsearch_keys" />
+  <java-symbol type="array" name="touchsearch_side_keys_drawable" />
+  <java-symbol type="xml" name="oppo_password_kbd_numeric" />
+  <java-symbol type="xml" name="oppo_password_kbd_qwerty_shifted" />
+  <java-symbol type="xml" name="oppo_password_kbd_symbols" />
+  <java-symbol type="xml" name="oppo_password_kbd_numeric" />
+  <java-symbol type="xml" name="oppo_password_kbd_qwerty" />
+  <java-symbol type="xml" name="oppo_password_kbd_qwerty_shifted" />
+  <java-symbol type="xml" name="oppo_password_kbd_symbols" />
+  <java-symbol type="xml" name="oppo_password_kbd_symbols_shift" /> 
+  <java-symbol type="style" name="Preference.OPPO" />
+  <!-- From com.oppo.tetx.OppoEmoticonWatcher -->
+  <java-symbol type="string" name="emo_boring" />
+  <java-symbol type="string" name="emo_bad_smile" />
+  <java-symbol type="string" name="emo_foolish" />
+  <java-symbol type="string" name="emo_hamburger" />
+  <java-symbol type="string" name="emo_shy" />
+  <java-symbol type="string" name="emo_rose" />
+  <java-symbol type="string" name="emo_cry" />
+  <java-symbol type="string" name="emo_a_cup_of_tea" />
+  <java-symbol type="string" name="emo_exultation" />
+  <java-symbol type="string" name="emo_smiling" />
+  <java-symbol type="string" name="emo_wondering" />
+  <java-symbol type="string" name="emo_naughty" />
+  <java-symbol type="string" name="emo_smiling_on_the_side" />
+  <java-symbol type="string" name="emo_very_sad" />
+  <java-symbol type="string" name="emo_sad_expression" />
+  <java-symbol type="string" name="emo_kiss" />
+  <java-symbol type="string" name="emo_sweet_kiss" />
+  <java-symbol type="string" name="emo_surprise" />
+  <java-symbol type="string" name="emo_What" />
+  <java-symbol type="string" name="emo_convey_love_by_e" />
+  <java-symbol type="string" name="boring" />
+  <java-symbol type="string" name="bad_smile" />
+  <java-symbol type="string" name="foolish" />
+  <java-symbol type="string" name="hamburger" />
+  <java-symbol type="string" name="shy" />
+  <java-symbol type="string" name="rose" />
+  <java-symbol type="string" name="cry" />
+  <java-symbol type="string" name="a_cup_of_tea" />
+  <java-symbol type="string" name="exultation" />
+  <java-symbol type="string" name="smiling" />
+  <java-symbol type="string" name="wondering" />
+  <java-symbol type="string" name="naughty" />
+  <java-symbol type="string" name="smiling_on_the_side" />
+  <java-symbol type="string" name="very_sad" />
+  <java-symbol type="string" name="sad_expression" />
+  <java-symbol type="string" name="kiss" />
+  <java-symbol type="string" name="sweet_kiss" />
+  <java-symbol type="string" name="surprise" />
+  <java-symbol type="string" name="What" />
+  <java-symbol type="string" name="convey_love_by_e" />
+  <java-symbol type="string" name="clip_function_tip" />
+  <java-symbol type="drawable" name="oppo_emo_im_undecided" />
+  <java-symbol type="drawable" name="oppo_emo_im_smellface" />
+  <java-symbol type="drawable" name="oppo_emo_im_foot_in_mouth" />
+  <java-symbol type="drawable" name="oppo_emo_im_sleepface" />
+  <java-symbol type="drawable" name="oppo_emo_im_face" />
+  <java-symbol type="drawable" name="oppo_emo_im_crying" />
+  <java-symbol type="drawable" name="oppo_emo_im_angel" />
+  <java-symbol type="drawable" name="oppo_emo_im_winking" />
+  <java-symbol type="drawable" name="oppo_emo_im_laughing" />
+  <java-symbol type="drawable" name="oppo_emo_im_lips_are_sealed" />
+  <java-symbol type="drawable" name="oppo_emo_im_happy" />
+  <java-symbol type="drawable" name="oppo_emo_im_tongue_sticking_out" />
+  <java-symbol type="drawable" name="oppo_emo_im_sad" />
+  <java-symbol type="drawable" name="oppo_emo_im_sad_expression" />
+  <java-symbol type="drawable" name="oppo_emo_im_kissing" />
+  <java-symbol type="drawable" name="oppo_emo_im_money_mouth" />
+  <java-symbol type="drawable" name="oppo_emo_im_surprised" />
+  <java-symbol type="drawable" name="oppo_emo_im_yelling" />
+  <java-symbol type="drawable" name="oppo_emo_im_wtf" />
+  <java-symbol type="drawable" name="oppo_emo_im_cool" />
+  <!-- From com.android.server.usb.OppoUsbManager.java -->
+  <java-symbol type="string" name="usb_charge" />
+  <java-symbol type="string" name="usb_storage" />
+  <java-symbol type="string" name="usb_adb" />
+  <java-symbol type="string" name="usb_internet" />
+  <java-symbol type="string" name="usb_selection" />
+  <java-symbol type="drawable" name="oppo_stat_sys_adb" />
+  <!-- From com.oppo.file.* -->
+  <java-symbol type="string" name="mount_sdcard" />
+  <java-symbol type="string" name="unmount_sdcard" />
+  <java-symbol type="string" name="mount_localusb" />
+  <java-symbol type="string" name="unmount_localusb" />
+  <java-symbol type="string" name="mount_usb" />
+  <java-symbol type="string" name="unmount_usb" />
+  <java-symbol type="drawable" name="oppo_file_frame_gallery_preview_album_mask" />
+  <java-symbol type="drawable" name="oppo_file_ic_gallery_video_overlay" />
+  <!-- From com.oppo.view.* -->
+  <java-symbol type="style" name="oppo_text_magnifier_popup" />
+  <java-symbol type="drawable" name="oppo_text_magnifier" />
+  <java-symbol type="drawable" name="oppo_text_toolbar_left" />
+  <java-symbol type="drawable" name="oppo_text_toolbar_center" />
+  <java-symbol type="drawable" name="oppo_text_toolbar_right" />
+  <java-symbol type="drawable" name="oppo_text_toolbar_single" />
+  <java-symbol type="drawable" name="oppo_text_toolbar_position_arrow_above" /> 
+  <java-symbol type="drawable" name="oppo_text_toolbar_position_arrow_below" /> 
+  <java-symbol type="layout" name="oppo_text_toolbar" />
+  <java-symbol type="id" name="oppo_toolbar_group" />
+  <java-symbol type="id" name="oppo_toolbar_position_arrow" />
+  <!-- //Mei.Liu@Plf.Framework.battery service&&poweron/off, 2012/9/24, add for poweron/off.GlobalActions.java,batteryservice.java -->
+  <java-symbol type="string" name="global_actions" />
+  <java-symbol type="string" name="oppo_global_actions_poweroff_prompt" />
+  <java-symbol type="string" name="oppo_global_actions_reboot_prompt" />
+  <java-symbol type="string" name="global_action_reboot" /> 
+  <java-symbol type="drawable" name="oppo_ic_lock_silent_mode" />
+  <java-symbol type="drawable" name="oppo_ic_lock_silent_mode_off" />
+  <java-symbol type="drawable" name="oppo_ic_lock_silent_mode_vibrate" />
+  <java-symbol type="drawable" name="oppo_ic_lock_airplane_mode" />
+  <java-symbol type="drawable" name="oppo_ic_lock_airplane_mode_off" />
+  <java-symbol type="drawable" name="oppo_ic_lock_power_off" />
+  <java-symbol type="drawable" name="oppo_ic_lock_reboot" />
+  <java-symbol type="drawable" name="ic_lock_silent_mode_vibrate" />
+  <java-symbol type="drawable" name="ic_lock_silent_mode" />
+  <java-symbol type="integer" name="oppo_config_criticalBatteryWarningLevel" />
+  <java-symbol type="integer" name="oppo_config_secondlowBatteryWarningLevel" />
+  <java-symbol type="integer" name="oppo_config_lowBatteryWarningLevel" />
+  <java-symbol type="integer" name="oppo_config_lowBatteryCloseWarningLevel" />
+  
+   <!--//Jun.Zhang@Plf.Framework.Power, 2012/9/21, add for PowerManagerservice.java upgrade android4.1 -->
+  <java-symbol type="array" name="oppo_config_autoBrightnessButtonBacklightValues" />
+  <java-symbol type="array" name="oppo_config_autoBrightnessKeyboardBacklightValues" />
+  <java-symbol type="array" name="oppo_config_autoBrightnessLcdBacklightValues" />
+  <java-symbol type="array" name="oppo_config_autoBrightnessLevels" />
+  <java-symbol type="integer" name="oppo_config_lightSensorWarmupTime" />
+  <java-symbol type="integer" name="oppo_config_screenBrightnessDim" />
+  
+  <!--//Jun.Zhang@Plf.Framework.vibrate, 2012/9/27, add for PhoneWindowManager.java upgrade android4.1 -->
+  <java-symbol type="array" name="oppo_config_virtualKeyVibePattern" />
+  <java-symbol type="array" name="oppo_config_longPressVibePattern" />
+  
+  
+  <!--//fulj@Plf.Framework.oppotextview, 2012/9/22   -->
+  <java-symbol type="layout" name="oppo_textview_hint" />
+  <java-symbol type="layout" name="oppo_text_drag_thumbnail" />
+  <java-symbol type="layout" name="oppo_text_edit_action_popup_text" />
+  <java-symbol type="drawable" name="oppo_text_select_handle_left" />
+  <java-symbol type="drawable" name="oppo_text_select_handle_right" />
+  <java-symbol type="color" name="oppo_text_toolbar_text_color" />
+  <!--  end oppotextview   -->  
+  <!--//fulj@Plf.Framework.ims, 2012/9/22   -->
+  <java-symbol type="style" name="Theme.OPPO.InputMethod" />
+  <java-symbol type="layout" name="oppo_input_method_extract_view" />
+  <java-symbol type="drawable" name="oppo_ic_notification_ime_default" />
+  <!--  end inputmethod   -->
+  <!--//fulj@Plf.Framework.ListPopupWindow, 2012/9/22   -->
+  <java-symbol type="dimen" name="oppo_action_bar_listmenu_maxheight" />
+  <!--  end ListPopupWindow   --> 
+  
+  <!--//fulj@Plf.Framework.OppoVolumePanel, 2012/9/28  upgrade android4.1 -->
+  <java-symbol type="drawable" name="oppo_ic_audio_bt" />
+  <java-symbol type="drawable" name="oppo_ic_audio_ring_notif" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_ring_notif_mute" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_phone" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_alarm" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_alarm_mute" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_vol" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_vol_mute" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_notification" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_notification_mute" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_ring_notif_vibrate" /> 
+  <java-symbol type="drawable" name="oppo_ic_audio_bt_mute" /> 
+  <java-symbol type="layout" name="oppo_volume_adjust" />
+  <java-symbol type="layout" name="oppo_volume_adjust_item" />
+  <java-symbol type="id" name="oppo_stream_title" />
+  <java-symbol type="id" name="oppo_stream_icon" />
+  <java-symbol type="id" name="oppo_seekbar" />
+  <!--  end inputmethod   -->    
+  
+  <!-- From oppo statusbar -->
+  <java-symbol type="string" name="statusbar_edit" />
+  <java-symbol type="string" name="statusbar_clear_all" />
+  <java-symbol type="string" name="statusbar_key_wlan" />
+  <java-symbol type="string" name="statusbar_key_net" />
+  <java-symbol type="string" name="status_vibrate" />
+  <java-symbol type="drawable" name="oppo_notify_panel_notification_icon_bg_tile" />
+  <java-symbol type="drawable" name="oppo_stat_notify_sdcard" />
+  <java-symbol type="drawable" name="oppo_stat_notify_sdcard_prepare" />
+  <java-symbol type="drawable" name="oppo_stat_notify_sdcard_usb" />
+  <java-symbol type="drawable" name="oppo_status_bar_vibrate_on" />
+  <java-symbol type="drawable" name="oppo_notification_bg" />
+  <java-symbol type="drawable" name="oppo_notification_bg_normal" />
+  
+  <!-- From  android.app.WallpaperManager.java  -->
+  <java-symbol type="drawable" name="oppo_default_wallpaper" />
+  
+  <!-- From  Settings APP  -->
+  <java-symbol type="string" name="status_autosync" />
+  <java-symbol type="string" name="internal_sd_name" />
+  <java-symbol type="string" name="external_sd_name" />
+  <java-symbol type="string" name="status_silent" />
+  <java-symbol type="string" name="statusbar_key_screen" />
+  <java-symbol type="string" name="status_gps" />
+  <java-symbol type="string" name="status_brightness" />
+  <java-symbol type="string" name="status_flight" />
+  <java-symbol type="string" name="statusbar_key_bt" />
+  <java-symbol type="string" name="status_hotspot" />
+  <java-symbol type="string" name="status_hotspot" />
+  <java-symbol type="drawable" name="ic_menu_refresh" />
+  
+  <!-- From  Phone APP  -->
+  <java-symbol type="string" name="status_3g" />
+  <java-symbol type="drawable" name="oppo_password_edit_background" />  
+  
+  <!-- From  Toast UI  -->
+  <java-symbol type="layout" name="oppo_transient_notification" />
+  
+  <!-- From  OppoPermissionSelectionActivity.java  -->
+  <java-symbol type="string" name="perms_modify" />
+  <java-symbol type="string" name="modify_pkg_perms" />
+  <java-symbol type="string" name="modify_pkg_perms_detail" />
+  <java-symbol type="string" name="does_change_perms" />
+  
+  <!-- From  com.android.server.connectivity.Tethering  -->
+  <java-symbol type="drawable" name="oppo_stat_sys_tether_general" /> 
+  <java-symbol type="drawable" name="oppo_stat_sys_tether_wifi" /> 
+  <java-symbol type="drawable" name="oppo_stat_sys_tether_usb" /> 
+  <!-- From  com.android.server.WifiService  -->
+  <java-symbol type="drawable" name="oppo_stat_notify_wifi_in_range" /> 
+
+  <!-- From  com.android.server.WifiService  -->
+  <java-symbol type="drawable" name="oppo_stat_notify_wifi_in_range" /> 
+  
+  <!-- From  com.android.server.CaptivePortalTracker  -->
+  <java-symbol type="drawable" name="oppo_stat_notify_rssi_in_range" />
+  <java-symbol type="drawable" name="oppo_status_notify_wifi_in_range" />  
+  
+  <!-- From  com.android.internal.widget.ActionBarView  -->
+  <java-symbol type="drawable" name="item_background_holo_light" /> 
+  <java-symbol type="drawable" name="oppo_actionbar_appicon_background" /> 
+  
+  <!-- From  oppo ui seek thumb  -->
+  <java-symbol type="drawable" name="oppo_seek_thumb" /> 
+  
+  <!-- Security Permissions strings-->
+  <java-symbol type="string" name="default_permission_group" /> 
+  <java-symbol type="string" name="permissions_format" /> 
+  <java-symbol type="string" name="perms_hide" /> 
+  <java-symbol type="string" name="perms_show_all" /> 
+  <java-symbol type="id" name="show_more" />
+  <java-symbol type="id" name="show_more_icon" />
+  <java-symbol type="id" name="show_more_text" />
+  <java-symbol type="id" name="dangerous_perms_list" />
+  <java-symbol type="id" name="non_dangerous_perms_list" />
+  <!--zhangyd add for oppoDatePicker-->
+  <java-symbol type="drawable" name="oppo_number_pick_1" />
+  <java-symbol type="drawable" name="oppo_number_pick_3" />
+  <java-symbol type="color" name="oppo_numberpicker_updown_btn_text_color" />
+  <java-symbol type="dimen" name="oppo_action_bar_listpopupwindow_verticaloffset" />
+  <java-symbol type="dimen" name="oppo_seekbar_thumb_offset" /> 
+  <java-symbol type="dimen" name="oppo_magnifer_border_width" /> 
+  <java-symbol type="drawable" name="oppo_quickcontact_badge_overlay_normal" /> 
+  <java-symbol type="dimen" name="oppo_listview_MaximumVelocity" />
+  <!--public type="dimen" name="oppo_listview_MaximumVelocity" id="0x01050fff" /-->
+<!-- ===============================================================
+     Resources defined by OPPO SDK Standardization Group in OPPO SDK Version 1.0
+     =============================================================== -->
+  <eat-comment />
+
+<!-- ===============================================================
+     define attr begin
+     =============================================================== -->
+  <public type="attr" name="Dialog_Title_textAppearance" id="0x01010800" />
+  <public type="attr" name="Dialog_Content_textAppearance" id="0x01010801" />
+  <public type="attr" name="Dialog_Button_textAppearance" id="0x01010802" />
+  <public type="attr" name="textAppearanceSubSmall" id="0x01010803" />
+  <public type="attr" name="oppoTabWidgetStyle" id="0x01010804" />
+  <public type="attr" name="magnifierEnable" id="0x01010805" />
+  <public type="attr" name="springEnabled" id="0x01010806" />
+  <public type="attr" name="quickDelete" id="0x01010807" />
+  <public type="attr" name="customStyled" id="0x01010808" />
+  <public type="attr" name="tab_align_mode" id="0x01010809" />
+  <public type="attr" name="oppo_tabwidget_align_mode" id="0x0101080a" />
+  <public type="attr" name="oppo_tabwidget_label_normal_color" id="0x0101080b" />
+  <public type="attr" name="oppo_tabwidget_label_focus_color" id="0x0101080c" />
+  <public type="attr" name="oppo_tabwidget_content_height_port_ratio" id="0x0101080d" />
+  <public type="attr" name="oppo_tabwidget_content_height_land_ratio" id="0x0101080e" />
+  <public type="attr" name="oppo_tabwidget_icon_height_port_ratio" id="0x0101080f" />
+  <public type="attr" name="oppo_tabwidget_icon_height_land_ratio" id="0x01010810" />
+  <public type="attr" name="oppo_tabwidget_icon_margin_top" id="0x01010811" />
+  <public type="attr" name="oppo_tabwidget_label_margin_bottom" id="0x01010812" />
+  <public type="attr" name="oppo_tabwidget_icon_label_margin" id="0x01010813" />
+  <public type="attr" name="oppo_tabwidget_hlbg_tran_area_width" id="0x01010814" />
+  <public type="attr" name="oppo_tabwidget_icon_offset_to_non_hl_icon_diry" id="0x01010815" />
+  <public type="attr" name="oppo_tabwidget_side_margin_ratio" id="0x01010816" />
+  <public type="attr" name="fromYRoll" id="0x01010817" />
+  <public type="attr" name="toYRoll" id="0x01010818" />
+  <public type="attr" name="fromRollDegrees" id="0x01010819" />
+  <public type="attr" name="toRollDegrees" id="0x0101081a" />
+  <public type="attr" name="overlap" id="0x0101081b" />
+  <public type="attr" name="userProfile" id="0x0101081c" />
+  <public type="attr" name="preview" id="0x0101081d" />
+  <public type="attr" name="curPath" id="0x0101081e" />
+  <public type="attr" name="fileType" id="0x0101081f" />
+  <public type="attr" name="fileMode" id="0x01010820" />
+  <public type="attr" name="viewMode" id="0x01010821" />
+  <public type="attr" name="fileLaunchMode" id="0x01010822" />
+  <public type="attr" name="itemCountOfPerPage" id="0x01010823" />
+  <public type="attr" name="SlidePieceBkgRes" id="0x01010824" />
+  <public type="attr" name="ImgViewDrawableRes" id="0x01010825" />
+  <public type="attr" name="TextOfTextView" id="0x01010826" />
+  <public type="attr" name="ImgViewLeftPadding" id="0x01010827" />
+  <public type="attr" name="ImgViewRightPadding" id="0x01010828" />
+  <public type="attr" name="ImgViewTopPadding" id="0x01010829" />
+  <public type="attr" name="ImgViewBottomPadding" id="0x0101082a" />
+  <public type="attr" name="TextViewLeftPadding" id="0x0101082b" />
+  <public type="attr" name="TextViewRightPadding" id="0x0101082c" />
+  <public type="attr" name="TextViewTopPadding" id="0x0101082d" />
+  <public type="attr" name="TextViewBottomPadding" id="0x0101082e" />
+  <public type="attr" name="TextViewShine" id="0x0101082f" />
+  <public type="attr" name="TextSizeOfTextView" id="0x01010830" />
+  <public type="attr" name="TextViewColor" id="0x01010831" />
+  <public type="attr" name="child" id="0x01010832" />
+  <public type="attr" name="maxchild" id="0x01010833" />
+  <public type="attr" name="textcolor" id="0x01010834" />
+  <public type="attr" name="texthlcolor" id="0x01010835" />
+  <public type="attr" name="textsize" id="0x01010836" />
+  <public type="attr" name="childlike" id="0x01010837" />
+  <public type="attr" name="animated" id="0x01010838" />
+  <public type="attr" name="during" id="0x01010839" />
+  <public type="attr" name="arch" id="0x0101083a" />
+  <public type="attr" name="category" id="0x0101083b" />
+  <public type="attr" name="paddingcolor" id="0x0101083c" />
+  <public type="attr" name="keymore" id="0x0101083d" />
+  <public type="attr" name="item_normal_height" id="0x0101083e" />
+  <public type="attr" name="item_expand_height" id="0x0101083f" />
+  <public type="attr" name="dragdrop_background" id="0x01010840" />
+  <public type="attr" name="collapsEnabled" id="0x01010841" />
+  <public type="attr" name="fillDivider" id="0x01010842" />
+  <public type="attr" name="dividerItemHeight" id="0x01010843" />
+  <public type="attr" name="operable" id="0x01010844" />
+  <public type="attr" name="singleFrame" id="0x01010845" />
+  <public type="attr" name="remoteViews" id="0x01010846" />
+  <public type="attr" name="edgeWidth" id="0x01010847" />
+  <public type="attr" name="listenEdges" id="0x01010848" />
+  <public type="attr" name="touchsearch_key_bg" id="0x01010849" />
+  <public type="attr" name="touchsearch_key_bg_align_mode" id="0x0101084a" />
+  <public type="attr" name="touchsearch_key_bg_margin_to_rightside" id="0x0101084b" />
+  <public type="attr" name="touchsearch_key_bg_margin_to_leftside" id="0x0101084c" />
+  <public type="attr" name="touchsearch_key_union_enable" id="0x0101084d" />
+  <public type="attr" name="touchsearch_popupwin_width" id="0x0101084e" />
+  <public type="attr" name="touchsearch_popupwin_height" id="0x0101084f" />
+  <public type="attr" name="touchsearch_popupwin_top_mincoordinate" id="0x01010850" />
+  <public type="attr" name="touchsearch_popupwin_textsize" id="0x01010851" />
+  <public type="attr" name="touchsearch_popupwin_textcolor" id="0x01010852" />
+  <public type="attr" name="frameMode" id="0x01010853" />
+  <public type="attr" name="zoomEnable" id="0x01010854" />
+  <public type="attr" name="frameRadio" id="0x01010855" />
+  <public type="attr" name="centerOffset" id="0x01010856" />
+  <public type="attr" name="shaowHeight" id="0x01010857" />
+  <public type="attr" name="sceneModelType" id="0x01010858" />
+  <public type="attr" name="date_picker_height" id="0x01010859" />
+  <public type="attr" name="date_picker_width" id="0x0101085a" />
+  <public type="attr" name="translucentMode" id="0x0101085b" />
+  <public type="attr" name="child_count" id="0x0101085c" />
+  <public type="attr" name="short_cut_button_background" id="0x0101085d" />
+  <public type="attr" name="button_background" id="0x0101085e" />
+  <public type="attr" name="button_text_size" id="0x0101085f" />
+  <public type="attr" name="button_text_color" id="0x01010860" />
+  <public type="attr" name="button_negative_string" id="0x01010861" />
+  <public type="attr" name="button_neutral_string" id="0x01010862" />
+  <public type="attr" name="button_positive_string" id="0x01010863" />
+  <public type="attr" name="button_negative_disable" id="0x01010864" />
+  <public type="attr" name="button_neutral_disable" id="0x01010865" />
+  <public type="attr" name="button_positive_disable" id="0x01010866" />
+  <public type="attr" name="shadow_x" id="0x01010867" />
+  <public type="attr" name="shadow_y" id="0x01010868" />
+  <public type="attr" name="shadow_r" id="0x01010869" />
+  <public type="attr" name="shadow_color" id="0x0101086a" />
+  <public type="attr" name="broadcast_enabled" id="0x0101086b" />
+  <public type="attr" name="textPositionY1" id="0x0101086c" />
+  <public type="attr" name="textPositionY2" id="0x0101086d" />
+  <public type="attr" name="textPositionY3" id="0x0101086e" />
+  <public type="attr" name="pretendingEnabled" id="0x0101086f" />
+  <public type="attr" name="lockThumbnail" id="0x01010870" />
+  <public type="attr" name="lockAuthor" id="0x01010871" />
+  <public type="attr" name="lockDescription" id="0x01010872" />
+  <public type="attr" name="lockThumbleft" id="0x01010873" />
+  <public type="attr" name="lockThumbright" id="0x01010874" />
+  <public type="attr" name="widgetManufacture" id="0x01010875" />
+  <public type="attr" name="widgetType" id="0x01010876" />
+  <public type="attr" name="widgetTheme" id="0x01010877" />
+<!-- ===============================================================
+     define attr end
+     =============================================================== -->
+
+
+
+<!-- ===============================================================
+     define id begin
+     =============================================================== -->
+  <!-- ===============================================================
+     define id end
+     =============================================================== -->
+
+
+
+<!-- ===============================================================
+     define style begin
+     =============================================================== -->
+  <public type="style" name="FullyTranslucent" id="0x01030800" />
+  <public type="style" name="FullyTranslucent.QuickContact" id="0x01030801" />
+  <public type="style" name="QuickContact" id="0x01030802" />
+  <public type="style" name="DummyAnimation" id="0x01030803" />
+  <public type="style" name="PathBar_TextAppearance_style" id="0x01030804" />
+  <public type="style" name="OppoQuickContact_Name_TextAppearance_style" id="0x01030805" />
+  <public type="style" name="OppoQuickContact_Number_TextAppearance_style" id="0x01030806" />
+  <public type="style" name="Theme.SelectShortCutSource" id="0x01030807" />
+  <public type="style" name="Animation.SelectShortCutSource" id="0x01030808" />
+  <public type="style" name="PasswordTextAppearance" id="0x01030809" />
+  <public type="style" name="Animation.ClipListSelectClipSource" id="0x0103080a" />
+  <public type="style" name="Animation.ClipBoardSelectClipSource" id="0x0103080b" />
+  <public type="style" name="OppoTouchSearch_PopupWindow_Animation" id="0x0103080c" />
+  <public type="style" name="ShortCutListTextAppearance" id="0x0103080d" />
+  <public type="style" name="ShortCutButtonTextAppearance" id="0x0103080e" />
+  <public type="style" name="Widget.OppoTabWidget" id="0x0103080f" />
+  <public type="style" name="TextAppearance.Widget.OppoTabWidget" id="0x01030810" />
+  <public type="style" name="Dialog_Title_TextAppearance_style" id="0x01030811" />
+  <public type="style" name="Dialog_Content_TextAppearance_style" id="0x01030812" />
+  <public type="style" name="Dialog_Button_TextAppearance_style" id="0x01030813" />
+  <public type="style" name="Widget.TabHost" id="0x01030814" />
+  <public type="style" name="Theme.SearchBar" id="0x01030815" />
+  <public type="style" name="Theme.OPPO" id="0x01030816" />
+  <public type="style" name="Theme.OPPO.NoDisplay" id="0x01030817" />
+  <public type="style" name="Theme.OPPO.Black" id="0x01030818" />
+  <public type="style" name="Theme.OPPO.SearchBar" id="0x01030819" />
+  <public type="style" name="Theme.OPPO.Dialog" id="0x0103081a" />
+  <public type="style" name="Theme.OPPO.Dialog.Alert" id="0x0103081b" />
+  <public type="style" name="Theme.OPPO.NoTitleBar" id="0x0103081c" />
+  <public type="style" name="Theme.OPPO.Translucent" id="0x0103081d" />
+  <public type="style" name="Theme.OPPO.Translucent.NoTitleBar" id="0x0103081e" />
+  <public type="style" name="Theme.OPPO.Black.NoTitleBar.Fullscreen" id="0x0103081f" />
+  <public type="style" name="Theme.OPPO.Wallpaper" id="0x01030820" />
+  <public type="style" name="Theme.OPPO.Wallpaper.NoTitleBar" id="0x01030821" />
+  <public type="style" name="TextAppearance.OPPO.WindowTitle" id="0x01030822" />
+  <public type="style" name="OppoListView_text_large_style" id="0x01030823" />
+  <public type="style" name="OppoListView_text_small_style" id="0x01030824" />
+  <public type="style" name="Preference.OPPO.Information" id="0x01030825" />
+  <public type="style" name="Preference.OPPO.Category" id="0x01030826" />
+  <public type="style" name="Preference.OPPO.OppoCheckBoxPreference" id="0x01030827" />
+  <public type="style" name="Preference.OPPO.PreferenceScreen" id="0x01030828" />
+  <public type="style" name="Preference.OPPO.DialogPreference" id="0x01030829" />
+  <public type="style" name="Preference.OPPO.DialogPreference.YesNoPreference" id="0x0103082a" />
+  <public type="style" name="Preference.OPPO.DialogPreference.EditTextPreference" id="0x0103082b" />
+  <public type="style" name="Preference.OPPO.RingtonePreference" id="0x0103082c" />
+<!-- ===============================================================
+     define style end
+     =============================================================== -->
+  
+  
+  
+<!-- ===============================================================
+     define string begin
+     =============================================================== -->
+  
+<!-- ===============================================================
+     define string end
+     =============================================================== -->
+
+
+
+<!-- ===============================================================
+     define dimen begin
+     =============================================================== -->
+
+  <public type="dimen" name="oppo_dialog_title_text_size" id="0x01050800" />
+  <public type="dimen" name="oppo_dialog_content_text_size" id="0x01050801" />
+  <public type="dimen" name="oppo_dialog_button_text_size" id="0x01050802" />
+  <public type="dimen" name="oppo_empty_text_size" id="0x01050803" />
+  <public type="dimen" name="oppo_list_item_icon_margin" id="0x01050804" />
+  <public type="dimen" name="oppo_list_item_icon_text_margin" id="0x01050805" />
+  <public type="dimen" name="oppo_list_item_margin_between_text" id="0x01050806" />
+  <public type="dimen" name="oppo_list_round_item_margin" id="0x01050807" />
+  <public type="dimen" name="oppo_list_round_item_text_margin" id="0x01050808" />
+  <public type="dimen" name="oppo_list_round_item_icon_margin" id="0x01050809" />
+  <public type="dimen" name="oppo_list_round_item_icon_text_margin" id="0x0105080a" />
+  <public type="dimen" name="oppo_list_round_item_mark_margin" id="0x0105080b" />
+  <public type="dimen" name="oppo_list_round_item_button_margin" id="0x0105080c" />
+  <public type="dimen" name="oppo_list_separator_height_middle" id="0x0105080d" />
+  <public type="dimen" name="oppo_list_separator_height_tail" id="0x0105080e" />
+  <public type="dimen" name="oppo_list_separator_height_text_padding_top" id="0x0105080f" />
+  <public type="dimen" name="oppo_list_separator_height_text_padding_bottom" id="0x01050810" />
+  <public type="dimen" name="oppo_list_separator_text_padding_left" id="0x01050811" />
+  <public type="dimen" name="oppo_list_separator_icon_text_padding_left" id="0x01050812" />
+  <public type="dimen" name="oppo_title_text_size" id="0x01050813" />
+  <public type="dimen" name="oppo_title_bar_height" id="0x01050814" />
+  <public type="dimen" name="oppo_dialog_hint_text_size" id="0x01050815" />
+  <public type="dimen" name="oppo_list_item_normal_height" id="0x01050816" />
+  <public type="dimen" name="oppo_list_separator_height_head" id="0x01050817" />
+  <public type="dimen" name="oppo_multilist_padding" id="0x01050818" />
+<!-- ===============================================================
+     define dimen end
+     =============================================================== -->
+
+
+
+<!-- ===============================================================
+     define color begin
+     =============================================================== -->
+  <!--public type="color" name="oppo_overlay_transparent_background" id="0x01060800" /-->
+  <public type="color" name="oppo_widget_background_color" id="0x01060800" />
+  <public type="color" name="oppo_text_disabled_color" id="0x01060801" />
+  <public type="color" name="oppo_multilist_primary_text_dark" id="0x01060802" />
+  <public type="color" name="oppo_alert_dialog_button_text_color" id="0x01060803" />
+  <public type="color" name="oppo_alert_dialog_content_text_color" id="0x01060804" />
+  <public type="color" name="oppo_alert_dialog_title_text_color" id="0x01060805" />
+  <public type="color" name="oppo_alert_dialog_content_bg_color" id="0x01060806" />
+  <public type="color" name="oppo_listview_background_color" id="0x01060807" />
+  <public type="color" name="oppo_multilist_title_color" id="0x01060808" />
+  <public type="color" name="oppo_search_bar_edit_text_hint_color" id="0x01060809" />
+  <public type="color" name="oppo_search_bar_button_text_color" id="0x0106080a" />
+  <public type="color" name="oppo_title_text_color" id="0x0106080b" />
+  <public type="color" name="oppo_title_bar_button_text_color" id="0x0106080c" />
+  <public type="color" name="oppo_list_small_text_color" id="0x0106080d" />
+  <public type="color" name="oppo_list_large_text_color" id="0x0106080e" />
+<!-- ===============================================================
+     define color end
+     =============================================================== -->
+  
+  
+  
+<!-- ===============================================================
+     define array begin
+     =============================================================== -->
+     
+<!-- ===============================================================
+     define array end
+     =============================================================== -->
+  
+  
+  
+<!-- ===============================================================
+     define drawable begin
+     =============================================================== -->
+  <!-- used in Activity's titlebar -->
+  <!-- TitleBar's background -->   
+  <public type="drawable" name="oppo_activity_title_bar" id="0x01080800" />
+  <!-- small buttons in Activity's titlebar -->
+  <public type="drawable" name="oppo_titlebar_btn_add" id="0x01080801" />
+  <public type="drawable" name="oppo_titlebar_btn_cancel" id="0x01080802" />
+  <public type="drawable" name="oppo_titlebar_btn_delete" id="0x01080803" />
+  <public type="drawable" name="oppo_titlebar_btn_favorite" id="0x01080804" />
+  <public type="drawable" name="oppo_titlebar_btn_go" id="0x01080805" />
+  <public type="drawable" name="oppo_titlebar_btn_left" id="0x01080806" />
+  <public type="drawable" name="oppo_titlebar_btn_refresh" id="0x01080807" />
+  <public type="drawable" name="oppo_titlebar_btn_right" id="0x01080808" />
+  <public type="drawable" name="oppo_titlebar_btn_phone" id="0x01080809" />
+  <public type="drawable" name="oppo_titlebar_btn_voice" id="0x0108080a" />
+  <public type="drawable" name="oppo_titlebar_btn_search" id="0x0108080b" />
+  <public type="drawable" name="oppo_titlebar_btn_contact" id="0x0108080c" />
+  <public type="drawable" name="oppo_titlebar_btn_mark_select" id="0x0108080d" />
+  <!-- used by the RadioButton, now use OPPO GUI -->   
+  <public type="drawable" name="oppo_btn_radio" id="0x0108080e" />
+  <!-- used by the CheckBox, now use OPPO GUI -->   
+  <public type="drawable" name="oppo_btn_check" id="0x0108080f" />
+  <!-- used by the Button, now use OPPO GUI -->   
+  <public type="drawable" name="oppo_btn_default" id="0x01080810" />
+  
+  <!-- icons used by OptionMenu's MenuItem --> 
+  <public type="drawable" name="oppo_ic_menu_delete_all" id="0x01080811" />
+  <public type="drawable" name="oppo_ic_menu_goto_date" id="0x01080812" />
+  <public type="drawable" name="oppo_ic_menu_import" id="0x01080813" />
+  <public type="drawable" name="oppo_ic_menu_mark" id="0x01080814" />
+  <!-- used by the ScrollView, now use OPPO GUI. --> 
+  <public type="drawable" name="oppo_scrollviewbackground" id="0x01080815" />
+  <public type="drawable" name="oppo_springlistviewbackground" id="0x01080816" />
+
+  <!-- background of List Item, including normal/focused/pressed states -->  
+  <public type="drawable" name="oppo_list_selector_background" id="0x01080817" />
+  <!-- used by Single Group Item --> 		 
+  <public type="drawable" name="oppo_list_selector_background_only" id="0x01080818" />
+  <!-- used by Top Group Item --> 	
+  <public type="drawable" name="oppo_list_selector_background_top" id="0x01080819" />
+  <!-- used by Mid Group Item --> 	
+  <public type="drawable" name="oppo_list_selector_background_mid" id="0x0108081a" />
+  <!-- used by Bottom Group Item --> 	
+  <public type="drawable" name="oppo_list_selector_background_bottom" id="0x0108081b" />
+
+  <!-- used by the special ListView which the Items in it can be dragged to change orders-->     
+  <public type="drawable" name="oppo_dragdrop_background" id="0x0108081c" />
+  <public type="drawable" name="oppo_dragdrop_move" id="0x0108081d" />
+  <!--drawable used by filename input Dialog in APPs such as FileManger,Calendar,Settings -->   
+  <public type="drawable" name="oppo_dialog_textfield" id="0x0108081e" />
+  <!--AlertDialog's Buttons' background -->
+  <public type="drawable" name="oppo_alert_dialog_button" id="0x0108081f" />
+ 
+  <!-- used by OppoShortCutButton -->
+  <public type="drawable" name="oppo_shortcut_button_bg" id="0x01080820" />
+  <!-- used by OppoClipboard --> 
+  <public type="drawable" name="oppo_clipboard_bg" id="0x01080821" />
+  <public type="drawable" name="oppo_clip_btn_clear_all" id="0x01080822" />
+  <public type="drawable" name="oppo_clip_btn_close" id="0x01080823" />
+  <public type="drawable" name="oppo_clip_button_left" id="0x01080824" />
+  <public type="drawable" name="oppo_clip_button_middle" id="0x01080825" />
+  <public type="drawable" name="oppo_clip_button_right" id="0x01080826" />
+  <!-- the file type icons used in FileManager APP and file choose Dialog --> 
+  <public type="drawable" name="oppo_file_apk_icon" id="0x01080827" />
+  <public type="drawable" name="oppo_file_audio_icon" id="0x01080828" />
+  <public type="drawable" name="oppo_file_calendar_icon" id="0x01080829" />
+  <public type="drawable" name="oppo_file_compress_icon" id="0x0108082a" />
+  <public type="drawable" name="oppo_file_doc_icon" id="0x0108082b" />
+  <public type="drawable" name="oppo_file_ebook_icon" id="0x0108082c" />
+  <public type="drawable" name="oppo_file_excel_icon" id="0x0108082d" />
+  <public type="drawable" name="oppo_file_folder_icon" id="0x0108082e" />
+  <public type="drawable" name="oppo_file_html_icon" id="0x0108082f" />
+  <public type="drawable" name="oppo_file_image_icon" id="0x01080830" />
+  <public type="drawable" name="oppo_file_lrc_icon" id="0x01080831" />
+  <public type="drawable" name="oppo_file_other_icon" id="0x01080832" />
+  <public type="drawable" name="oppo_file_pdf_icon" id="0x01080833" />
+  <public type="drawable" name="oppo_file_ppt_icon" id="0x01080834" />
+  <public type="drawable" name="oppo_file_theme_icon" id="0x01080835" />
+  <public type="drawable" name="oppo_file_txt_icon" id="0x01080836" />
+  <public type="drawable" name="oppo_file_vcard_icon" id="0x01080837" />
+  <public type="drawable" name="oppo_file_video_icon" id="0x01080838" />
+  <!-- The Tab Switch Bar's left Button--> 
+  <public type="drawable" name="oppo_date_button_left" id="0x01080839" />
+  <!-- The Tab Switch Bar's right Button--> 
+  <public type="drawable" name="oppo_date_button_right" id="0x0108083a" />
+  <!-- emotion icons used in MMS APP --> 
+
+  <public type="drawable" name="oppo_battery_charge_alert" id="0x0108083b" />
+  <public type="drawable" name="oppo_search_dialog_text_btn" id="0x0108083c" />
+  
+  <!--the following are uesd by dialog for Theme 3.0-->
+  <public type="drawable" name="oppo_popup_alertdialog_button_area" id="0x0108083d" />
+  <public type="drawable" name="oppo_popup_alertdialog_content_area" id="0x0108083e" />
+  <public type="drawable" name="oppo_popup_alertdialog_content_full" id="0x0108083f" />
+  <public type="drawable" name="oppo_popup_alertdialog_list_area" id="0x01080840" />
+  <public type="drawable" name="oppo_popup_alertdialog_title_bar" id="0x01080841" />
+  <!--the following are add for contacts and sms-->
+  <public type="drawable" name="oppo_ic_oppo_group_default_photo" id="0x01080842" />
+  <!--this pic is used for nextbutton -->
+  <public type="drawable" name="oppo_btn_next" id="0x01080843" />
+  <!--the following are used for quickcontactbadge-->
+  <public type="drawable" name="oppo_quick_call" id="0x01080844" />
+  <public type="drawable" name="oppo_quick_contacts" id="0x01080845" />
+  <public type="drawable" name="oppo_quick_save" id="0x01080846" />
+  <public type="drawable" name="oppo_quick_sms" id="0x01080847" />
+
+   
+  <!--the follwing are used by the background of search on title-->
+  <public type="drawable" name="oppo_textfield_search" id="0x01080848" />
+  <!--the following are used to statusbar-->
+  <public type="drawable" name="oppo_status_bar_3g_disable" id="0x01080849" />
+  <public type="drawable" name="oppo_status_bar_3g_off" id="0x0108084a" />
+  <public type="drawable" name="oppo_status_bar_3g_on" id="0x0108084b" />
+  <public type="drawable" name="oppo_status_bar_autosync_off" id="0x0108084c" />
+  <public type="drawable" name="oppo_status_bar_autosync_on" id="0x0108084d" />
+  <public type="drawable" name="oppo_status_bar_bluetooth_off" id="0x0108084e" />
+  <public type="drawable" name="oppo_status_bar_bluetooth_on" id="0x0108084f" />
+  <public type="drawable" name="oppo_status_bar_brightness_auto" id="0x01080850" />
+  <public type="drawable" name="oppo_status_bar_brightness1" id="0x01080851" />
+  <public type="drawable" name="oppo_status_bar_brightness2" id="0x01080852" />
+  <public type="drawable" name="oppo_status_bar_brightness3" id="0x01080853" />
+  <public type="drawable" name="oppo_status_bar_edit" id="0x01080854" />
+  <public type="drawable" name="oppo_status_bar_flight_off" id="0x01080855" />
+  <public type="drawable" name="oppo_status_bar_flight_on" id="0x01080856" />
+  <public type="drawable" name="oppo_status_bar_gps_off" id="0x01080857" />
+  <public type="drawable" name="oppo_status_bar_gps_on" id="0x01080858" />
+  <public type="drawable" name="oppo_status_bar_hotspot_off" id="0x01080859" />
+  <public type="drawable" name="oppo_status_bar_hotspot_on" id="0x0108085a" />
+  <public type="drawable" name="oppo_status_bar_kill_off" id="0x0108085b" />
+  <public type="drawable" name="oppo_status_bar_kill_on" id="0x0108085c" />
+  <public type="drawable" name="oppo_status_bar_netdata_off" id="0x0108085d" />
+  <public type="drawable" name="oppo_status_bar_netdata_on" id="0x0108085e" />
+  <public type="drawable" name="oppo_status_bar_screenrote_off" id="0x0108085f" />
+  <public type="drawable" name="oppo_status_bar_screenrote_on" id="0x01080860" />
+  <public type="drawable" name="oppo_status_bar_silent_off" id="0x01080861" />
+  <public type="drawable" name="oppo_status_bar_silent_on" id="0x01080862" />
+  <public type="drawable" name="oppo_status_bar_wlan_off" id="0x01080863" />
+  <public type="drawable" name="oppo_status_bar_wlan_on" id="0x01080864" />
+
+<!-- ===============================================================
+     define drawable end
+     =============================================================== -->
+
+
+  
+<!-- ===============================================================
+     define layout begin
+     =============================================================== -->
+  <public type="layout" name="oppo_mark_list_title" id="0x01090800" />
+  <public type="layout" name="oppo_preference_category" id="0x01090801" />
+  <public type="layout" name="oppo_preference_category_head" id="0x01090802" />
+  <public type="layout" name="oppo_preference_category_middle" id="0x01090803" />
+  <public type="layout" name="oppo_preference_category_tail" id="0x01090804" />
+  <public type="layout" name="oppo_preference_category_title" id="0x01090805" />
+  <public type="layout" name="oppo_preference_category_title_with_icon" id="0x01090806" />
+
+<!-- ===============================================================
+     define layout end
+     =============================================================== -->
+  
+  
+
+<!-- ===============================================================
+     define anim begin
+     =============================================================== -->
+  <public type="anim" name="oppo_fade_in_fast" id="0x010a0800" />
+  <public type="anim" name="oppo_fade_out_fast" id="0x010a0801" />
+<!-- ===============================================================
+     define anim end
+     =============================================================== -->
+
+
+
+<!-- ===============================================================
+     define integer begin
+     =============================================================== -->
+  <public type="integer" name="oppo_config_minAnimTime" id="0x010e0800" />
+  <public type="integer" name="oppo_config_lowAnimTime" id="0x010e0801" />
+  <public type="integer" name="oppo_default_mode" id="0x010e0802" />
+  <public type="integer" name="oppo_longstand_mode" id="0x010e0803" />
+  <public type="integer" name="oppo_shade_mode" id="0x010e0804" />
+<!-- ===============================================================
+     define integer end
+     =============================================================== -->
+
+
+
+<!-- ===============================================================
+     define bool begin
+     =============================================================== -->
+     
+<!-- ===============================================================
+     define bool end
+     =============================================================== -->
+
+<!-- ===============================================================
+     Resources defined by OPPO SDK Standardization Group in OPPO SDK Version 1.1
+     =============================================================== -->
+  <eat-comment />
+  
+  <public type="style" name="Theme.OPPO.OppoSearchBar" id="0x0103082d" />
+  
+<!-- ===============================================================
+     Resources defined by OPPO SDK Standardization Group in OPPO SDK Version 1.2
+     =============================================================== -->
+  <eat-comment />
+
+
+  <public type="id" name="label" id="0x01020800" />
+  <public type="id" name="marked_count" id="0x01020801" />
+  <public type="id" name="mark_all" id="0x01020802" />
+  <public type="id" name="mark_none" id="0x01020803" />
+  <public type="id" name="rename_dialog_edit" id="0x01020804" />
+  <public type="id" name="oppo_tabhost" id="0x01020805" />
+  
+  
+  <public type="string" name="rename_dialog_title" id="0x01040800" />
+  <public type="string" name="rename_dialog_btn_ok" id="0x01040801" />
+  <public type="string" name="rename_dialog_btn_cancel" id="0x01040802" />
+  
+  
+  <public type="layout" name="oppo_rename_dialog_layout" id="0x01090807" />
+
+<!-- ===============================================================
+     Resources defined by OPPO SDK Standardization Group in OPPO SDK Version 1.3
+     =============================================================== -->
+  <eat-comment />
+
+  <public type="attr" name="windowPreviewGround" id="0x01010878" /> 
+  
+  <public type="style" name="Theme.OPPO.DialogWhenLarge" id="0x0103082e" />
+  <public type="style" name="Widget.OPPO.ActionBar" id="0x0103082f" />
+  <public type="style" name="Widget.OPPO.AutoCompleteTextView" id="0x01030830" />  
+  <public type="style" name="TextAppearance.OPPO.Medium" id="0x01030831" />  
+  <public type="style" name="TextAppearance.OPPO.Small" id="0x01030832" />  
+  <public type="style" name="Widget.OPPO.ActionBar.Solid.Inverse" id="0x01030833" />
+  <public type="style" name="Theme.OPPO.Dialog.MinWidth" id="0x01030834" />
+  <public type="style" name="Theme.OPPO.Dialog.NoActionBar.MinWidth" id="0x01030835" />
+  <public type="style" name="oppo_pathbar_button_style" id="0x01030836" />
+  <public type="style" name="Widget.OPPO.ListView" id="0x01030837" />
+  
+
+  <public type="dimen" name="oppo_list_item_text_margin" id="0x01050819" />
+  
+  
+  <public type="color" name="oppo_listview_item_color" id="0x0106080f" />
+  <public type="color" name="oppo_textcolor_hint" id="0x01060810" />
+  
+  
+  <public type="drawable" name="oppo_actionbar_button_background" id="0x01080865" />
+  <public type="drawable" name="oppo_dark_header" id="0x01080866" />
+  <public type="drawable" name="oppo_tab_widget_bg" id="0x01080867" />
+  <public type="drawable" name="oppo_divider_horizontal_dark_opaque" id="0x01080868" />
+  
+
+<!-- ===============================================================
+     Resources defined by OPPO SDK Standardization Group in OPPO SDK Version 1.4
+     =============================================================== -->
+  <eat-comment />  
+  <public type="attr" name="textAppearanceDialogLarge" id="0x01010879" />
+  <public type="attr" name="textAppearanceDialogSmall" id="0x0101087a" />
+  <!--we add this for app can change the ui of widget oppotoggle-->  	   
+  <public type="attr" name="toggleOnDrawable" id="0x0101087b" /> 
+  <public type="attr" name="toggleOnDisableDrawable" id="0x0101087c" /> 
+  <public type="attr" name="toggleOffDrawable" id="0x0101087d" /> 
+  <public type="attr" name="toggleOffDisableDrawable" id="0x0101087e" /> 
+  <public type="attr" name="togglePintDrawable" id="0x0101087f" /> 
+  
+  <public type="style" name="Theme.OPPO.NoActionBar" id="0x01030838" />
+
+  
+  <public type="drawable" name="oppo_ic_oppo_contact_phone_default" id="0x01080869" />
+  
+  
+<!-- ===============================================================
+     Resources defined by OPPO SDK Standardization Group in OPPO SDK Version 1.6
+     =============================================================== --> 
+
+  <public type="array" name="oppo_select_ringtone_new" id="0x01070800" />
+  <public type="array" name="oppo_select_ringtone_old" id="0x01070801" />
+  
+<eat-comment />   
+  <public type="style" name="Animation.OPPO.LockScreen" id="0x0103083d" />
+  <public type="style" name="Theme.OPPO.Music" id="0x0103083e" />
+  <public type="string" name="oppo_wifi_tether_configure_ssid_default" id="0x01040803" />
+  
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+    <!-- for cts -->
+    <p att="com.android.cts.net"></p>
+    <p att="com.android.cts.stub"></p>
+    <p att="com.android.cts.verifier"></p>
+    <p att="com.android.cts.permissiondeclareappcompat"></p>
+    
+    <!-- mobile safe -->
+    <p att="com.lbe.security"></p>
+    <p att="com.lbe.security.miui"></p>
+    <p att="com.qihoo360.mobilesafe"></p>
+    <p att="com.ijinshan.duba"></p>
+    <p att="com.tencent.qqpimsecure"></p>
+    <p att="com.symantec.mobilesecurity"></p>
+    <p att="com.anguanjia.safe"></p>
+    <p att="cn.opda.a.phonoalbumshoushou"></p>
+    <p att="com.baidu.security"></p>
+       
+    <!-- mobile assistance -->
+    <p att="com.wandoujia.phoenix2"></p>
+    <p att="com.wandoujia.phoenix2.usbproxy"></p>
+    <p att="com.nd.assistance"></p>
+    <p att="com.qq.AppService"></p>
+    <p att="com.shuame.sprite"></p>
+    <p att="com.oppo.assistance.gerneral"></p>
+    <p att="com.oppo.assistance.gerneral.apk"></p>
+    
+    <!-- others -->
+    <p att="com.realtek.airplay.client"></p>
+    <p att="com.autonavi.xmgd.navigator.oppo"></p>
+    <!-- for sony smart wireless headset -->
+    <p att="com.sonyericsson.extras.smartwirelessheadsetpro"></p>
+    <p att="com.oppo.gatt"></p>
+    <p att="com.oppo.gatt.proximityservice"></p>
+    <p att="com.google.android.voicesearch"></p>
+    
+    <!-- for the backuprestore apk -->
+    <p att="com.oppo.simplebackup"></p>
+    
+    <!-- go launcher widgets -->
+    <p att="com.gau.go.launcherex.gowidget.switchwidget"></p>
+    <p att="com.gau.go.launcherex.gowidget.gosearchwidget"></p>
+    <p att="com.gau.go.launcherex.gowidget.calendarwidget"></p>
+    <p att="com.gau.go.launcherex.gowidget.notewidget"></p>
+    <p att="com.gau.go.launcherex:goHandBook"></p>
+    <p att="com.gau.go.launcherex.gowidget.contactwidget"></p>
+    <p att="com.gau.go.launcherex.gowidget.emailwidget"></p>	
+    <p att="com.gau.go.launcherex.gowidget.weatherwidget"></p>	
+    <p att="com.gau.go.launcherex.gowidget.weatherwidget:MessageService"></p>	
+    
+</gs>

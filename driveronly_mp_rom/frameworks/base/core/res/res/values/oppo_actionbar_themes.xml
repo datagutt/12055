@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - actionbar_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: actionabr's params
+** 
+** Version: 1
+** Date created: 10:30:00,22/6/2012
+** Author: Yongdong,Zhang@Prd.MidWare.Res
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**      Yongdong,Zhang       	2012/06/11      create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <dimen name="oppo_action_bar_default_height">103px</dimen>
+    <dimen name="oppo_action_bar_icon_vertical_padding">14px</dimen>
+    <dimen name="oppo_action_bar_title_text_size">19sp</dimen>
+    <dimen name="oppo_action_bar_subtitle_text_size">12sp</dimen>
+    <color name="oppo_action_bar_title_textcolor_default">#ff5a5e69</color>
+    <color name="oppo_action_bar_sub_title_textcolor_default">#ff9499aa</color>
+    <dimen name="oppo_action_bar_listmenu_maxheight">248dip</dimen>
+    <dimen name="oppo_action_bar_button_minwidth">48dip</dimen>
+    <dimen name="oppo_action_bar_listmenu_maxwidth">100dip</dimen>
+    <dimen name="oppo_action_bar_listpopupwindow_verticaloffset">4dip</dimen>
+</resources>
+
